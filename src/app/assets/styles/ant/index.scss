@@ -1,0 +1,108 @@
+.ant {
+    &-select {
+        background-color: #ffffff;
+        border-radius: 8px;
+        transition: all 0.3s ease-in-out;
+        &-open {
+            background-color: #f5f8f7 !important;
+
+            .ant-select-arrow {
+                transform: scale(-1, -1) !important;
+            }
+        }
+        &:hover {
+            background-color: #f5f8f7 !important;
+        }
+        &-selector {
+            z-index: 2;
+            background-color: unset !important;
+        }
+        &-arrow {
+            z-index: 1;
+        }
+        &-selection {
+            &-item {
+                height: 33px;
+            }
+            &-placeholder {
+                height: 33px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    &-input {
+        padding: 6px 10px;
+        height: 50px;
+    }
+
+    &-picker {
+        padding: 6px 10px !important;
+        height: 50px;
+
+        &-body {
+            padding: 30px !important;
+        }
+
+        &-header {
+            display: flex;
+            align-items: center;
+            &-view {
+                line-height: unset !important;
+                button {
+                    line-height: unset !important;
+                }
+            }
+        }
+
+        &-input {
+            input {
+                margin-top: 14px;
+                font-weight: 600;
+            }
+        }
+
+        &-date {
+            &-panel {
+                &-container {
+                    max-width: 300px;
+                    width: 100%;
+
+                    .ant-picker-panel-layout {
+                        width: 100%;
+                        div {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+
+        &-header {
+            padding: 30px 30px 0 !important;
+            border-bottom: unset !important;
+            &-next-btn,
+            &-prev-btn {
+                width: 34px;
+                height: 34px;
+                border: 1px solid #cfd2d1 !important;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 8px;
+            }
+            &-super-prev-btn,
+            &-super-next-btn {
+                display: none !important;
+            }
+        }
+        &-footer {
+            display: none;
+        }
+    }
+}
+
+textarea {
+    min-height: 108px !important;
+    padding: 10px !important;
+}
