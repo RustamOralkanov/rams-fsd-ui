@@ -1,0 +1,41 @@
+.custom-upload {
+    border: 1px dashed #cfd2d1;
+    border-radius: 8px;
+    .ant-upload {
+        height: 125px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        &-list {
+            display: none;
+        }
+        &-button {
+            width: 100%;
+        }
+    }
+
+    &-file {
+        background-color: #f5f8f7;
+        border-radius: 8px;
+        padding: 10px;
+
+        &-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            background-color: #ffffff;
+        }
+    }
+
+    &:hover {
+        background-color: #f5f8f7;
+    }
+
+    &.error {
+        border-color: #f87171;
+    }
+}

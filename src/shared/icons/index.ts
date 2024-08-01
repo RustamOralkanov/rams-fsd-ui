@@ -6,3 +6,6 @@ export { FavoriteIcon } from "./ui/FavoriteIcon";
 export { CancelIcon } from "./ui/CancelIcon";
 export { ChevronDownIcon } from "./ui/ChevronDownIcon";
 export { CheckCircleIcon } from "./ui/CheckCircleIcon";
+export { InfoIcon } from "./ui/InfoIcon";
+export { FolderIcon } from "./ui/FolderIcon";
+export { FileIcon } from "./ui/FileIcon";

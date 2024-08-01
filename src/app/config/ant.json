@@ -1,5 +1,7 @@
 {
     "token": {
+        "colorText": "#2e3130",
+        "colorTextSecondary": "#6c6d6d",
         "colorPrimary": "#035040",
         "colorInfo": "#035040",
         "colorSuccess": "#34d399",
@@ -34,8 +36,8 @@
             "defaultActiveBorderColor": "rgb(160, 160, 160)"
         },
         "Typography": {
-            "titleMarginTop": "0",
-            "titleMarginBottom": "0",
+            "titleMarginTop": 0,
+            "titleMarginBottom": 0,
             "fontSizeHeading2": 35,
             "fontSizeHeading3": 24,
             "fontSizeHeading4": 18,

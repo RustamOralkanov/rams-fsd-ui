@@ -1,0 +1,43 @@
+.custom-time {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    max-width: 380px;
+    padding-bottom: 10px;
+    cursor: grab;
+    padding-right: 40px;
+    &:after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 80px;
+        height: 44px;
+        display: block;
+        background: linear-gradient(270deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+    }
+
+    &:active {
+        cursor: grabbing;
+    }
+
+    &-item {
+        background-color: #f5f8f7;
+        font-family: "TT Interfaces";
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.01em;
+        padding: 10px;
+        border-radius: 4px;
+        transition: all 0.3s ease-in-out;
+        user-select: none;
+
+        &.active {
+            background-color: #024638;
+            color: #ffffff;
+        }
+    }
+}

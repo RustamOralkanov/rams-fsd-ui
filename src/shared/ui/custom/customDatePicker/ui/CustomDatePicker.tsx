@@ -2,6 +2,7 @@ import React from "react";
 import { DatePicker, Flex, Typography } from "antd";
 import { OnChangeType } from "../../customSelect/model/customSelect.model";
 const { Text } = Typography;
+
 export const CustomDatePicker: React.FC<{ onChange?: OnChangeType }> = ({ onChange }) => {
     return (
         <Flex vertical style={{ position: "relative", minWidth: 300 }}>
