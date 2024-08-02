@@ -34,6 +34,23 @@
     &-input {
         padding: 6px 10px;
         height: 50px;
+
+        &-number {
+            border: unset;
+            box-shadow: unset;
+            background-color: unset !important;
+
+            &-outlined {
+                &:focus-within {
+                    box-shadow: unset;
+                }
+            }
+
+            &-input {
+                padding: 0 !important;
+                border: unset !important;
+            }
+        }
     }
 
     &-picker {
@@ -103,6 +120,19 @@
 
     &-tag {
         margin-inline-end: 0;
+    }
+
+    &-slider {
+        &-handle {
+            &::after {
+                width: 15px !important;
+                height: 11px !important;
+                border-radius: 4px !important;
+                border: 2px solid #ffffff !important;
+                box-shadow: unset !important;
+                outline: unset !important;
+            }
+        }
     }
 }
 

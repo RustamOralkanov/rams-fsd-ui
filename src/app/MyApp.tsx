@@ -7,6 +7,7 @@ import { CustomDatePicker } from "../shared/ui/custom/customDatePicker";
 import { CustomUpload } from "../shared/ui/custom/customUpload";
 import { CustomTimePicker } from "../shared/ui/custom/customTimePicker";
 import { FlatCard, FlatCardSmall } from "../entities/flat";
+import { CustomInputRange } from "../shared/ui/custom/customInputRange";
 
 export const MyApp = () => {
     const onFinish: FormProps["onFinish"] = (values) => {
@@ -49,6 +50,9 @@ export const MyApp = () => {
                                     </Form.Item>
                                     <Form.Item name="time" rules={[{ required: true }]}>
                                         <CustomTimePicker />
+                                    </Form.Item>
+                                    <Form.Item name="input-range" rules={[{ required: true }]}>
+                                        <CustomInputRange />
                                     </Form.Item>
                                     <Form.Item>
                                         <Button type="primary" htmlType="submit">
