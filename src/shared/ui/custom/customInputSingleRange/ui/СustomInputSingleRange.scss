@@ -1,0 +1,22 @@
+.single-range {
+    height: 50px;
+    border-radius: 7px;
+    padding: 13px 10px;
+    border: 1px solid #cfd2d1;
+    position: relative;
+
+    &-wrapper {
+        width: 100%;
+    }
+
+    &.error {
+        border-color: #f87171;
+    }
+
+    &-slider {
+        position: absolute;
+        bottom: -12.5px;
+        width: calc(100% - 24px);
+        left: 0;
+    }
+}

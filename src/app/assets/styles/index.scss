@@ -1,7 +1,7 @@
 @import "./ant/index.scss";
 
 html {
-    line-height: 1.15; /* 1 */
+    line-height: 1;
     -webkit-text-size-adjust: 100%; /* 2 */
     scroll-padding: 70px;
 }
@@ -10,7 +10,6 @@ body {
     margin: 0;
     font-family: "TT Interfaces";
     transition: all 0.4s ease-in-out;
-    padding: 20px 20px 40px;
 
     * {
         box-sizing: border-box;
@@ -30,17 +29,16 @@ h1 {
 }
 
 h2 {
-    letter-spacing: -0.02em;
+    letter-spacing: -0.04em;
+    margin: 0;
 }
 
-h2,
 h3,
 h4,
 h5 {
     margin: 0;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.01em;
     font-family: "TT Interfaces";
-    line-height: 130%;
 }
 
 hr {
@@ -198,4 +196,33 @@ template {
 
 [hidden] {
     display: none;
+}
+
+.white-button {
+    border-color: $white;
+    color: $white;
+
+    &:hover {
+        background-color: $white !important;
+        color: $gray900 !important;
+    }
+}
+
+.arrow-button {
+    border-color: $white;
+    color: $gray900;
+    background-color: $white;
+    box-shadow: 0px 3px 5px 0px #00000026;
+
+    &:hover {
+        border-color: $white !important;
+        background-color: $white !important;
+        color: $gray900 !important;
+    }
+}
+
+.blured-bg {
+    background: #0d0e0e33;
+    backdrop-filter: blur(20px);
+    width: fit-content;
 }

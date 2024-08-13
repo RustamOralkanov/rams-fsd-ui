@@ -1,0 +1,22 @@
+.complex-card {
+    height: 420px;
+    overflow: hidden;
+    * {
+        transition: $transition;
+    }
+
+    .slick {
+        &-dots {
+            bottom: 20px;
+            opacity: 0;
+        }
+    }
+
+    &:hover {
+        .slick {
+            &-dots {
+                opacity: 1;
+            }
+        }
+    }
+}

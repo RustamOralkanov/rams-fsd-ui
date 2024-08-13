@@ -1,0 +1,75 @@
+.relative {
+    position: relative;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.cover {
+    object-fit: сontain;
+}
+
+.object-center {
+    object-position: center;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+.padding-30 {
+    padding: 30px;
+}
+
+.padding-40 {
+    padding: 40px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.bg-white {
+    background-color: $white;
+}
+
+.bg-gray50 {
+    background-color: $gray50;
+}
+
+.radius-7 {
+    border-radius: 7px;
+}
+
+.radius-10 {
+    border-radius: 10px;
+}
+
+.radius-12 {
+    border-radius: 12px;
+}
+
+.radius-16 {
+    border-radius: 16px;
+}
+
+.radius-20 {
+    border-radius: 20px;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.height-full {
+    height: 100%;
+}
+
+.pointer {
+    cursor: pointer;
+}

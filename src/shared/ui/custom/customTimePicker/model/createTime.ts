@@ -1,6 +1,6 @@
 export const createTimeIntervals = (startHour: number, endHour: number, intervalMinutes: number) => {
     const times = [];
-    let currentDate = new Date();
+    const currentDate = new Date();
     currentDate.setHours(startHour, 0, 0, 0);
 
     const endDate = new Date();

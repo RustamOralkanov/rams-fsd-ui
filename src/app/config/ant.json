@@ -9,7 +9,7 @@
         "colorError": "#f87171",
         "colorTextBase": "#2e3130",
         "fontSize": 15,
-        "borderRadius": 8,
+        "borderRadius": 4,
         "fontFamily": "TT Interfaces"
     },
     "components": {
@@ -33,16 +33,18 @@
             "defaultShadow": "",
             "dangerShadow": "",
             "defaultActiveColor": "rgb(255, 255, 255)",
-            "defaultActiveBorderColor": "rgb(160, 160, 160)"
+            "defaultActiveBorderColor": "rgb(160, 160, 160)",
+            "fontWeight": 300
         },
         "Typography": {
+            "fontWeightStrong": 500,
             "titleMarginTop": 0,
             "titleMarginBottom": 0,
             "fontSizeHeading2": 35,
             "fontSizeHeading3": 24,
             "fontSizeHeading4": 18,
             "fontSizeHeading5": 15,
-            "lineHeightHeading1": 1.25,
+            "lineHeightHeading2": 1.25,
             "lineHeightHeading3": 1.25,
             "lineHeightHeading4": 1.25,
             "lineHeightHeading5": 1.6,
@@ -104,9 +106,10 @@
             "colorBgMask": "rgb(2, 70, 56)"
         },
         "Carousel": {
-            "dotActiveWidth": 7,
-            "dotHeight": 7,
-            "dotWidth": 7
+            "dotActiveWidth": 16,
+            "dotHeight": 5,
+            "dotWidth": 37,
+            "dotGap": 5
         },
         "Collapse": {
             "contentBg": "rgb(245, 248, 247)",
@@ -182,6 +185,9 @@
             "colorBorder": "rgba(217, 217, 217, 0)",
             "fontSize": 10,
             "borderRadiusSM": 20
+        },
+        "Form": {
+            "itemMarginBottom": 0
         }
     }
 }

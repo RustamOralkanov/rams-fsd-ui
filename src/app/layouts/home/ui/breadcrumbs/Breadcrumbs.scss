@@ -1,0 +1,28 @@
+.breadcrumbs {
+    background-color: $gray50;
+    padding: 30px 0;
+    margin-top: -30px;
+
+    span {
+        color: $gray800;
+    }
+
+    &-item {
+        font-family: "TT Interfaces";
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 16px;
+        color: $gray300;
+
+        &:last-child {
+            &::after {
+                content: "";
+            }
+        }
+
+        &:after {
+            content: "/";
+            margin-left: 5px;
+        }
+    }
+}

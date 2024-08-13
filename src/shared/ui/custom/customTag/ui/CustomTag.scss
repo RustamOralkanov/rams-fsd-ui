@@ -1,0 +1,27 @@
+.custom-tag {
+    padding: 5px 10px;
+    border-radius: 7px;
+
+    &-text {
+        font-size: 12px;
+        font-weight: 200 !important;
+        line-height: 14px;
+        letter-spacing: 0em;
+        padding-top: 2px;
+        color: #ffffff;
+    }
+
+    &.default {
+        background: #0d0e0e55;
+        backdrop-filter: blur(20px);
+    }
+    &.sale {
+        background: #ef4444;
+    }
+    &.installment {
+        background: #61b15a;
+    }
+    &.title {
+        background: #3b82f6;
+    }
+}

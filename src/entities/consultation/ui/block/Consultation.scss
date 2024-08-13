@@ -1,0 +1,25 @@
+.consultation {
+    background: linear-gradient(87.79deg, #035040 54.55%, #057d64 84.68%);
+    border-radius: 10px;
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+
+    &-image {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+    }
+
+    .ant {
+        &-form {
+            &-item {
+                .ant-btn {
+                    border-color: $white;
+                    color: $white;
+                }
+            }
+        }
+    }
+}

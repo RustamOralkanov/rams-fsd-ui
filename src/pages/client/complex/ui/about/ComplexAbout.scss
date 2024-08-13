@@ -1,0 +1,18 @@
+.complex-about {
+    .wrapper {
+        border-left: 1px solid $gray100;
+        padding-left: 12px;
+
+        &:last-child {
+            border-right: unset;
+        }
+    }
+    .title {
+        color: $green300;
+        font-weight: 300;
+    }
+
+    .text {
+        color: $gray500;
+    }
+}

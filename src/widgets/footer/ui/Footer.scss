@@ -1,0 +1,28 @@
+.footer {
+    margin-top: 80px;
+    background-color: $gray50;
+
+    .container {
+        padding: 50px 0;
+    }
+
+    &-link {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 24px;
+        letter-spacing: -0.01em;
+        font-weight: 300;
+        color: $gray500;
+        transition: $transition;
+
+        &:hover {
+            color: $gray900;
+        }
+    }
+
+    &-all {
+        color: #2e3130;
+        font-weight: 400;
+        text-decoration: underline;
+    }
+}

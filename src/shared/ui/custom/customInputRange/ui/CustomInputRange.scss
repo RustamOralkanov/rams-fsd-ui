@@ -6,9 +6,17 @@
     transition: all 0.3s ease-in-out;
     position: relative;
     padding: 0 10px;
-    max-width: 300px;
+    max-width: 100%;
     * {
         user-select: none;
+    }
+
+    &.error {
+        border-color: #f87171;
+    }
+
+    .ant-input-number-status-error {
+        border-color: transparent !important;
     }
 
     input {
@@ -22,12 +30,6 @@
 
         &:focus-visible {
             outline: 0;
-        }
-
-        &::-webkit-outer-spin-button,
-        &::-webkit-inner-spin-button {
-            -webkit-appearance: none;
-            margin: 0;
         }
     }
     .divider {
@@ -43,8 +45,9 @@
     &-slider {
         position: absolute;
         bottom: -2px;
-        left: 0;
-        width: calc(100% - 12px);
+        // left: 50%;
+        // transform: translateX(-50%);
+        width: calc(100% - 24px);
         margin: 0;
     }
 }

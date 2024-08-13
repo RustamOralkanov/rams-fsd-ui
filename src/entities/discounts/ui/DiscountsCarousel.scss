@@ -1,0 +1,9 @@
+.discount-carousel {
+    .slick {
+        &-dots {
+            bottom: 25px;
+            justify-content: flex-start;
+            inset-inline-start: 15px;
+        }
+    }
+}

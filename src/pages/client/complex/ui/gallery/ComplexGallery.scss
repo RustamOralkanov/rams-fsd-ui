@@ -1,0 +1,13 @@
+.complex-gallery {
+    .slick-dots {
+        justify-content: flex-end;
+        bottom: 40px;
+        right: 40px;
+    }
+
+    &-btns {
+        position: absolute;
+        bottom: 40px;
+        left: 40px;
+    }
+}
