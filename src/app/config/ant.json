@@ -14,9 +14,10 @@
     },
     "components": {
         "Button": {
+            "colorText": "#6C6D6D",
             "contentFontSize": 15,
             "borderColorDisabled": "rgb(207, 210, 209)",
-            "colorTextDisabled": "rgb(207, 210, 209)",
+            "colorTextDisabled": "#ffffff",
             "controlHeight": 50,
             "paddingInline": 26,
             "colorPrimaryActive": "rgb(3, 80, 64)",
@@ -34,7 +35,8 @@
             "dangerShadow": "",
             "defaultActiveColor": "rgb(255, 255, 255)",
             "defaultActiveBorderColor": "rgb(160, 160, 160)",
-            "fontWeight": 300
+            "fontWeight": 300,
+            "colorBgContainerDisabled": "#A0A0A0"
         },
         "Typography": {
             "fontWeightStrong": 500,
@@ -142,6 +144,7 @@
             "itemColor": "rgb(46, 49, 48)",
             "inkBarColor": "rgb(46, 49, 48)",
             "itemActiveColor": "rgb(46, 49, 48)",
+            "itemHoverColor": "rgb(46, 49, 48)",
             "colorPrimaryBorder": "rgb(46, 49, 48)",
             "colorText": "rgb(46, 49, 48)",
             "colorTextHeading": "rgb(46, 49, 48)",

@@ -1,5 +1,5 @@
 import React from "react";
-import { Flex, Tag, Image, Button, Typography } from "antd";
+import { Flex, Tag, Image, Typography } from "antd";
 import { FavoriteIcon } from "../../../../../shared/icons";
 import { flatInfoStyle } from "../../../config/flat.config";
 import "./FlatCard.scss";
@@ -8,14 +8,7 @@ const { Title, Text } = Typography;
 
 export const FlatCard: React.FC = () => {
     return (
-        <Flex vertical className="flat-card" gap={5}>
-            <Flex justify="space-between" align="center">
-                <Flex align="center" gap={5}>
-                    <Tag color="#024638">№ 115</Tag>
-                    <Tag color="#024638">Grande Vie</Tag>
-                </Flex>
-                <FavoriteIcon />
-            </Flex>
+        <Flex vertical className="flat-card" gap={10}>
             <Image
                 src={"https://ramsqz.com/storage/flats/main/952d89ee95863853e5036a244ba277dc.jpg"}
                 preview={false}
@@ -23,6 +16,13 @@ export const FlatCard: React.FC = () => {
                 width={"100%"}
                 style={{ objectFit: "contain" }}
             />
+            <Flex justify="space-between" align="center">
+                <Flex align="center" gap={5}>
+                    <Tag color="#024638">№ 115</Tag>
+                    <Tag color="#024638">Grande Vie</Tag>
+                </Flex>
+                <FavoriteIcon />
+            </Flex>
             <Flex vertical gap={15}>
                 <Flex align="center" justify="space-between">
                     <Title level={5}>Блок 15</Title>
@@ -46,11 +46,15 @@ export const FlatCard: React.FC = () => {
                 <Flex vertical gap={5}>
                     <Flex align="center" justify="space-between">
                         <Text style={flatInfoStyle}>Цена за м2</Text>
-                        <Text style={flatInfoStyle}>3-комнатная</Text>
+                        <Text style={flatInfoStyle} strong>
+                            3-комнатная
+                        </Text>
                     </Flex>
                     <Flex align="center" justify="space-between">
                         <Text style={flatInfoStyle}>В рассрочку</Text>
-                        <Text style={flatInfoStyle}>3-комнатная</Text>
+                        <Text style={flatInfoStyle} strong>
+                            3-комнатная
+                        </Text>
                     </Flex>
                 </Flex>
                 <Flex align="center" gap={5}>
@@ -58,7 +62,6 @@ export const FlatCard: React.FC = () => {
                     <Tag>Premium</Tag>
                     <Tag>+1</Tag>
                 </Flex>
-                <Button style={{ height: 36 }}>Индивидуальный расчет</Button>
             </Flex>
         </Flex>
     );

@@ -1,0 +1,13 @@
+{
+    "components": {
+        "Select": {
+            "controlHeight": 40,
+            "optionLineHeight": 1.5,
+            "multipleItemHeight": 40,
+            "optionSelectedColor": "#ffffff",
+            "singleItemHeightLG": 40,
+            "controlOutlineWidth": 0,
+            "optionSelectedFontWeight": 300
+        }
+    }
+}

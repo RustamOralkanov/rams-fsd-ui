@@ -4,6 +4,8 @@ import { APP_ROUTES } from "../constants/router";
 import { HomePage } from "../../pages/client/home";
 import { Complexes } from "../../features/complexes";
 import { ComplexPage } from "../../pages/client/complex";
+import { FlatsPage } from "../../pages/client/flats";
+import { FlatPage } from "../../pages/client/flat";
 
 const router = createBrowserRouter([
     {
@@ -29,6 +31,24 @@ const router = createBrowserRouter([
                                 element: <ComplexPage />,
                             },
                         ],
+                    },
+                    {
+                        path: APP_ROUTES.FLATS,
+                        children: [
+                            {
+                                index: true,
+                                element: <FlatsPage />,
+                            },
+                        ],
+                    },
+                ],
+            },
+            {
+                path: APP_ROUTES.FLATS,
+                children: [
+                    {
+                        path: ":id",
+                        element: <FlatPage />,
                     },
                 ],
             },

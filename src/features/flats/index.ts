@@ -1,2 +1,3 @@
-export { FlatCard } from "./ui/Card/Common/FlatCard";
-export { FlatCardSmall } from "./ui/Card/Small/FlatCardSmall";
+export { FlatCard } from "./ui/card/common/FlatCard";
+export { FlatCardSmall } from "./ui/card/small/FlatCardSmall";
+export { FlatsList } from "./ui/list/FlatsList";

@@ -1,0 +1,28 @@
+.flats-filter {
+    .addititonal {
+        transform: translateY(-70px);
+        opacity: 0;
+        z-index: -1;
+        height: 0;
+
+        transition: all 0.5s ease-in-out;
+        &.show {
+            transform: translateY(0px);
+            opacity: 1;
+            height: fit-content;
+            z-index: 1;
+        }
+    }
+
+    .transited {
+        position: relative;
+
+        * {
+            transition: all 0.5s ease-in-out;
+        }
+
+        &.show {
+            margin-top: 0;
+        }
+    }
+}

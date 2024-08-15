@@ -1,9 +1,31 @@
 .footer {
     margin-top: 80px;
-    background-color: $gray50;
+    background-color: $white;
+    transition: $transition;
+
+    &.flat {
+        background-color: $gray50;
+        margin-top: 100px;
+    }
 
     .container {
         padding: 50px 0;
+        border-top: 1px solid $gray100;
+    }
+
+    &-copyright {
+        font-size: 12px;
+        line-height: 16px;
+        color: $gray500;
+    }
+
+    &-wrapper {
+        border-bottom: 1px solid $gray100;
+        padding-bottom: 50px;
+
+        &-bottom {
+            padding-top: 50px;
+        }
     }
 
     &-link {
@@ -11,7 +33,20 @@
         font-weight: 300;
         line-height: 24px;
         letter-spacing: -0.01em;
+        color: $gray500;
+        transition: $transition;
+
+        &:hover {
+            color: $gray900;
+        }
+    }
+
+    &-agreement {
+        font-size: 12px;
         font-weight: 300;
+        line-height: 16px;
+        letter-spacing: -0.01em;
+        text-decoration: underline;
         color: $gray500;
         transition: $transition;
 

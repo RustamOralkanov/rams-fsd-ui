@@ -3,74 +3,97 @@ import { Container } from "../../../shared/ui/container";
 import { footerDatas } from "../model/footer.data";
 import { Link } from "react-router-dom";
 import { Colors } from "../../../shared/types/Colors";
-import LetterImage from "../../../app/assets/icons/letter.svg";
-import common from "../../../shared/styles/common.module.scss";
+import { headerData } from "../../header/model/header.data";
+import { useFooter } from "../model/useFooter";
+import AppStore from "../../../app/assets/icons/app-store.svg";
+import GooglePlay from "../../../app/assets/icons/google-play.svg";
 import "./Footer.scss";
 
 const { Text, Title } = Typography;
 
 export const Footer = () => {
+    const currentYear = new Date().getFullYear();
+    const { active } = useFooter();
+
     return (
-        <footer className="footer">
+        <footer className={["footer", active ? "flat" : ""].join(" ")}>
             <Container>
-                <Row gutter={[50, 50]}>
-                    <Col xxl={10} xl={10}>
-                        <Flex vertical gap={55}>
+                <Row gutter={[50, 50]} className="footer-wrapper">
+                    <Col xxl={8} xl={8}>
+                        <Flex vertical gap={34}>
+                            <Flex vertical gap={20}>
+                                <Image src={headerData.logo} width={100} preview={false} />
+                                <Text className="footer-copyright">©1997-{currentYear}, ТОО «РАМС-Казахстан»</Text>
+                            </Flex>
+                            <Flex vertical gap={12}>
+                                {footerDatas.pages.map((page, index) => {
+                                    if (page.id === 3)
+                                        return (
+                                            <Flex vertical gap={10} key={index}>
+                                                <Title level={5}>{page.title}</Title>
+                                                <Flex gap={12}>
+                                                    {page.links.map((link, index) => (
+                                                        <Image src={link.icon} preview={false} key={index} />
+                                                    ))}
+                                                </Flex>
+                                            </Flex>
+                                        );
+                                })}
+                            </Flex>
                             <Flex vertical gap={15}>
-                                <Title level={4}>Есть вопросы или предложения?</Title>
+                                <Title level={5}>Есть вопросы или предложения?</Title>
                                 <Button style={{ width: "fit-content" }}>Напишите нам</Button>
                             </Flex>
-                            <Flex gap={35}>
-                                {footerDatas.agreements.map((agreement, index) => (
-                                    <Link to={"/"} key={index} className="footer-link">
-                                        {agreement.title}
-                                    </Link>
-                                ))}
+                        </Flex>
+                    </Col>
+                    <Col xxl={16} xl={16}>
+                        <Row gutter={[20, 20]}>
+                            {footerDatas.pages.map((page, index) => {
+                                if (page.id !== 3)
+                                    return (
+                                        <Col xl={6} key={index}>
+                                            <Flex vertical gap={10}>
+                                                <Title level={5}>{page.title}</Title>
+                                                {page.links.map((link, index) => (
+                                                    <Flex gap={12} align="center" key={index}>
+                                                        {link.icon && <Image src={link.icon} preview={false} />}
+                                                        <Link to={link.path} className="footer-link">
+                                                            {link.title}
+                                                        </Link>
+                                                    </Flex>
+                                                ))}
+                                            </Flex>
+                                        </Col>
+                                    );
+                            })}
+                        </Row>
+                    </Col>
+                </Row>
+                <Row gutter={[20, 20]} className="footer-wrapper-bottom" align={"top"}>
+                    <Col xl={8}>
+                        <Flex vertical gap={14}>
+                            <Text className="footer-copyright">Скачайте приложение RAMS</Text>
+                            <Flex gap={12} align="center">
+                                <Image src={AppStore} preview={false} height={34} />
+                                <Image src={GooglePlay} preview={false} height={34} />
                             </Flex>
                         </Flex>
                     </Col>
-                    <Col xxl={{ span: 10, offset: 2 }} xl={{ span: 12, offset: 2 }}>
-                        <Flex justify="space-between">
-                            {footerDatas.pages.map((page, index) => (
-                                <Flex vertical gap={10} key={index}>
-                                    <Title level={5}>{page.title}</Title>
-                                    {page.links.map((link, index) => (
-                                        <Flex gap={12} align="center" key={index}>
-                                            {link.icon && <Image src={link.icon} preview={false} />}
-                                            <Link to={link.path} className="footer-link">
-                                                {link.title}
-                                            </Link>
-                                        </Flex>
-                                    ))}
-                                    {page.title === "Проекты" && (
-                                        <Link to={"/"} className="footer-all">
-                                            Все проекты
-                                        </Link>
-                                    )}
-                                </Flex>
-                            ))}
-                        </Flex>
-                    </Col>
-                    <Col span={24}>
-                        <Flex className={[common["padding-20"], common["bg-white"], common["radius-10"]].join(" ")} justify="space-between" align="center">
-                            <Flex gap={30} align="center">
-                                <Image src={LetterImage} preview={false} />
-                                <Flex vertical>
-                                    <Title level={5} style={{ color: Colors.gold }}>
-                                        Узнайте первым о старте продаж!
-                                    </Title>
-                                    <Text>Новые проекты в 2022 году</Text>
-                                </Flex>
-                            </Flex>
-                            <Button type="primary">Подписаться</Button>
-                        </Flex>
-                    </Col>
-                    <Col span={24} style={{ lineHeight: 1.33 }}>
-                        <Text style={{ fontSize: 12 }}>
+                    <Col xl={10} style={{ lineHeight: 1 }}>
+                        <Text style={{ fontSize: 10, color: Colors.gray500 }}>
                             ©1997-2024, ТОО «РАМС-Казахстан» <br /> Архитектура проекта, изображения благоустройства, фасадов, интерьера, применяемых материалов, их нумерация,
                             инфраструктура комплекса являются условными и могут быть изменены в ходе проектирования, строительства и эксплуатации в рамках положительного заключения
                             государственной экспертизы. Настоящая реклама, в соответствии со ст. 395 ГК РК не является публичной офертой.
                         </Text>
+                    </Col>
+                    <Col xl={6}>
+                        <Flex gap={12} wrap justify="flex-end">
+                            {footerDatas.agreements.map((agreement, index) => (
+                                <Link to={"/"} key={index} className="footer-agreement">
+                                    {agreement.title}
+                                </Link>
+                            ))}
+                        </Flex>
                     </Col>
                 </Row>
             </Container>

@@ -1,0 +1,38 @@
+.flats-payments-carousel {
+    background-color: $gray50;
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+    height: 88px;
+    position: relative;
+
+    .ant-carousel {
+        min-width: 201px;
+        width: 100%;
+        max-width: 220px;
+    }
+
+    .slide {
+        cursor: pointer;
+    }
+
+    .anticon {
+        cursor: pointer;
+        color: $gray500;
+    }
+
+    .arrow {
+        position: absolute;
+        top: 50%;
+
+        &:first-child {
+            left: 20px;
+            transform: translateY(-50%) rotate(90deg) !important;
+        }
+
+        &:last-child {
+            right: 20px;
+            transform: translateY(-50%) rotate(-90deg) !important;
+        }
+    }
+}

@@ -1,8 +1,10 @@
 import { Outlet } from "react-router-dom";
 import { DesktopHeader } from "../../../../../widgets/header/ui/desktop";
 import { Footer } from "../../../../../widgets/footer";
+import { useTheme } from "../../model/useTheme";
 
 export const MainLayout = () => {
+    useTheme();
     return (
         <>
             <DesktopHeader />

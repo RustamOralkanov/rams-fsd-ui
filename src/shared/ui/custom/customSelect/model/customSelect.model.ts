@@ -4,6 +4,7 @@ export interface ICustomSelect {
     onChange?: OnChangeType;
     options?: Option[];
     placeholder?: string;
+    title?: string;
 }
 
 interface Option {

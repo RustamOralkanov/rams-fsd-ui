@@ -1,9 +1,12 @@
 .lang {
     &-switch {
         padding: 0;
-        width: 34px;
+        width: 69px;
+        padding-left: 12px;
+        padding-right: 5px;
         height: 34px;
         transition: $transition;
+        background-color: $gray50;
 
         &:hover {
             background-color: $gray50 !important;
@@ -15,7 +18,7 @@
         font-weight: 500;
         text-transform: uppercase;
         cursor: pointer;
-        color: $gray500;
+        color: $gray900;
     }
 
     &-option {

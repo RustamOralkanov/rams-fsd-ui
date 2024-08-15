@@ -9,6 +9,29 @@
     z-index: 99;
     box-shadow: 0px 0px 24px -10px #2e31301a;
 
+    &-icon {
+        height: 34px;
+        width: 34px;
+        border-radius: 4px;
+        background-color: $gray50;
+        position: relative;
+
+        &.active {
+            &:after {
+                content: "";
+                display: block;
+                width: 8px;
+                height: 8px;
+                border-radius: 50px;
+                background-color: #10856d;
+                border: 1px solid $gray50;
+                position: absolute;
+                top: 5px;
+                right: 5px;
+            }
+        }
+    }
+
     &-container {
         max-width: 1240px;
         width: 100%;
@@ -18,8 +41,6 @@
     }
 
     &-link {
-        padding: 10px 15px;
-        border-radius: 5px;
         display: flex;
         gap: 7px;
         align-items: center;
@@ -31,11 +52,14 @@
         line-height: 24px;
         letter-spacing: -0.01em;
         height: fit-content;
+        cursor: pointer;
+        animation: fadeIn 0.5s;
 
         &:first-child {
             background-color: $green500;
             color: $white !important;
             padding: 5px 12px;
+            border-radius: 5px;
         }
 
         &:hover {
@@ -44,6 +68,15 @@
 
         &.active {
             color: $green500;
+        }
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
         }
     }
 

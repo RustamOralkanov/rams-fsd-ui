@@ -1,0 +1,80 @@
+.flats-payment {
+    padding: 20px;
+    background-color: $gray50;
+    border-radius: 10px;
+    flex-direction: column;
+    margin-right: 0;
+    line-height: 1;
+    position: relative;
+    height: 100%;
+    transition: $transition;
+    border: 1px solid transparent;
+
+    &-discount {
+        padding: 6px 15px;
+        border-radius: 4px;
+        background-color: $green400;
+        color: $white;
+        font-family: "TT Interfaces";
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 24px;
+        letter-spacing: -0.01em;
+    }
+
+    &.active {
+        height: calc(100% + 50px);
+
+        .ant {
+            &-btn {
+                height: 36px;
+                opacity: 1;
+                margin-top: 0;
+            }
+        }
+    }
+
+    span {
+        width: 100%;
+        padding-inline-start: 0px !important;
+        padding-inline-end: 0px !important;
+    }
+
+    &::after {
+        display: none;
+    }
+
+    &.ant-radio {
+        &-wrapper {
+            &-checked {
+                border-color: $green500;
+            }
+        }
+    }
+
+    .ant {
+        &-btn {
+            height: 0px;
+            opacity: 0;
+            padding: 0;
+            margin-top: -10px;
+        }
+
+        &-radio {
+            position: absolute;
+            right: 20px;
+            top: 36px;
+            width: fit-content;
+        }
+
+        &-wrapper {
+            &-checked {
+                border-color: $green500;
+            }
+        }
+    }
+
+    &:hover {
+        border-color: $green500;
+    }
+}

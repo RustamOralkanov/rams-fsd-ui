@@ -1,0 +1,17 @@
+.parking-card {
+    background-color: $white;
+    height: 74px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 15px 20px;
+
+    &:hover {
+        border-color: $green500;
+    }
+
+    &-shrink {
+        flex: 1 0 auto;
+    }
+}

@@ -1,0 +1,36 @@
+.custom-select-tags {
+    .select-tags {
+        height: 50px;
+        position: relative;
+
+        .ant-select {
+            &-selector {
+                padding: 13px 10px;
+            }
+            &-selection {
+                &-overflow {
+                    top: -15px;
+                }
+
+                &-placeholder {
+                    padding-top: 4px;
+                }
+
+                &-item {
+                    border-radius: 50px;
+                    line-height: 1.4;
+                    padding: 4px 8px;
+                    height: fit-content;
+
+                    &-content {
+                        font-family: "TT Interfaces";
+                        font-size: 12px;
+                        font-weight: 300;
+                        line-height: 16px;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.custom-sort {
+    position: relative;
+    width: fit-content;
+    &-icon {
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 10px;
+    }
+
+    &-select {
+        height: 40px;
+
+        .ant-select {
+            &-selector {
+                width: 210px !important;
+                padding: 8px 10px 8px 41px !important;
+            }
+            &-selection {
+                &-item {
+                    line-height: 35px !important;
+                }
+            }
+        }
+    }
+}

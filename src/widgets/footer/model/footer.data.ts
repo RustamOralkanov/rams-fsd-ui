@@ -10,6 +10,7 @@ interface Link {
 }
 
 interface Section {
+    id: number;
     title: string;
     links: Link[];
 }
@@ -36,6 +37,7 @@ export const footerDatas: FooterData = {
     ],
     pages: [
         {
+            id: 1,
             title: "Проекты",
             links: [
                 { title: "Layan", path: "/" },
@@ -45,6 +47,7 @@ export const footerDatas: FooterData = {
             ],
         },
         {
+            id: 2,
             title: "Способы покупки",
             links: [
                 { title: "Ипотека", path: "/" },
@@ -53,12 +56,35 @@ export const footerDatas: FooterData = {
             ],
         },
         {
+            id: 3,
             title: "Социальные сети",
             links: [
                 { title: "Whatsapp", path: "/", icon: WhatsappIcon },
                 { title: "Instagram", path: "/", icon: InstagramIcon },
                 { title: "YouTube", path: "/", icon: YoutubeIcon },
                 { title: "Facebook", path: "/", icon: FacebookIcon },
+            ],
+        },
+        {
+            id: 4,
+            title: "Компания",
+            links: [
+                { title: "Новости и акции", path: "/" },
+                { title: "Пресс-служба", path: "/" },
+                { title: "Устойчивое развитие", path: "/" },
+                { title: "Партнерам", path: "/" },
+                { title: "Контакты", path: "/" },
+                { title: "Отдел постпродажной поддержки", path: "/" },
+                { title: "Карьера", path: "/" },
+            ],
+        },
+        {
+            id: 5,
+            title: "Сервисы",
+            links: [
+                { title: "Ипотека", path: "/" },
+                { title: "Рассрочка", path: "/" },
+                { title: "Trade-In", path: "/" },
             ],
         },
     ],

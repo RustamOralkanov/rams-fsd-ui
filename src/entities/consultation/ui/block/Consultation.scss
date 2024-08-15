@@ -18,6 +18,11 @@
                 .ant-btn {
                     border-color: $white;
                     color: $white;
+
+                    &:hover {
+                        background-color: $white;
+                        color: $gray900;
+                    }
                 }
             }
         }

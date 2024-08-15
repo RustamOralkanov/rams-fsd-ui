@@ -25,7 +25,7 @@
                 height: 33px;
             }
             &-placeholder {
-                height: 33px;
+                height: 31px;
                 font-weight: 600;
             }
         }
@@ -123,6 +123,7 @@
 
     &-tag {
         margin-inline-end: 0;
+        font-weight: 300;
     }
 
     &-slider {
@@ -151,6 +152,15 @@
                     font-size: 12px;
                     margin-top: 5px;
                 }
+            }
+        }
+    }
+
+    &-btn {
+        &-default {
+            &:disabled {
+                color: #bebebe;
+                background-color: unset;
             }
         }
     }

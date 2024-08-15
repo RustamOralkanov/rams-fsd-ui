@@ -6,7 +6,7 @@ import { ComplexBanner } from "./banner/ComplexBanner";
 import { ComplexGallery } from "./gallery/ComplexGallery";
 import { ComplexProgress } from "./progress/ComplexProgress";
 import { ComplexFeatures } from "./features/ComplexFeatures";
-import { ComplexInfrastructure } from "./infrastructure/ComplexInfrastructure";
+// import { ComplexInfrastructure } from "./infrastructure/ComplexInfrastructure";
 
 export const ComplexPage = () => {
     return (
@@ -14,7 +14,7 @@ export const ComplexPage = () => {
             <ComplexBanner />
             <ComplexAbout />
             <ComplexFeatures />
-            <ComplexInfrastructure />
+            {/* <ComplexInfrastructure /> */}
             <Payments />
             <ComplexGallery />
             <ComplexProgress />
