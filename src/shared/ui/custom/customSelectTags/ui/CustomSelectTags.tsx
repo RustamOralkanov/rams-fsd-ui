@@ -13,7 +13,7 @@ export const CustomSelectTags: React.FC<ICustomSelectTags> = ({ onChange }) => {
     return (
         <ConfigProvider theme={selectTagsTheme}>
             <Flex vertical gap={10} className="custom-select-tags">
-                <Text style={{ fontSize: 12, fontWeight: 300, color: Colors.gray600 }}>Проект</Text>
+                <Text style={{ fontSize: 12, fontWeight: 400, color: Colors.gray600 }}>Проект</Text>
                 <Select {...sharedProps} {...selectProps} suffixIcon={<ChevronDownIcon />} className="select-tags" />
             </Flex>
         </ConfigProvider>

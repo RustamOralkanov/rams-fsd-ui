@@ -42,7 +42,7 @@ export const Banners = () => {
                         <Flex vertical className={[common["bg-gray50"], common["radius-16"], common["height-full"], common["padding-40"]].join(" ")} justify="space-between">
                             <Text className="banners-tag">Dorem ipsum</Text>
                             <Flex vertical gap={20}>
-                                <Title level={2} style={{ color: Colors.green600 }} ellipsis={{ rows: 2 }}>
+                                <Title level={2} style={{ color: Colors.green600, fontWeight: 600 }} ellipsis={{ rows: 2 }}>
                                     Vorem ipsum dolor sit amet consectetur
                                 </Title>
                                 <Paragraph ellipsis={{ rows: 3 }}>

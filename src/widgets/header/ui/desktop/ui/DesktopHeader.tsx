@@ -1,18 +1,20 @@
 import React from "react";
-import { Flex, Image } from "antd";
+import { Flex, Image, Tabs } from "antd";
 import { Link, NavLink } from "react-router-dom";
-import { headerData } from "../../../model/header.data";
-import { CancelIcon, ChevronDownIcon, DotsIcon, FavoriteIcon, UserIcon } from "../../../../../shared/icons";
+import { ChevronDownIcon, DotsIcon, FavoriteIcon, UserIcon } from "../../../../../shared/icons";
 import { Colors } from "../../../../../shared/types/Colors";
 import { LangSwitch } from "../../../../../entities/lang";
-import { Container } from "../../../../../shared/ui/container";
 import { useHeader } from "../../../model/useHeader";
+import { Overlay, Container } from "../../../../../shared/ui";
+import { properties } from "../../../model/properties";
+import common from "../../../../../shared/styles/common.module.scss";
 import LayoutIcon from "../../../../../app/assets/icons/layout.svg";
 
 import "./DesktopHeader.scss";
+import { headerData } from "../../../model/headerData";
 
 export const DesktopHeader = () => {
-    const { links_count, showAllLinks, resetLinks, active_properties, onPropertiesEnter, onPropertiesLeave } = useHeader();
+    const { links_count, showAllLinks, resetLinks, isOverlayOpen, openOverlay, closeOverlay } = useHeader();
     return (
         <header className="header">
             <Container>
@@ -22,16 +24,32 @@ export const DesktopHeader = () => {
                             <Image src={headerData.logo} preview={false} />
                         </Link>
                         <Flex gap={20} align="center">
-                            <Flex className={"header-link"} onMouseEnter={onPropertiesEnter} onMouseLeave={onPropertiesLeave}>
-                                {!active_properties ? <Image src={LayoutIcon} preview={false} className="fade-in" /> : <CancelIcon className="fade-in" />}
+                            <Flex className={"header-link"} onMouseEnter={openOverlay}>
+                                <Image src={LayoutIcon} preview={false} className="fade-in" />
                                 Недвижимость
                             </Flex>
+                            <Overlay isOpen={isOverlayOpen} onClose={closeOverlay}>
+                                <Container>
+                                    <Flex className={[common["bg-white"], common["radius-10"], common["padding-40"]].join(" ")}>
+                                        <Tabs items={properties} animated destroyInactiveTabPane className={common["width-full"]} />
+                                    </Flex>
+                                </Container>
+                            </Overlay>
                             <React.Fragment key={links_count[1]}>
                                 {headerData.pages.slice(links_count[0], links_count[1]).map((page, index) => {
                                     return (
-                                        <NavLink to={page.path} key={index} className={"header-link"}>
-                                            {page.title}
-                                        </NavLink>
+                                        <React.Fragment key={index}>
+                                            <NavLink to={page.path} className={"header-link"}>
+                                                {page.title}
+                                            </NavLink>
+                                            <Overlay isOpen={isOverlayOpen} onClose={closeOverlay}>
+                                                <Container>
+                                                    <Flex className={[common["bg-white"], common["radius-10"], common["padding-40"]].join(" ")}>
+                                                        <Tabs items={properties} animated destroyInactiveTabPane className={common["width-full"]} />
+                                                    </Flex>
+                                                </Container>
+                                            </Overlay>
+                                        </React.Fragment>
                                     );
                                 })}
                             </React.Fragment>

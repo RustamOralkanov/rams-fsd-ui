@@ -42,7 +42,7 @@ export const ComplexFilter = () => {
                                 <Tag
                                     key={index}
                                     className={common.pointer}
-                                    style={{ fontWeight: 300 }}
+                                    style={{ fontWeight: 400 }}
                                     color={labels.includes(label) ? Colors.green500 : ""}
                                     onClick={() => handleLabels(label)}
                                 >

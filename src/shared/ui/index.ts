@@ -9,3 +9,6 @@ export { CustomInputSingleRange } from "./custom/customInputSingleRange/index";
 export { CustomTag } from "./custom/customTag/index";
 export { CustomSelectTags } from "./custom/customSelectTags/index";
 export { CustomSort } from "./custom/customSort/index";
+
+export { Overlay } from "./overlay/index";
+export { Container } from "./container/index";

@@ -35,11 +35,11 @@
             "dangerShadow": "",
             "defaultActiveColor": "rgb(255, 255, 255)",
             "defaultActiveBorderColor": "rgb(160, 160, 160)",
-            "fontWeight": 300,
+            "fontWeight": 400,
             "colorBgContainerDisabled": "#A0A0A0"
         },
         "Typography": {
-            "fontWeightStrong": 500,
+            "fontWeightStrong": 600,
             "titleMarginTop": 0,
             "titleMarginBottom": 0,
             "fontSizeHeading2": 35,
@@ -141,7 +141,7 @@
             "cellPaddingInline": 15
         },
         "Tabs": {
-            "itemColor": "rgb(46, 49, 48)",
+            "itemColor": "#6C6D6D",
             "inkBarColor": "rgb(46, 49, 48)",
             "itemActiveColor": "rgb(46, 49, 48)",
             "itemHoverColor": "rgb(46, 49, 48)",

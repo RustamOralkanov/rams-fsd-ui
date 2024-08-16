@@ -1,7 +1,7 @@
 import { Flex, Form, Typography } from "antd";
 import { useCustomRooms } from "../model/useCustomRooms";
-import "./CustomRooms.scss";
 import { Colors } from "../../../../types/Colors";
+import "./CustomRooms.scss";
 
 interface CustomRoomsProps {
     onChange?: (value: number[]) => void;
@@ -15,7 +15,7 @@ export const CustomRooms = ({ onChange = () => {} }: CustomRoomsProps) => {
 
     return (
         <Flex vertical gap={10}>
-            <Text style={{ fontSize: 12, fontWeight: 300, color: Colors.gray600 }}>Комнатность</Text>
+            <Text style={{ fontSize: 12, fontWeight: 400, color: Colors.gray600 }}>Комнатность</Text>
             <Flex gap={5} className={`custom-rooms`}>
                 {[...Array(4)].map((_, index) => (
                     <Flex

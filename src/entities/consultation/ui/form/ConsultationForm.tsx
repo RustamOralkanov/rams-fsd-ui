@@ -39,9 +39,9 @@ export const ConsultationForm = () => {
                 >
                     <Input placeholder="Телефон" onChange={handlePhoneChange} />
                 </Form.Item>
-                <Text style={{ fontSize: 10, color: Colors.white, fontWeight: 200 }}>
+                <Text style={{ fontSize: 10, color: Colors.gray100, fontWeight: 400 }}>
                     Нажимая кнопку «Отправить», Вы подтверждаете своё согласие с нашей{" "}
-                    <Link to={"/"} style={{ color: Colors.gold }}>
+                    <Link to={"/"} style={{ color: Colors.white }}>
                         политикой конфиденциальности.
                     </Link>
                 </Text>

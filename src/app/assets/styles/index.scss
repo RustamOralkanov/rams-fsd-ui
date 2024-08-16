@@ -25,19 +25,19 @@ h1 {
     margin: 0.67em 0;
     margin-block-start: 0;
     margin-block-end: 0;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.03em !important;
 }
 
 h2 {
-    letter-spacing: -0.04em;
     margin: 0;
+    letter-spacing: -0.02em !important;
 }
 
 h3,
 h4,
 h5 {
     margin: 0;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.01em !important;
     font-family: "TT Interfaces";
 }
 

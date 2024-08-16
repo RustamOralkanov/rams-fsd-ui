@@ -38,7 +38,7 @@ export const CustomInputRange: React.FC<{ onChange?: (value: number[]) => void; 
 
     return (
         <Flex vertical gap={10}>
-            {title && <Text style={{ fontSize: 12, fontWeight: 300, color: Colors.gray600 }}>{title}</Text>}
+            {title && <Text style={{ fontSize: 12, fontWeight: 400, color: Colors.gray600 }}>{title}</Text>}
             <Flex className={`custom-input-range ${status}`} vertical justify="center">
                 <Row>
                     <Col span={12} className="divider">

@@ -3,7 +3,7 @@ import { Container } from "../../../shared/ui/container";
 import { footerDatas } from "../model/footer.data";
 import { Link } from "react-router-dom";
 import { Colors } from "../../../shared/types/Colors";
-import { headerData } from "../../header/model/header.data";
+import { headerData } from "../../header/model/headerData";
 import { useFooter } from "../model/useFooter";
 import AppStore from "../../../app/assets/icons/app-store.svg";
 import GooglePlay from "../../../app/assets/icons/google-play.svg";
