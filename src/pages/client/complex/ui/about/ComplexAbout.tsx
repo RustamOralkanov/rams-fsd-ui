@@ -1,7 +1,7 @@
+import common from "@styles/common.module.scss";
 import { Col, Row, Image, Typography, Flex, Button } from "antd";
-import { Container } from "../../../../../shared/ui/container";
 import { Colors } from "../../../../../shared/types/Colors";
-import common from "../../../../../shared/styles/common.module.scss";
+import { Container } from "../../../../../shared/ui/container";
 import "./ComplexAbout.scss";
 
 const { Text, Title } = Typography;

@@ -1,9 +1,9 @@
 import { Flex } from "antd";
-import { Complexes } from "../../../../features/complexes";
-import { Banners } from "./banners/Banners";
-import { Payments } from "../../../../widgets/payments";
-import { NewsList } from "../../../../entities/news";
 import { Consultation } from "../../../../entities/consultation";
+import { NewsList } from "../../../../entities/news";
+import { Complexes } from "../../../../features/complexes";
+import { Payments } from "../../../../widgets/payments";
+import { Banners } from "./banners/Banners";
 
 export const HomePage = () => {
     return (

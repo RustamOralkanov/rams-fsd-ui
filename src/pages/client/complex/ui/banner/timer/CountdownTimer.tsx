@@ -1,7 +1,7 @@
-import React, { CSSProperties } from "react";
 import { Flex, Typography } from "antd";
-import { CountdownTimerProps } from "../../../model/countdown.model";
+import { CSSProperties } from "react";
 import { Colors } from "../../../../../../shared/types/Colors";
+import { CountdownTimerProps } from "../../../model/countdown.model";
 import { useCountdown } from "../../../model/useCountdown";
 
 const { Text } = Typography;

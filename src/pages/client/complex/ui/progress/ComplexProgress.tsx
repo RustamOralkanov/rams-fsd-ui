@@ -1,6 +1,6 @@
 import { Col, Flex, Row, Typography } from "antd";
-import { Container } from "../../../../../shared/ui/container";
 import { Colors } from "../../../../../shared/types/Colors";
+import { Container } from "../../../../../shared/ui/container";
 import { ComplexProgressCard } from "./ComplexProgressCard";
 
 const { Title, Text } = Typography;

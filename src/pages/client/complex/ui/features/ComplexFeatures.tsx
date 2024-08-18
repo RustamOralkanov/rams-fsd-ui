@@ -1,6 +1,6 @@
 import { Flex, Image, Typography } from "antd";
-import { Container } from "../../../../../shared/ui/container";
 import { Colors } from "../../../../../shared/types/Colors";
+import { Container } from "../../../../../shared/ui/container";
 import "./ComplexFeatures.scss";
 
 const features = [

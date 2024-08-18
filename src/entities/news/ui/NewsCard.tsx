@@ -1,5 +1,5 @@
+import common from "@styles/common.module.scss";
 import { Flex, Image, Typography } from "antd";
-import common from "../../../shared/styles/common.module.scss";
 import { Colors } from "../../../shared/types/Colors";
 import { CustomTag } from "../../../shared/ui";
 

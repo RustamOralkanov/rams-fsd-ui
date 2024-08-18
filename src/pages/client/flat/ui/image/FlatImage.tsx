@@ -1,5 +1,5 @@
+import common from "@styles/common.module.scss";
 import { Button, Flex, Image } from "antd";
-import common from "../../../../../shared/styles/common.module.scss";
 import "./FlatImage.scss";
 
 export const FlatImage = () => {

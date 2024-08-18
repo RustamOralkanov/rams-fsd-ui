@@ -1,8 +1,8 @@
 import { Tabs } from "antd";
-import { Container } from "../../../../shared/ui/container";
 import { FlatsList } from "../../../../features/flats";
 import { ParkingList } from "../../../../features/parking";
 import { StorageList } from "../../../../features/storage";
+import { Container } from "../../../../shared/ui/container";
 
 import "./FlatsPage.scss";
 

@@ -1,6 +1,6 @@
 import { Flex, Row, Typography } from "antd";
-import { parkings } from "../../model/properties.data";
 import { Colors } from "../../../../shared/types/Colors";
+import { parkings } from "../../model/properties.data";
 
 const { Text, Title } = Typography;
 

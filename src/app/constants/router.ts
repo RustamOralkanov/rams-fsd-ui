@@ -3,6 +3,7 @@ export const APP_ROUTES = {
     COMPLEXES: "complexes",
     FLATS: "flats",
     FACING: "facing",
-    PAYMENTS: "payments",
+    MORTGAGE: "mortagage",
+    INSTALLMENT: "installment",
     ABOUT: "about",
 };

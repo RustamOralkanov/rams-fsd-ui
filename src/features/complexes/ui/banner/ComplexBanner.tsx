@@ -1,11 +1,11 @@
+import common from "@styles/common.module.scss";
 import { Carousel, Flex, Image, Typography } from "antd";
-import { RefObject, useRef } from "react";
 import { CarouselRef } from "antd/es/carousel";
-import { Colors } from "../../../../shared/types/Colors";
-import { CustomTag } from "../../../../shared/ui";
+import { RefObject, useRef } from "react";
 import { Link } from "react-router-dom";
 import { APP_ROUTES } from "../../../../app/constants/router";
-import common from "../../../../shared/styles/common.module.scss";
+import { Colors } from "../../../../shared/types/Colors";
+import { CustomTag } from "../../../../shared/ui";
 import "./ComplexBanner.scss";
 
 const { Text, Title } = Typography;

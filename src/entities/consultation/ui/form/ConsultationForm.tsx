@@ -1,7 +1,7 @@
 import { Form, Button, Typography, Input, FormProps, Flex } from "antd";
-import { Colors } from "../../../../shared/types/Colors";
 import { Link } from "react-router-dom";
 import { usePhone } from "../../../../shared/hooks/usePhone";
+import { Colors } from "../../../../shared/types/Colors";
 
 const { Text } = Typography;
 

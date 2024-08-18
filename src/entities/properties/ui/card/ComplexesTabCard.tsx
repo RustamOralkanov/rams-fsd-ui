@@ -1,7 +1,7 @@
+import common from "@styles/common.module.scss";
 import { Flex, Image, Typography } from "antd";
-import { Colors } from "../../../../shared/types/Colors";
 import { FacingIcon } from "../../../../shared/icons";
-import common from "../../../../shared/styles/common.module.scss";
+import { Colors } from "../../../../shared/types/Colors";
 
 const { Text, Title } = Typography;
 

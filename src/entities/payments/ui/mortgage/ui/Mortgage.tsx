@@ -1,6 +1,6 @@
+import common from "@styles/common.module.scss";
 import { Col, Row, Flex, Typography, Form, FormProps, Image, Button } from "antd";
 import { Colors } from "../../../../../shared/types/Colors";
-import common from "../../../../../shared/styles/common.module.scss";
 import { CustomInputSingleRange } from "../../../../../shared/ui";
 
 const { Text, Title } = Typography;

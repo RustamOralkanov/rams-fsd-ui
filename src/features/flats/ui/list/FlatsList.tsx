@@ -1,8 +1,8 @@
 import { Flex, Row, Col } from "antd";
-import { FlatsFilter } from "../filter/FlatsFilter";
-import { FlatCard } from "../card/common/FlatCard";
-import { FlatBanner } from "../banner/FlatBanner";
 import { CustomSort } from "../../../../shared/ui";
+import { FlatBanner } from "../banner/FlatBanner";
+import { FlatCard } from "../card/common/FlatCard";
+import { FlatsFilter } from "../filter/FlatsFilter";
 import "./FlatsList.scss";
 
 export const FlatsList = () => {

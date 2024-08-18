@@ -1,6 +1,6 @@
+import common from "@styles/common.module.scss";
 import { Carousel, Image } from "antd";
 import { CustomTag } from "../../../shared/ui";
-import common from "../../../shared/styles/common.module.scss";
 import "./DiscountsCarousel.scss";
 
 export const DiscountsCarousel = () => {

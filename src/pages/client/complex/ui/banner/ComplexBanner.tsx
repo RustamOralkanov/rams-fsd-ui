@@ -1,9 +1,9 @@
+import common from "@styles/common.module.scss";
 import { Button, Flex, Image, Typography } from "antd";
-import { Container } from "../../../../../shared/ui/container";
 import { Colors } from "../../../../../shared/types/Colors";
-import common from "../../../../../shared/styles/common.module.scss";
-import "./ComplexBanner.scss";
+import { Container } from "../../../../../shared/ui/container";
 import { CountdownTimer } from "./timer/CountdownTimer";
+import "./ComplexBanner.scss";
 
 const { Text, Title } = Typography;
 

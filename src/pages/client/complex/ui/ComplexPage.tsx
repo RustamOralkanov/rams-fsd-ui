@@ -3,9 +3,9 @@ import { Consultation } from "../../../../entities/consultation";
 import { Payments } from "../../../../widgets/payments";
 import { ComplexAbout } from "./about/ComplexAbout";
 import { ComplexBanner } from "./banner/ComplexBanner";
+import { ComplexFeatures } from "./features/ComplexFeatures";
 import { ComplexGallery } from "./gallery/ComplexGallery";
 import { ComplexProgress } from "./progress/ComplexProgress";
-import { ComplexFeatures } from "./features/ComplexFeatures";
 // import { ComplexInfrastructure } from "./infrastructure/ComplexInfrastructure";
 
 export const ComplexPage = () => {

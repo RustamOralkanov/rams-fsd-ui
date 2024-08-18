@@ -1,11 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
-import { BreadcrumbsLayout, MainLayout } from "../layouts/home";
-import { APP_ROUTES } from "../constants/router";
-import { HomePage } from "../../pages/client/home";
 import { Complexes } from "../../features/complexes";
 import { ComplexPage } from "../../pages/client/complex";
-import { FlatsPage } from "../../pages/client/flats";
 import { FlatPage } from "../../pages/client/flat";
+import { FlatsPage } from "../../pages/client/flats";
+import { HomePage } from "../../pages/client/home";
+import { InstallmentPage, MortgagePage } from "../../pages/client/payments";
+import { APP_ROUTES } from "../constants/router";
+import { BreadcrumbsLayout, MainLayout } from "../layouts/home";
 
 const router = createBrowserRouter([
     {
@@ -38,6 +39,24 @@ const router = createBrowserRouter([
                             {
                                 index: true,
                                 element: <FlatsPage />,
+                            },
+                        ],
+                    },
+                    {
+                        path: APP_ROUTES.MORTGAGE,
+                        children: [
+                            {
+                                index: true,
+                                element: <MortgagePage />,
+                            },
+                        ],
+                    },
+                    {
+                        path: APP_ROUTES.INSTALLMENT,
+                        children: [
+                            {
+                                index: true,
+                                element: <InstallmentPage />,
                             },
                         ],
                     },

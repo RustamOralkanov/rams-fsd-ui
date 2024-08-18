@@ -1,4 +1,3 @@
-import React from "react";
 import { Flex, Image, Tag, Typography } from "antd";
 import { flatInfoStyle } from "../../../config/flat.config";
 import "./FlatCardSmall.scss";

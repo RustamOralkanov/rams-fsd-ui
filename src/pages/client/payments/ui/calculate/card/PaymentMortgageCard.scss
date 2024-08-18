@@ -1,0 +1,13 @@
+.payment-mortgage-card {
+    padding: 10px;
+    background-color: $gray50;
+    border-radius: 12px;
+
+    &-image {
+        width: 60px;
+        height: 60px;
+        border-radius: 12px;
+        overflow: hidden;
+        background-color: $white;
+    }
+}

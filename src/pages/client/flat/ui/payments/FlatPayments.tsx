@@ -1,6 +1,6 @@
 import { Button, Flex, Radio, RadioChangeEvent, Typography } from "antd";
-import { Colors } from "../../../../../shared/types/Colors";
 import { useState } from "react";
+import { Colors } from "../../../../../shared/types/Colors";
 import { flatPayments } from "../../model/flatPayments.data";
 import "./FlatPayments.scss";
 

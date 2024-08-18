@@ -1,7 +1,7 @@
-import WhatsappIcon from "../../../app/assets/icons/socials/whatsapp.svg";
-import InstagramIcon from "../../../app/assets/icons/socials/instagram.svg";
-import YoutubeIcon from "../../../app/assets/icons/socials/youtube.svg";
-import FacebookIcon from "../../../app/assets/icons/socials/facebook.svg";
+import FacebookIcon from "@assets/icons/socials/facebook.svg";
+import InstagramIcon from "@assets/icons/socials/instagram.svg";
+import WhatsappIcon from "@assets/icons/socials/whatsapp.svg";
+import YoutubeIcon from "@assets/icons/socials/youtube.svg";
 
 interface Link {
     title: string;

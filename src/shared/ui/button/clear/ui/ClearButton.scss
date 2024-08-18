@@ -1,0 +1,13 @@
+.clear-button {
+    padding: 0;
+    height: unset;
+    border: none;
+
+    &:hover {
+        background-color: unset !important;
+    }
+
+    * {
+        color: $green500;
+    }
+}

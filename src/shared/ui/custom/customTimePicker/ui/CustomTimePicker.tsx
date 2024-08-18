@@ -1,8 +1,7 @@
-import React from "react";
-import { useCustomTimePicker } from "../model/useCustomTimePicker";
 import { Flex } from "antd";
-import "./CustomTimePicker.scss";
 import { OnChangeType } from "../../customSelect/model/customSelect.model";
+import { useCustomTimePicker } from "../model/useCustomTimePicker";
+import "./CustomTimePicker.scss";
 
 export const CustomTimePicker: React.FC<{ onChange?: OnChangeType }> = ({ onChange }) => {
     const { times, containerRef, onMouseDown, onMouseLeave, onMouseUp, onMouseMove, onTouchMove, onTouchEnd, onTouchStart, current_time, handleOnChange } =

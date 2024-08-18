@@ -1,7 +1,7 @@
 import { ConfigProvider, Flex, Select } from "antd";
 import { ChevronDownIcon, SortIcon } from "../../../../icons";
+import { customSortTheme as theme } from "../config/index";
 import { ICustomSort } from "../model/customSort.model";
-import theme from "../config/customSort.theme.json";
 import "./CustomSort.scss";
 
 export const CustomSort: React.FC<ICustomSort> = ({ onChange }) => {

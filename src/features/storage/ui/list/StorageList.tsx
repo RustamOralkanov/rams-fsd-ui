@@ -1,8 +1,8 @@
+import common from "@styles/common.module.scss";
 import { Col, Flex, Row } from "antd";
-import { StorageFilter } from "../filter/StorageFilter";
-import { StorageCard } from "../card/StorageCard";
 import { CustomSort } from "../../../../shared/ui";
-import common from "../../../../shared/styles/common.module.scss";
+import { StorageCard } from "../card/StorageCard";
+import { StorageFilter } from "../filter/StorageFilter";
 
 export const StorageList = () => {
     return (

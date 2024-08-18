@@ -1,6 +1,7 @@
+import { fileURLToPath, URL } from "node:url";
+import path from "path";
 import react from "@vitejs/plugin-react-swc";
 import { defineConfig } from "vite";
-import { fileURLToPath, URL } from "node:url";
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -8,6 +9,8 @@ export default defineConfig({
     resolve: {
         alias: {
             "@": fileURLToPath(new URL("./src", import.meta.url)),
+            "@styles": path.resolve(__dirname, "src/shared/styles"),
+            "@assets": path.resolve(__dirname, "src/app/assets"),
         },
     },
     css: {

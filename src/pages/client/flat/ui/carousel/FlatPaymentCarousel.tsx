@@ -1,8 +1,8 @@
+import MortageIcon from "@assets/icons/mortgage.svg";
 import { Carousel, Flex, Image, Typography } from "antd";
-import { ChevronDownIcon } from "../../../../../shared/icons";
-import { useRef } from "react";
 import { CarouselRef } from "antd/es/carousel";
-import MortageIcon from "../../../../../app/assets/icons/mortgage.svg";
+import { useRef } from "react";
+import { ChevronDownIcon } from "../../../../../shared/icons";
 import "./FlatPaymentCarousel.scss";
 
 const { Text } = Typography;

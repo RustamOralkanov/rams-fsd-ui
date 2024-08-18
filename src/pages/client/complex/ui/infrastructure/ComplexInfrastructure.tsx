@@ -1,7 +1,7 @@
+import common from "@styles/common.module.scss";
 import { Col, Flex, Row, Typography } from "antd";
-import { Container } from "../../../../../shared/ui/container";
-import common from "../../../../../shared/styles/common.module.scss";
 import { LocationIcon } from "../../../../../shared/icons";
+import { Container } from "../../../../../shared/ui/container";
 
 const { Title, Text } = Typography;
 

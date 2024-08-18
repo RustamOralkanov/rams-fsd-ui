@@ -1,9 +1,9 @@
+import common from "@styles/common.module.scss";
 import { Col, Flex, Form, Row, Typography } from "antd";
-import { CustomInputRange, CustomSelectTags } from "../../../../shared/ui";
 import { CancelIcon } from "../../../../shared/icons";
 import { Colors } from "../../../../shared/types/Colors";
+import { CustomInputRange, CustomSelectTags } from "../../../../shared/ui";
 import { useStorageFilter } from "../../model/useStorageFilter";
-import common from "../../../../shared/styles/common.module.scss";
 
 const { Text } = Typography;
 

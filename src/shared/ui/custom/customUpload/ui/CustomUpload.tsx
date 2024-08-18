@@ -1,4 +1,3 @@
-import React from "react";
 import { Flex, Form, Upload, Typography } from "antd";
 import { UploadFile } from "antd/es/upload";
 import { InfoIcon, FolderIcon, FileIcon, CancelIcon } from "../../../../icons";

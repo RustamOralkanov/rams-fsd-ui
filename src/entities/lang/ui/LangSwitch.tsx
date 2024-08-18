@@ -1,11 +1,10 @@
 import { Button, Popover, Flex, ConfigProvider } from "antd";
-import { useAppSelector } from "../../../shared/hooks/useRedux";
 import { useDispatch } from "react-redux";
-import { setLang } from "../model/reducer";
-
-import "./LangSwitch.scss";
+import { useAppSelector } from "../../../shared/hooks/useRedux";
 import { ChevronDownIcon } from "../../../shared/icons";
 import { Colors } from "../../../shared/types/Colors";
+import { setLang } from "../model/reducer";
+import "./LangSwitch.scss";
 
 const Langs = () => {
     const { options, currentLang } = useAppSelector((state) => state.languages);

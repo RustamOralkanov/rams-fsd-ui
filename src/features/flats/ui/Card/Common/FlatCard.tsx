@@ -1,4 +1,3 @@
-import React from "react";
 import { Flex, Tag, Image, Typography } from "antd";
 import { FavoriteIcon } from "../../../../../shared/icons";
 import { flatInfoStyle } from "../../../config/flat.config";

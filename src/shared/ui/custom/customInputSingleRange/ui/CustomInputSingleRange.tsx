@@ -1,7 +1,6 @@
-import React from "react";
 import { Flex, Slider, Typography, InputNumber, Form } from "antd";
-import { useCustomSingleRange } from "../model/useCustomSingleRange";
 import { ICustomSingleRange } from "../model/customSingleRange.model";
+import { useCustomSingleRange } from "../model/useCustomSingleRange";
 import "./СustomInputSingleRange.scss";
 
 const { Text } = Typography;
@@ -11,7 +10,7 @@ export const CustomInputSingleRange: React.FC<ICustomSingleRange> = ({ onChange,
     const { value, handleInputChange, handleSliderChange } = useCustomSingleRange(onChange);
 
     return (
-        <Flex vertical gap={5}>
+        <Flex vertical gap={10}>
             {title && <Text style={{ fontSize: 12 }}>{title}</Text>}
             <Flex className={["single-range", status].join(" ")}>
                 <Flex align="center" justify="space-between" className="single-range-wrapper">

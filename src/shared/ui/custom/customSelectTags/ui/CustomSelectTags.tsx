@@ -1,9 +1,9 @@
 import { ConfigProvider, Flex, Select, Typography } from "antd";
-import { Colors } from "../../../../types/Colors";
 import { ChevronDownIcon } from "../../../../icons";
+import { Colors } from "../../../../types/Colors";
+import { customSelectTags as selectTagsTheme } from "../config/index";
 import { ICustomSelectTags } from "../model/customTags.model";
 import { useCustomSelectTags } from "../model/useCustomSelectTags";
-import selectTagsTheme from "../config/customSelectTags.theme.json";
 import "./CustomSelectTags.scss";
 
 const { Text } = Typography;

@@ -1,12 +1,12 @@
+import AppStore from "@assets/icons/app-store.svg";
+import GooglePlay from "@assets/icons/google-play.svg";
 import { Col, Row, Flex, Typography, Button, Image } from "antd";
-import { Container } from "../../../shared/ui/container";
-import { footerDatas } from "../model/footer.data";
 import { Link } from "react-router-dom";
 import { Colors } from "../../../shared/types/Colors";
+import { Container } from "../../../shared/ui/container";
 import { headerData } from "../../header/model/headerData";
+import { footerDatas } from "../model/footer.data";
 import { useFooter } from "../model/useFooter";
-import AppStore from "../../../app/assets/icons/app-store.svg";
-import GooglePlay from "../../../app/assets/icons/google-play.svg";
 import "./Footer.scss";
 
 const { Text, Title } = Typography;

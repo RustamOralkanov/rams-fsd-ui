@@ -1,10 +1,10 @@
-import { useState } from "react";
+import common from "@styles/common.module.scss";
 import { Col, Flex, Form, Row, Typography } from "antd";
-import { CustomInputRange, CustomRooms, CustomSelect, CustomSelectTags } from "../../../../shared/ui";
+import { useState } from "react";
 import { CancelIcon } from "../../../../shared/icons";
 import { Colors } from "../../../../shared/types/Colors";
+import { CustomInputRange, CustomRooms, CustomSelect, CustomSelectTags } from "../../../../shared/ui";
 import { IFlatsFilterValues } from "../../model/flatsFilter.model";
-import common from "../../../../shared/styles/common.module.scss";
 
 import "./FlatsFilter.scss";
 

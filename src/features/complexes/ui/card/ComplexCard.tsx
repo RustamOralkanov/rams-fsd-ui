@@ -1,11 +1,11 @@
+import common from "@styles/common.module.scss";
 import { Carousel, Flex, Image, Typography } from "antd";
-import { Colors } from "../../../../shared/types/Colors";
-import { IComplexCard } from "../../model/complexCard.model";
-import { useComplexCard } from "../../model/useComplexCard";
-import { CustomTag } from "../../../../shared/ui";
 import { Link } from "react-router-dom";
 import { APP_ROUTES } from "../../../../app/constants/router";
-import common from "../../../../shared/styles/common.module.scss";
+import { Colors } from "../../../../shared/types/Colors";
+import { CustomTag } from "../../../../shared/ui";
+import { IComplexCard } from "../../model/complexCard.model";
+import { useComplexCard } from "../../model/useComplexCard";
 
 import "./ComplexCard.scss";
 

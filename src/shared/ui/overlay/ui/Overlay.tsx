@@ -1,6 +1,6 @@
+import { motion, AnimatePresence } from "framer-motion";
 import React, { useCallback, useEffect, useRef } from "react";
 import ReactDOM from "react-dom";
-import { motion, AnimatePresence } from "framer-motion";
 import styles from "./Overlay.module.scss"; // Импорт стилей
 
 interface OverlayProps {

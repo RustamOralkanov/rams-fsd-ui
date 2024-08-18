@@ -1,9 +1,9 @@
+import common from "@styles/common.module.scss";
 import { Carousel, Flex, Tabs, Typography, Image, Button } from "antd";
-import { Container } from "../../../../../shared/ui/container";
 import { CarouselRef } from "antd/es/carousel";
 import { RefObject, useRef } from "react";
 import { ArrowLeftIcon, ArrowRightIcon } from "../../../../../shared/icons";
-import common from "../../../../../shared/styles/common.module.scss";
+import { Container } from "../../../../../shared/ui/container";
 import "./ComplexGallery.scss";
 
 const { Title } = Typography;

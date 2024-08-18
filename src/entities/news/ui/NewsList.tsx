@@ -1,7 +1,7 @@
 import { Col, Row, Flex, Typography, Button } from "antd";
-import { NewsCard } from "./NewsCard";
 import { Container } from "../../../shared/ui/container";
 import { DiscountsCarousel } from "../../discounts";
+import { NewsCard } from "./NewsCard";
 
 const { Title } = Typography;
 

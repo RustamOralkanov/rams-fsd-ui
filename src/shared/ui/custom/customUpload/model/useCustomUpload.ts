@@ -1,6 +1,6 @@
 import { message } from "antd";
-import { UploadRequestOption } from "rc-upload/lib/interface";
 import { UploadChangeParam, UploadFile } from "antd/es/upload";
+import { UploadRequestOption } from "rc-upload/lib/interface";
 import { useState } from "react";
 
 export const useCustomUpload = (onChange?: (fileList: UploadFile[]) => void) => {

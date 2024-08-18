@@ -1,4 +1,4 @@
-import Logo from "../../../app/assets/icons/logo.svg";
+import Logo from "@assets/icons/logo.svg";
 import { APP_ROUTES } from "../../../app/constants/router";
 import { AutoTradeInIcon, InstallmentIcon, MortgageIcon, TradeInIcon } from "../../../shared/icons";
 import { Colors } from "../../../shared/types/Colors";
@@ -12,7 +12,7 @@ export const headerData = {
         },
         {
             title: "Способ покупки",
-            path: "/",
+            path: "/" + APP_ROUTES.MORTGAGE,
             children: [
                 {
                     icon: <MortgageIcon />,

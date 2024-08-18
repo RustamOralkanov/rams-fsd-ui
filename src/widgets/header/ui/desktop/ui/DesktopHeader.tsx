@@ -1,17 +1,17 @@
-import React from "react";
+import LayoutIcon from "@assets/icons/layout.svg";
+import common from "@styles/common.module.scss";
 import { Flex, Image, Tabs } from "antd";
+import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import { LangSwitch } from "../../../../../entities/lang";
 import { ChevronDownIcon, DotsIcon, FavoriteIcon, UserIcon } from "../../../../../shared/icons";
 import { Colors } from "../../../../../shared/types/Colors";
-import { LangSwitch } from "../../../../../entities/lang";
-import { useHeader } from "../../../model/useHeader";
 import { Overlay, Container } from "../../../../../shared/ui";
+import { headerData } from "../../../model/headerData";
 import { properties } from "../../../model/properties";
-import common from "../../../../../shared/styles/common.module.scss";
-import LayoutIcon from "../../../../../app/assets/icons/layout.svg";
+import { useHeader } from "../../../model/useHeader";
 
 import "./DesktopHeader.scss";
-import { headerData } from "../../../model/headerData";
 
 export const DesktopHeader = () => {
     const { links_count, showAllLinks, resetLinks, isOverlayOpen, openOverlay, closeOverlay } = useHeader();
@@ -42,13 +42,6 @@ export const DesktopHeader = () => {
                                             <NavLink to={page.path} className={"header-link"}>
                                                 {page.title}
                                             </NavLink>
-                                            <Overlay isOpen={isOverlayOpen} onClose={closeOverlay}>
-                                                <Container>
-                                                    <Flex className={[common["bg-white"], common["radius-10"], common["padding-40"]].join(" ")}>
-                                                        <Tabs items={properties} animated destroyInactiveTabPane className={common["width-full"]} />
-                                                    </Flex>
-                                                </Container>
-                                            </Overlay>
                                         </React.Fragment>
                                     );
                                 })}

@@ -1,8 +1,7 @@
-import React from "react";
 import { Flex, Input, Typography } from "antd";
 import { CheckCircleIcon } from "../../../../icons";
-import { useCustomTextArea } from "../model/useCustomTextArea";
 import { OnChangeType } from "../../customSelect/model/customSelect.model";
+import { useCustomTextArea } from "../model/useCustomTextArea";
 
 const { TextArea } = Input;
 const { Text } = Typography;

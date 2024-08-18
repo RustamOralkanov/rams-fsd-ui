@@ -1,8 +1,8 @@
+import common from "@styles/common.module.scss";
 import { Col, Flex, Row } from "antd";
-import { ParkingFilter } from "../filter/ParkingFilter";
 import { CustomSort } from "../../../../shared/ui";
 import { ParkingCard } from "../card/ParkingCard";
-import common from "../../../../shared/styles/common.module.scss";
+import { ParkingFilter } from "../filter/ParkingFilter";
 
 export const ParkingList = () => {
     return (

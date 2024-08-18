@@ -1,5 +1,5 @@
-import React, { useState } from "react";
 import { Col, Row, Slider, Typography, Flex, InputNumber, Form } from "antd";
+import React, { useState } from "react";
 import { Colors } from "../../../../types/Colors";
 import "./CustomInputRange.scss";
 

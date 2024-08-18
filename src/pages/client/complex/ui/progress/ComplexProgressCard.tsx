@@ -1,7 +1,7 @@
+import common from "@styles/common.module.scss";
 import { Flex, Typography } from "antd";
-import { CustomTag } from "../../../../../shared/ui";
-import common from "../../../../../shared/styles/common.module.scss";
 import { Colors } from "../../../../../shared/types/Colors";
+import { CustomTag } from "../../../../../shared/ui";
 
 const { Title } = Typography;
 

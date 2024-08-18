@@ -1,8 +1,8 @@
 import { Col, Row, Tabs, Flex } from "antd";
 import { Container } from "../../../shared/ui/container";
+import { ComplexBanner } from "./banner/ComplexBanner";
 import { ComplexCard } from "./card/ComplexCard";
 import { ComplexFilter } from "./filter/ComplexFilter";
-import { ComplexBanner } from "./banner/ComplexBanner";
 
 export const Complexes = () => {
     return (

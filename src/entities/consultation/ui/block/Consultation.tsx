@@ -1,9 +1,9 @@
+import ConsultationImage from "@assets/images/consultation.webp";
+import common from "@styles/common.module.scss";
 import { Col, Flex, Row, Typography, Image } from "antd";
+import { Colors } from "../../../../shared/types/Colors";
 import { Container } from "../../../../shared/ui/container";
 import { ConsultationForm } from "../form/ConsultationForm";
-import { Colors } from "../../../../shared/types/Colors";
-import ConsultationImage from "../../../../app/assets/images/consultation.webp";
-import common from "../../../../shared/styles/common.module.scss";
 import "./Consultation.scss";
 
 const { Title, Text } = Typography;

@@ -1,14 +1,14 @@
+import common from "@styles/common.module.scss";
 import { Button, Col, Flex, Row, Tag, Typography } from "antd";
-import { Container } from "../../../../shared/ui/container";
-import { Colors } from "../../../../shared/types/Colors";
+import { Consultation } from "../../../../entities/consultation";
 import { FlatCard } from "../../../../features/flats";
 import { ChevronDownIcon, FavoriteIcon, PrintIcon, ShareIcon } from "../../../../shared/icons";
-import { FlatPayments } from "./payments/FlatPayments";
-import { FlatInfo } from "./info/FlatInfo";
+import { Colors } from "../../../../shared/types/Colors";
+import { Container } from "../../../../shared/ui/container";
 import { FlatPaymentCarousel } from "./carousel/FlatPaymentCarousel";
 import { FlatImage } from "./image/FlatImage";
-import { Consultation } from "../../../../entities/consultation";
-import common from "../../../../shared/styles/common.module.scss";
+import { FlatInfo } from "./info/FlatInfo";
+import { FlatPayments } from "./payments/FlatPayments";
 
 import "./FlatPage.scss";
 

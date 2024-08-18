@@ -1,4 +1,4 @@
-import { Mortgage } from "../../../entities/payments";
+import { Installment, Mortgage } from "../../../entities/payments";
 
 export const methods = [
     {
@@ -9,7 +9,7 @@ export const methods = [
     {
         key: "installment",
         label: "Рассрочка",
-        children: <Mortgage />,
+        children: <Installment />,
     },
     {
         key: "trade-in",

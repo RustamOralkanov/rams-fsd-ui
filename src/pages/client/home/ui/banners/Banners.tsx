@@ -1,9 +1,9 @@
+import common from "@styles/common.module.scss";
 import { Button, Carousel, Col, Flex, Image, Row, Typography } from "antd";
-import { Container } from "../../../../../shared/ui/container";
 import { ArrowLeftIcon, ArrowRightIcon } from "../../../../../shared/icons";
-import { useBanners } from "../../model/useBanners";
 import { Colors } from "../../../../../shared/types/Colors";
-import common from "../../../../../shared/styles/common.module.scss";
+import { Container } from "../../../../../shared/ui/container";
+import { useBanners } from "../../model/useBanners";
 
 import "./Banners.scss";
 

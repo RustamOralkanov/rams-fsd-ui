@@ -1,6 +1,6 @@
 import { SelectProps } from "antd";
-import { ItemProps } from "./customTags.model";
 import { useState } from "react";
+import { ItemProps } from "./customTags.model";
 
 export const useCustomSelectTags = (onChange: (value: string[]) => void = () => {}) => {
     const options: ItemProps[] = [];

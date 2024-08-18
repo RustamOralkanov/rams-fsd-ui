@@ -1,4 +1,3 @@
-import React from "react";
 import { Flex, Select, Typography } from "antd";
 import { ChevronDownIcon } from "../../../../icons";
 import { ICustomSelect } from "../model/customSelect.model";
