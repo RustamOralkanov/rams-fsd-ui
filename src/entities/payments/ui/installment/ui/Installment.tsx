@@ -1,7 +1,7 @@
 import common from "@styles/common.module.scss";
 import { Col, Row, Flex, Typography, Form, FormProps, Image, Button } from "antd";
 import { Colors } from "../../../../../shared/types/Colors";
-import { CustomInputSingleRange } from "../../../../../shared/ui";
+import { CustomInputSingleRange, CustomSelectTags } from "../../../../../shared/ui";
 
 const { Text, Title } = Typography;
 
@@ -14,11 +14,18 @@ export const Installment = () => {
 
     return (
         <Row gutter={[20, 20]}>
-            <Col xxl={6} xl={6}>
-                <Flex vertical gap={30}>
-                    <Text style={{ color: Colors.gray500 }}>Приобрести квартиру в один клик! Получите полное сопровождение от специалистов по ипотеке от RAMS Qazaqstan</Text>
+            <Col xxl={8} xl={8}>
+                <Flex vertical gap={30} className="border-radius-m bg-gray-50 padding-40">
+                    <Flex vertical gap={10}>
+                        <Title level={3}>Рассчитайте рассрочку</Title>
+                        <Text style={{ color: Colors.gray500 }}>Отправьте заявку прямо сейчас и мы свяжемся с вами в ближайшее время.</Text>
+                    </Flex>
+
                     <Form name="installment" form={form} onFinish={onFinish}>
                         <Flex vertical gap={15}>
+                            <Form.Item name="complex" rules={[{ required: true }]}>
+                                <CustomSelectTags />
+                            </Form.Item>
                             <Form.Item name="price" rules={[{ required: true }]}>
                                 <CustomInputSingleRange title="Стоимость недвижимости" is_price />
                             </Form.Item>
@@ -28,21 +35,16 @@ export const Installment = () => {
                             <Form.Item name="years" rules={[{ required: true }]}>
                                 <CustomInputSingleRange title="Срок" is_year />
                             </Form.Item>
-                            <Flex justify="center" align="center">
-                                <Title level={4} style={{ margin: "15px 0" }}>
-                                    от 220 000 ₸/мес.
-                                </Title>
-                            </Flex>
-                            <Form.Item>
+                            <Form.Item style={{ marginTop: 15 }}>
                                 <Button block type="primary" htmlType="submit">
-                                    Оставить заявку
+                                    Рассчитать
                                 </Button>
                             </Form.Item>
                         </Flex>
                     </Form>
                 </Flex>
             </Col>
-            <Col xxl={18} xl={18}>
+            <Col xxl={16} xl={16}>
                 <Image
                     src="https://ramsqz.com/images/mortgage.jpg?32f2e763504f9121c21617dda13eb61e"
                     preview={false}

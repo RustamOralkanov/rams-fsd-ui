@@ -10,7 +10,7 @@ export const Payments = () => {
             <Container>
                 <Flex vertical gap={40}>
                     <Title level={2}>Способы покупки</Title>
-                    <Tabs items={methods} />
+                    <Tabs items={methods} animated />
                 </Flex>
             </Container>
         </section>

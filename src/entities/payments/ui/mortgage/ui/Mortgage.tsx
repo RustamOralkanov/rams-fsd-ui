@@ -14,8 +14,8 @@ export const Mortgage = () => {
 
     return (
         <Row gutter={[20, 20]}>
-            <Col xxl={6} xl={6}>
-                <Flex vertical gap={30}>
+            <Col xxl={8} xl={8}>
+                <Flex vertical gap={30} className="bg-gray-50 padding-40 border-radius-m">
                     <Text style={{ color: Colors.gray500 }}>Приобрести квартиру в один клик! Получите полное сопровождение от специалистов по ипотеке от RAMS Qazaqstan</Text>
                     <Form name="mortgage" form={form} onFinish={onFinish}>
                         <Flex vertical gap={15}>
@@ -42,12 +42,12 @@ export const Mortgage = () => {
                     </Form>
                 </Flex>
             </Col>
-            <Col xxl={18} xl={18}>
+            <Col xxl={16} xl={16}>
                 <Image
                     src="https://ramsqz.com/images/mortgage.jpg?32f2e763504f9121c21617dda13eb61e"
                     preview={false}
                     height={"100%"}
-                    className={[common.cover, common["radius-20"]].join(" ")}
+                    className={[common.cover, "border-radius-m"].join(" ")}
                 />
             </Col>
         </Row>

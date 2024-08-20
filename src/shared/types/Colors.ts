@@ -29,4 +29,5 @@ export enum Colors {
     warning500 = "#F59E0B",
     warning600 = "#D97706",
     commerce = "#152243",
+    grey = "grey",
 }

@@ -26,3 +26,6 @@ export { MortgageIcon } from "./ui/MortgageIcon";
 export { InstallmentIcon } from "./ui/InstallmentIcon";
 export { TradeInIcon } from "./ui/TradeInIcon";
 export { AutoTradeInIcon } from "./ui/AutoTradeInIcon";
+export { MinusIcon } from "./ui/MinusIcon";
+export { PlusIcon } from "./ui/PlusIcon";
+export { PlayIcon } from "./ui/PlayIcon";

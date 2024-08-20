@@ -5,5 +5,8 @@ export const APP_ROUTES = {
     FACING: "facing",
     MORTGAGE: "mortagage",
     INSTALLMENT: "installment",
+    TRADE_IN: "trade-in",
+    AUTO_TRADE_IN: "auto-trade-in",
     ABOUT: "about",
+    FAVORITES: "favorites",
 };

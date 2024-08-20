@@ -20,10 +20,10 @@
     }
 
     &-wrapper {
-        border-bottom: 1px solid $gray100;
         padding-bottom: 50px;
 
         &-bottom {
+            border-top: 1px solid $gray100;
             padding-top: 50px;
         }
     }

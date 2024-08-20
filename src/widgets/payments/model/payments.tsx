@@ -1,4 +1,4 @@
-import { Installment, Mortgage } from "../../../entities/payments";
+import { AutoTradeIn, Installment, Mortgage, TradeIn } from "../../../entities/payments";
 
 export const methods = [
     {
@@ -14,11 +14,11 @@ export const methods = [
     {
         key: "trade-in",
         label: "Trade-in",
-        children: <Mortgage />,
+        children: <TradeIn />,
     },
     {
         key: "auto-trade-in",
         label: "Auto Trade-in",
-        children: <Mortgage />,
+        children: <AutoTradeIn />,
     },
 ];

@@ -1,0 +1,16 @@
+.payment-process {
+    overflow: hidden;
+    &-carousel {
+        margin: 0 -10px;
+        width: 100vw;
+    }
+    &-item {
+        padding: 40px;
+        border-radius: 16px;
+        background-color: $gray50;
+        width: 295px;
+        margin: 0 10px;
+        user-select: none;
+        height: 414px;
+    }
+}

@@ -54,7 +54,7 @@ export const headerData = {
         },
         {
             title: "Чистовая отделка",
-            path: "/",
+            path: "/" + APP_ROUTES.FACING,
         },
         {
             title: "Партнерам",

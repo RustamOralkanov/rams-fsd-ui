@@ -121,7 +121,7 @@
             "colorBorder": "rgb(245, 248, 247)",
             "colorText": "rgb(46, 49, 48)",
             "colorTextHeading": "rgb(46, 49, 48)",
-            "headerPadding": "15px 30px",
+            "headerPadding": "15px 15px 15px 30px",
             "contentPadding": "10px 30px 20px"
         },
         "Popover": {

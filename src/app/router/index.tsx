@@ -1,10 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
 import { Complexes } from "../../features/complexes";
 import { ComplexPage } from "../../pages/client/complex";
+import { FacingPage } from "../../pages/client/facing";
+import { FavoritesPage } from "../../pages/client/favorites";
 import { FlatPage } from "../../pages/client/flat";
 import { FlatsPage } from "../../pages/client/flats";
 import { HomePage } from "../../pages/client/home";
-import { InstallmentPage, MortgagePage } from "../../pages/client/payments";
+import { AutoTradeInPage, InstallmentPage, MortgagePage, TradeInPage } from "../../pages/client/payments";
 import { APP_ROUTES } from "../constants/router";
 import { BreadcrumbsLayout, MainLayout } from "../layouts/home";
 
@@ -57,6 +59,42 @@ const router = createBrowserRouter([
                             {
                                 index: true,
                                 element: <InstallmentPage />,
+                            },
+                        ],
+                    },
+                    {
+                        path: APP_ROUTES.TRADE_IN,
+                        children: [
+                            {
+                                index: true,
+                                element: <TradeInPage />,
+                            },
+                        ],
+                    },
+                    {
+                        path: APP_ROUTES.AUTO_TRADE_IN,
+                        children: [
+                            {
+                                index: true,
+                                element: <AutoTradeInPage />,
+                            },
+                        ],
+                    },
+                    {
+                        path: APP_ROUTES.FAVORITES,
+                        children: [
+                            {
+                                index: true,
+                                element: <FavoritesPage />,
+                            },
+                        ],
+                    },
+                    {
+                        path: APP_ROUTES.FACING,
+                        children: [
+                            {
+                                index: true,
+                                element: <FacingPage />,
                             },
                         ],
                     },

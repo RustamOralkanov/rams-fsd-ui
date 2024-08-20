@@ -239,3 +239,76 @@ template {
         opacity: 1;
     }
 }
+
+.bg {
+    &-gray {
+        &-50 {
+            background-color: $gray50;
+        }
+    }
+    &-green {
+        &-400 {
+            background-color: $green400;
+        }
+    }
+}
+
+.border-radius {
+    &-xs {
+        border-radius: 4px;
+    }
+    &-m {
+        border-radius: 12px;
+    }
+    &-l {
+        border-radius: 16px;
+    }
+}
+
+.height {
+    &-full {
+        height: 100%;
+    }
+}
+
+.color {
+    &-white {
+        color: $white !important;
+    }
+
+    &-green {
+        &-300 {
+            color: $green300 !important;
+        }
+    }
+
+    &-gray {
+        &-500 {
+            color: $gray500 !important;
+        }
+    }
+}
+
+.padding {
+    &-10 {
+        padding: 10px;
+    }
+    &-20 {
+        padding: 20px;
+    }
+    &-30 {
+        padding: 30px;
+    }
+    &-40 {
+        padding: 40px;
+    }
+}
+
+.object {
+    &-cover {
+        object-fit: cover;
+    }
+    &-contain {
+        object-fit: contain;
+    }
+}

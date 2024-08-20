@@ -1,0 +1,37 @@
+.custom-select {
+    .ant {
+        &-select {
+            background-color: #ffffff;
+            border-radius: 8px;
+            transition: all 0.3s ease-in-out;
+            &-open {
+                background-color: #f5f8f7 !important;
+
+                .ant-select-arrow {
+                    transform: scale(-1, -1) !important;
+                }
+            }
+            &-selector {
+                z-index: 2;
+                background-color: unset !important;
+            }
+            &-arrow {
+                z-index: 1;
+            }
+            &-selection {
+                &-item {
+                    height: 33px;
+                }
+                &-placeholder {
+                    height: 33px;
+                    font-weight: 600;
+                    color: #2e3130 !important;
+                }
+            }
+        }
+    }
+
+    &:hover {
+        background-color: #cfd2d1;
+    }
+}

@@ -3,6 +3,7 @@ import common from "@styles/common.module.scss";
 import { Flex, Image, Tabs } from "antd";
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import { APP_ROUTES } from "../../../../../app/constants/router";
 import { LangSwitch } from "../../../../../entities/lang";
 import { ChevronDownIcon, DotsIcon, FavoriteIcon, UserIcon } from "../../../../../shared/icons";
 import { Colors } from "../../../../../shared/types/Colors";
@@ -59,9 +60,11 @@ export const DesktopHeader = () => {
                             {headerData.phone}
                         </a>
                         <Flex gap={5} align="center">
-                            <Flex justify="center" align="center" className="header-icon active">
-                                <FavoriteIcon style={{ color: Colors.gray600 }} />
-                            </Flex>
+                            <Link to={"/" + APP_ROUTES.FAVORITES}>
+                                <Flex justify="center" align="center" className="header-icon active">
+                                    <FavoriteIcon style={{ color: Colors.gray600 }} />
+                                </Flex>
+                            </Link>
                             <Flex justify="center" align="center" className="header-icon">
                                 <UserIcon style={{ color: Colors.gray600 }} />
                             </Flex>

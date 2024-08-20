@@ -13,3 +13,4 @@ export { CustomSort } from "./custom/customSort/index";
 export { Overlay } from "./overlay/index";
 export { Container } from "./container/index";
 export { ClearButton } from "./button/clear/index";
+export { Banner } from "./banner/index";
