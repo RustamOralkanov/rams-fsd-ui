@@ -1,4 +1,5 @@
+import { ReactNode } from "react";
+
 export interface IBanner {
-    is_button?: boolean;
-    is_text?: boolean;
+    readonly children?: ReactNode;
 }

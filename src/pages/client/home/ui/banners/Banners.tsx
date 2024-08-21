@@ -1,8 +1,10 @@
 import common from "@styles/common.module.scss";
 import { Button, Carousel, Col, Flex, Image, Row, Typography } from "antd";
+import { Link } from "react-router-dom";
 import { ArrowLeftIcon, ArrowRightIcon } from "../../../../../shared/icons";
 import { Colors } from "../../../../../shared/types/Colors";
 import { Container } from "../../../../../shared/ui/container";
+import { useGetHomeBannersQuery } from "../../api/banners.api";
 import { useBanners } from "../../model/useBanners";
 
 import "./Banners.scss";
@@ -11,32 +13,38 @@ const { Title, Text, Paragraph } = Typography;
 
 export const Banners = () => {
     const { carouselRef, prevSlide, nextSlide } = useBanners();
+    const { data: banners, isSuccess } = useGetHomeBannersQuery("");
 
     return (
         <section>
             <Container>
                 <Row gutter={[20, 20]}>
                     <Col xxl={16} xl={16} lg={16}>
-                        <Carousel
-                            ref={carouselRef}
-                            fade
-                            autoplay
-                            draggable
-                            autoplaySpeed={5000}
-                            className={[common.hidden, common["radius-16"], "banners"].join(" ")}
-                            style={{ aspectRatio: "82 / 45" }}
-                        >
-                            {[...Array(3)].map((_, index) => (
-                                <Flex key={index}>
-                                    <Image
-                                        src="https://ramsqz.com/storage/banners/NFKRyuFElpEssGjzy27eVLXliJRACq5eMZwwS2uO.jpg"
-                                        preview={false}
-                                        key={index}
-                                        style={{ aspectRatio: "82 / 45", objectFit: "cover" }}
-                                    />
-                                </Flex>
-                            ))}
-                        </Carousel>
+                        {isSuccess && (
+                            <Carousel
+                                ref={carouselRef}
+                                fade
+                                autoplay
+                                draggable
+                                autoplaySpeed={5000}
+                                className={[common.hidden, common["radius-16"], "banners", "bg-gray-50"].join(" ")}
+                                style={{ aspectRatio: "82 / 45" }}
+                            >
+                                {banners
+                                    .filter((banner) => banner.mobile !== 1)
+                                    .map((banner) => (
+                                        <Flex key={banner.id}>
+                                            <Link to={banner.link}>
+                                                <Image
+                                                    src={import.meta.env.VITE_API_URL + banner.info.image}
+                                                    preview={false}
+                                                    style={{ aspectRatio: "82 / 45", objectFit: "cover" }}
+                                                />
+                                            </Link>
+                                        </Flex>
+                                    ))}
+                            </Carousel>
+                        )}
                     </Col>
                     <Col xl={8} lg={8}>
                         <Flex vertical className={[common["bg-gray50"], common["radius-16"], common["height-full"], common["padding-40"]].join(" ")} justify="space-between">

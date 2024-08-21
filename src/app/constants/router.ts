@@ -9,4 +9,5 @@ export const APP_ROUTES = {
     AUTO_TRADE_IN: "auto-trade-in",
     ABOUT: "about",
     FAVORITES: "favorites",
+    PARTNERS: "partners",
 };

@@ -1,10 +1,7 @@
-import { Button, Flex, Image, Typography } from "antd";
-import { Colors } from "../../../types/Colors";
+import { Flex, Image } from "antd";
 import { IBanner } from "../model/banner.model";
 
-const { Title } = Typography;
-
-export const Banner: React.FC<IBanner> = ({ is_button = true, is_text = true }) => {
+export const Banner: React.FC<IBanner> = ({ children }) => {
     return (
         <Flex className="payment-banner" align="center">
             <Flex className="payment-banner-image">
@@ -17,16 +14,7 @@ export const Banner: React.FC<IBanner> = ({ is_button = true, is_text = true }) 
                 />
             </Flex>
             <Flex vertical className="payment-banner-wrapper" gap={30}>
-                {is_text && (
-                    <Title level={1} style={{ color: Colors.white }}>
-                        Максимально выгодные программы ипотеки
-                    </Title>
-                )}
-                {is_button && (
-                    <Button type="primary" style={{ width: "fit-content" }}>
-                        Оставить заявку
-                    </Button>
-                )}
+                {children}
             </Flex>
         </Flex>
     );

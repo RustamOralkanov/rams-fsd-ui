@@ -1,0 +1,11 @@
+.facing-tour {
+    &-wrapper {
+        position: relative;
+    }
+    &-select {
+        top: 0;
+        right: 0;
+        position: absolute;
+        outline: 20px solid $white;
+    }
+}
