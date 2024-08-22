@@ -10,7 +10,7 @@ export const PartnersBanner = () => {
             <Container>
                 <Row gutter={[20, 20]}>
                     <Col xl={16}>
-                        <Banner>
+                        <Banner src="https://ramsqz.com/images/partners-banner.webp?0d507b759f666f0d2cc8b6ec7f806439">
                             <Title level={1} className="color-white">
                                 Откройте для себя новые возможности бизнеса в сфере недвижимости
                             </Title>

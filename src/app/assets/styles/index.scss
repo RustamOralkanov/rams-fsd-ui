@@ -208,6 +208,18 @@ template {
     }
 }
 
+.solid-white-button {
+    border-color: $white;
+    color: $gray900;
+    background-color: $white !important;
+
+    &:hover {
+        border-color: $green300 !important;
+        background-color: $green300 !important;
+        color: $white !important;
+    }
+}
+
 .arrow-button {
     border-color: $white;
     color: $gray900;
@@ -250,8 +262,14 @@ template {
         }
     }
     &-green {
+        &-300 {
+            background-color: $green300;
+        }
         &-400 {
             background-color: $green400;
+        }
+        &-500 {
+            background-color: $green500;
         }
     }
 }
@@ -289,12 +307,30 @@ template {
         &-300 {
             color: $green300 !important;
         }
+        &-500 {
+            color: $green500 !important;
+        }
     }
 
     &-gray {
         &-500 {
             color: $gray500 !important;
         }
+    }
+
+    &-gold {
+        &-500 {
+            color: $gold500 !important;
+        }
+    }
+}
+
+.position {
+    &-absolute {
+        position: absolute;
+    }
+    &-relative {
+        position: relative;
     }
 }
 
@@ -310,6 +346,12 @@ template {
     }
     &-40 {
         padding: 40px;
+    }
+    &-50 {
+        padding: 50px;
+    }
+    &-60 {
+        padding: 60px;
     }
 }
 
@@ -330,6 +372,14 @@ template {
     letter-spacing: -0.01em;
 }
 
+.description-s {
+    font-family: "TT Interfaces";
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+}
+
 .width {
     &-fit {
         width: fit-content;
@@ -342,5 +392,12 @@ template {
     &-50 {
         width: 50px;
         height: 50px;
+    }
+}
+.border {
+    &-gray {
+        &-100 {
+            border: 1px solid $gray100;
+        }
     }
 }

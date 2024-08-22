@@ -1,0 +1,15 @@
+.partners-process {
+    &-item {
+        padding: 30px 40px;
+        border-radius: 12px;
+        background-color: $gray50;
+        &-divider {
+            height: 40px;
+            width: 1px;
+            background-color: $gray100;
+        }
+        &-desc {
+            max-width: 280px;
+        }
+    }
+}

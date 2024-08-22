@@ -51,7 +51,7 @@ export const headerData = {
         },
         {
             title: "Компания",
-            path: "/",
+            path: "/" + APP_ROUTES.ABOUT,
         },
         {
             title: "Коммерческие помещения",

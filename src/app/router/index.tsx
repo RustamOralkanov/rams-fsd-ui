@@ -1,13 +1,14 @@
 import { createBrowserRouter } from "react-router-dom";
-import { Complexes } from "../../features/complexes";
-import { ComplexPage } from "../../pages/client/complex";
-import { FacingPage } from "../../pages/client/facing";
-import { FavoritesPage } from "../../pages/client/favorites";
-import { FlatPage } from "../../pages/client/flat";
-import { FlatsPage } from "../../pages/client/flats";
-import { HomePage } from "../../pages/client/home";
-import { PartnersPage } from "../../pages/client/partners";
-import { AutoTradeInPage, InstallmentPage, MortgagePage, TradeInPage } from "../../pages/client/payments";
+import { AboutPage } from "@/pages/client/about";
+import { ComplexPage } from "@/pages/client/complex";
+import { FacingPage } from "@/pages/client/facing";
+import { FavoritesPage } from "@/pages/client/favorites";
+import { FlatPage } from "@/pages/client/flat";
+import { FlatsPage } from "@/pages/client/flats";
+import { HomePage } from "@/pages/client/home";
+import { PartnersPage } from "@/pages/client/partners";
+import { AutoTradeInPage, InstallmentPage, MortgagePage, TradeInPage } from "@/pages/client/payments";
+import { Complexes } from "@/features/complexes";
 import { APP_ROUTES } from "../constants/router";
 import { BreadcrumbsLayout, MainLayout } from "../layouts/home";
 
@@ -67,6 +68,10 @@ const router = createBrowserRouter([
                     {
                         path: APP_ROUTES.PARTNERS,
                         children: [{ index: true, element: <PartnersPage /> }],
+                    },
+                    {
+                        path: APP_ROUTES.ABOUT,
+                        children: [{ index: true, element: <AboutPage /> }],
                     },
                 ],
             },
