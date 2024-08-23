@@ -10,4 +10,7 @@ export const APP_ROUTES = {
     ABOUT: "about",
     FAVORITES: "favorites",
     PARTNERS: "partners",
+    NEWS: "news",
+    FMS: "fms",
+    CAREER: "career",
 };

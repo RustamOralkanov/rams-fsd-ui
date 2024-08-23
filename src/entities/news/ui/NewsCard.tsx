@@ -19,7 +19,7 @@ export const NewsCard = () => {
                 />
             </Flex>
             <Flex vertical gap={20}>
-                <Title level={3} style={{ height: 90 }} ellipsis={{ rows: 3 }}>
+                <Title level={3} style={{ height: 60 }} ellipsis={{ rows: 2 }}>
                     Quisque efficitur suscipit velit nec dignissim
                 </Title>
                 <Text style={{ color: Colors.gray600, fontSize: 12 }}>16 сентября 2022</Text>

@@ -47,7 +47,7 @@ export const headerData = {
         },
         {
             title: "Новости и акции",
-            path: "/",
+            path: "/" + APP_ROUTES.NEWS,
         },
         {
             title: "Компания",
@@ -67,7 +67,7 @@ export const headerData = {
         },
         {
             title: "RAMS FMS",
-            path: "/",
+            path: "/" + APP_ROUTES.FMS,
         },
     ],
     phone: "8 727 222-44-44",

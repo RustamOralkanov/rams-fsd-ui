@@ -310,6 +310,9 @@ template {
         &-500 {
             color: $green500 !important;
         }
+        &-600 {
+            color: $green600 !important;
+        }
     }
 
     &-gray {
@@ -375,6 +378,14 @@ template {
 .description-s {
     font-family: "TT Interfaces";
     font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+}
+
+.description-m {
+    font-family: "TT Interfaces";
+    font-size: 12px;
     font-weight: 400;
     line-height: 16px;
     letter-spacing: -0.01em;

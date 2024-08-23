@@ -29,3 +29,4 @@ export { AutoTradeInIcon } from "./ui/AutoTradeInIcon";
 export { MinusIcon } from "./ui/MinusIcon";
 export { PlusIcon } from "./ui/PlusIcon";
 export { PlayIcon } from "./ui/PlayIcon";
+export { PhoneInIcon } from "./ui/PhoneInIcon";
