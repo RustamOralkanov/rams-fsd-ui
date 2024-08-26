@@ -1,0 +1,111 @@
+.contact-sales {
+    &-card {
+        cursor: pointer;
+        &.active {
+            background-color: $green500;
+
+            *:not(.custom-tag-text) {
+                color: $white !important;
+            }
+        }
+
+        .white-button {
+            height: 36px;
+
+            &:hover {
+                color: $gray900 !important;
+            }
+        }
+
+        &-title {
+            padding-right: 30px;
+        }
+    }
+
+    .map-tooltip {
+        height: 60px;
+        width: max-content;
+        border-radius: 8px;
+        padding: 5px 10px 5px 5px;
+        background-color: $gray900;
+        transform: translate(-60px, -20px);
+        display: flex;
+        gap: 10px;
+        cursor: pointer;
+        position: relative;
+
+        &:after {
+            position: absolute;
+            bottom: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            content: "";
+            display: block;
+            width: 24px;
+            height: 12px;
+            background: url("../../../../../app/assets/icons/dialog-tail.svg") center center/cover no-repeat;
+        }
+
+        &-title {
+            font-family: "TT Interfaces";
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            color: $white;
+        }
+
+        &-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        &-bottom {
+            display: flex;
+            gap: 6px;
+            align-items: center;
+        }
+
+        &-class {
+            background-color: $gray50;
+            height: 18px;
+            padding: 0 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "TT Interfaces";
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: -0.01em;
+            color: $gray500;
+            border-radius: 50px;
+        }
+
+        &-chevron {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #f5f8f71a;
+        }
+
+        &-image {
+            width: 50px;
+            height: 50px;
+            border-radius: 8px;
+            flex: 1 0 auto;
+
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 8px;
+                object-fit: cover;
+            }
+        }
+    }
+}

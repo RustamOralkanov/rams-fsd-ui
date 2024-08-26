@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import { AboutPage } from "@/pages/client/about";
 import { CareerPage } from "@/pages/client/career";
 import { ComplexPage } from "@/pages/client/complex";
+import { ContactsPage } from "@/pages/client/contacts";
 import { FacingPage } from "@/pages/client/facing";
 import { FavoritesPage } from "@/pages/client/favorites";
 import { FlatPage } from "@/pages/client/flat";
@@ -83,6 +84,10 @@ const router = createBrowserRouter([
                     {
                         path: APP_ROUTES.CAREER,
                         children: [{ index: true, element: <CareerPage /> }],
+                    },
+                    {
+                        path: APP_ROUTES.CONTACTS,
+                        children: [{ index: true, element: <ContactsPage /> }],
                     },
                     {
                         path: APP_ROUTES.NEWS,

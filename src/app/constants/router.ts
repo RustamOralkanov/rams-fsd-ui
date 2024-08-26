@@ -13,4 +13,5 @@ export const APP_ROUTES = {
     NEWS: "news",
     FMS: "fms",
     CAREER: "career",
+    CONTACTS: "contacts",
 };

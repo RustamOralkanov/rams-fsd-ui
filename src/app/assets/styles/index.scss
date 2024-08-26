@@ -316,6 +316,12 @@ template {
     }
 
     &-gray {
+        &-50 {
+            color: $gray50 !important;
+        }
+        &-100 {
+            color: $gray100 !important;
+        }
         &-500 {
             color: $gray500 !important;
         }

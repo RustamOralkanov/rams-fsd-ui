@@ -24,4 +24,13 @@
     &.title {
         background: #3b82f6;
     }
+    &.gray {
+        background: #f5f8f7;
+        border-radius: 50px;
+
+        .custom-tag-text {
+            color: #2e3130;
+            font-weight: 400 !important;
+        }
+    }
 }

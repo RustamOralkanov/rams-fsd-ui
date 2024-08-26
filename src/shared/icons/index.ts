@@ -30,3 +30,5 @@ export { MinusIcon } from "./ui/MinusIcon";
 export { PlusIcon } from "./ui/PlusIcon";
 export { PlayIcon } from "./ui/PlayIcon";
 export { PhoneInIcon } from "./ui/PhoneInIcon";
+export { PhoneIcon } from "./ui/PhoneIcon";
+export { MailIcon } from "./ui/MailIcon";
