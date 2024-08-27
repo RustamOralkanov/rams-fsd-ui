@@ -1,6 +1,6 @@
 import { Col, Flex, Image, Row, Typography } from "antd";
 import { Container } from "@/shared/ui";
-import { aboutFeatures } from "../../model/about.data";
+import { aboutFeatures } from "../../../model/about.data";
 
 const { Text, Title } = Typography;
 

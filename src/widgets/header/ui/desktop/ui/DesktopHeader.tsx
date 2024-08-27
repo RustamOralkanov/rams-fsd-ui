@@ -3,10 +3,10 @@ import common from "@styles/common.module.scss";
 import { Col, Flex, Image, Row, Tabs, Typography } from "antd";
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import { Colors } from "@/shared/types/Colors";
 import { APP_ROUTES } from "../../../../../app/constants/router";
 import { LangSwitch } from "../../../../../entities/lang";
 import { ChevronDownIcon, DotsIcon, FavoriteIcon, UserIcon } from "../../../../../shared/icons";
-import { Colors } from "../../../../../shared/types/Colors";
 import { Overlay, Container } from "../../../../../shared/ui";
 import { headerData } from "../../../model/headerData";
 import { properties } from "../../../model/properties";
@@ -48,7 +48,7 @@ export const DesktopHeader = () => {
                                             onMouseEnter={() => {
                                                 if (page.children) {
                                                     openOverlay();
-                                                    set_current_button(page.key);
+                                                    set_current_button(page.key!);
                                                 } else {
                                                     return null;
                                                 }
@@ -93,6 +93,43 @@ export const DesktopHeader = () => {
                         <Flex className={[common["bg-white"], common["radius-10"], common["padding-40"]].join(" ")}>
                             <Tabs items={properties} animated destroyInactiveTabPane className={common["width-full"]} />
                         </Flex>
+                    )}
+                    {current_button === "about" && (
+                        <Row gutter={10}>
+                            <Col xl={16}>
+                                <Row gutter={[10, 10]}>
+                                    {headerData.pages
+                                        .filter((page) => page.key === APP_ROUTES.ABOUT)
+                                        .map((page) => {
+                                            return page.children?.slice(0, 6).map((child, index) => (
+                                                <Col xl={8} key={index}>
+                                                    <Link to={child.path}>
+                                                        <Flex vertical className="padding-20 bg-gray-50 border-radius-s about-link" style={{ height: 155 }} justify="flex-end">
+                                                            <Flex vertical gap={5}>
+                                                                <Title level={5}>{child.title}</Title>
+                                                                <Text className="description-m color-gray-500">{child.text}</Text>
+                                                            </Flex>
+                                                        </Flex>
+                                                    </Link>
+                                                </Col>
+                                            ));
+                                        })}
+                                </Row>
+                            </Col>
+                            <Col xl={8}>
+                                <Flex vertical className="height-full border-radius-s padding-40" justify="space-between" style={{ background: "#4C9FAF" }}>
+                                    <Image src="http://localhost:8000/src/app/assets/icons/fms-logo.svg" width={133} preview={false} />
+                                    <Flex vertical gap={10}>
+                                        <Title level={2} className="color-white">
+                                            RAMS FMS
+                                        </Title>
+                                        <Text className="color-white description-m">
+                                            Команда RAMS FMS сделает ваш дом чистым и исправным. Именно мы будем поддерживать работу каждой детали в вашем жилом комплексе.{" "}
+                                        </Text>
+                                    </Flex>
+                                </Flex>
+                            </Col>
+                        </Row>
                     )}
                     {current_button === "payments" && (
                         <Row gutter={10}>

@@ -1,6 +1,6 @@
 import RamsLogo from "@assets/icons/logo-color.svg";
 import { Button, Col, Flex, Image, Row, Typography } from "antd";
-import { Banner, Container } from "../../../../../shared/ui";
+import { Banner, Container } from "@/shared/ui";
 
 const { Title, Text } = Typography;
 

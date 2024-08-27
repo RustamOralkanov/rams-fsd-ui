@@ -1,0 +1,18 @@
+.media-card {
+    height: 290px;
+    cursor: pointer;
+    transition: $transition;
+
+    * {
+        transition: $transition;
+    }
+
+    &:hover {
+        background-color: $gray50;
+        border-color: $gray50;
+
+        * {
+            color: $gray500;
+        }
+    }
+}

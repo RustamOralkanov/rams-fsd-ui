@@ -14,4 +14,7 @@ export const APP_ROUTES = {
     FMS: "fms",
     CAREER: "career",
     CONTACTS: "contacts",
+    SUPPORT: "support",
+    MEDIA: "media",
+    DEVELOPMENT: "development",
 };

@@ -411,10 +411,17 @@ template {
         height: 50px;
     }
 }
+
 .border {
     &-gray {
         &-100 {
             border: 1px solid $gray100;
         }
+    }
+}
+
+.cursor {
+    &-pointer {
+        cursor: pointer;
     }
 }

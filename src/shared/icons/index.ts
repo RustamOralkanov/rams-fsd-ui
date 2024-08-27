@@ -32,3 +32,4 @@ export { PlayIcon } from "./ui/PlayIcon";
 export { PhoneInIcon } from "./ui/PhoneInIcon";
 export { PhoneIcon } from "./ui/PhoneIcon";
 export { MailIcon } from "./ui/MailIcon";
+export { ForwardIcon } from "./ui/ForwardIcon";

@@ -1,16 +1,13 @@
 import { createBrowserRouter } from "react-router-dom";
-import { AboutPage } from "@/pages/client/about";
-import { CareerPage } from "@/pages/client/career";
+import { AboutPage, ContactsPage, DevelopmentPage, FMSPage, MediaPage, PartnersPage, SupportPage } from "@/pages/client/about";
+import { CareerPage } from "@/pages/client/about/ui/career";
 import { ComplexPage } from "@/pages/client/complex";
-import { ContactsPage } from "@/pages/client/contacts";
 import { FacingPage } from "@/pages/client/facing";
 import { FavoritesPage } from "@/pages/client/favorites";
 import { FlatPage } from "@/pages/client/flat";
 import { FlatsPage } from "@/pages/client/flats";
-import { FMSPage } from "@/pages/client/fms/ui/FMSPage";
 import { HomePage } from "@/pages/client/home";
 import { NewsDetailsPage, NewsPage } from "@/pages/client/news";
-import { PartnersPage } from "@/pages/client/partners";
 import { AutoTradeInPage, InstallmentPage, MortgagePage, TradeInPage } from "@/pages/client/payments";
 import { Complexes } from "@/features/complexes";
 import { APP_ROUTES } from "../constants/router";
@@ -70,24 +67,17 @@ const router = createBrowserRouter([
                         children: [{ index: true, element: <FacingPage /> }],
                     },
                     {
-                        path: APP_ROUTES.PARTNERS,
-                        children: [{ index: true, element: <PartnersPage /> }],
-                    },
-                    {
                         path: APP_ROUTES.ABOUT,
-                        children: [{ index: true, element: <AboutPage /> }],
-                    },
-                    {
-                        path: APP_ROUTES.FMS,
-                        children: [{ index: true, element: <FMSPage /> }],
-                    },
-                    {
-                        path: APP_ROUTES.CAREER,
-                        children: [{ index: true, element: <CareerPage /> }],
-                    },
-                    {
-                        path: APP_ROUTES.CONTACTS,
-                        children: [{ index: true, element: <ContactsPage /> }],
+                        children: [
+                            { index: true, element: <AboutPage /> },
+                            { path: APP_ROUTES.FMS, element: <FMSPage /> },
+                            { path: APP_ROUTES.CAREER, element: <CareerPage /> },
+                            { path: APP_ROUTES.CONTACTS, element: <ContactsPage /> },
+                            { path: APP_ROUTES.SUPPORT, element: <SupportPage /> },
+                            { path: APP_ROUTES.PARTNERS, element: <PartnersPage /> },
+                            { path: APP_ROUTES.MEDIA, element: <MediaPage /> },
+                            { path: APP_ROUTES.DEVELOPMENT, element: <DevelopmentPage /> },
+                        ],
                     },
                     {
                         path: APP_ROUTES.NEWS,

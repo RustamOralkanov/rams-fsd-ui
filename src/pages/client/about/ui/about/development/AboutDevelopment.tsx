@@ -1,5 +1,7 @@
 import AboutDevelopmentImage from "@assets/images/about/about-development.webp";
 import { Button, Col, Flex, Image, Row, Typography } from "antd";
+import { Link } from "react-router-dom";
+import { APP_ROUTES } from "@/app/constants/router";
 import { Container } from "@/shared/ui";
 
 import "./AboutDevelopment.scss";
@@ -22,7 +24,9 @@ export const AboutDevelopment = () => {
                                 Строительство несет повышенную эконагрузку, поэтому компания RAMS выстраивает процессы так, чтобы потребление в процессе строительства и дальнейшей
                                 эксплуатации объектов планировалось и реализовывалось с учетом будущего и без нанесения урона ресурсам планеты и экологии.
                             </Text>
-                            <Button className="solid-white-button width-fit">Узнать подробнее</Button>
+                            <Link to={APP_ROUTES.DEVELOPMENT}>
+                                <Button className="solid-white-button width-fit">Узнать подробнее</Button>
+                            </Link>
                         </Flex>
                     </Col>
                 </Row>
