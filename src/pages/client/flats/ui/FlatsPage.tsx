@@ -4,8 +4,6 @@ import { ParkingList } from "../../../../features/parking";
 import { StorageList } from "../../../../features/storage";
 import { Container } from "../../../../shared/ui/container";
 
-import "./FlatsPage.scss";
-
 export const FlatsPage = () => {
     return (
         <section>

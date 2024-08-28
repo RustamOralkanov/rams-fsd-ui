@@ -1,0 +1,3957 @@
+{
+    "pantries": {
+        "-1": {
+            "0": {
+                "id": 180,
+                "complex_id": 59,
+                "property_id": 33576,
+                "type": "pantry",
+                "area": 2.4,
+                "section": 1,
+                "floor": -1,
+                "price": 1200000,
+                "parking_plan": {
+                    "id": 178,
+                    "property_id": 33576,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1016.015625,
+                            "y": 2022.640625
+                        },
+                        {
+                            "x": 1097.015625,
+                            "y": 2022.640625
+                        },
+                        {
+                            "x": 1097.015625,
+                            "y": 2086.640625
+                        },
+                        {
+                            "x": 1015.015625,
+                            "y": 2086.640625
+                        }
+                    ]
+                }
+            },
+            "1": {
+                "id": 181,
+                "complex_id": 59,
+                "property_id": 33577,
+                "type": "pantry",
+                "area": 2,
+                "section": 1,
+                "floor": -1,
+                "price": 1000000,
+                "parking_plan": {
+                    "id": 179,
+                    "property_id": 33577,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1097.015625,
+                            "y": 2086.640625
+                        },
+                        {
+                            "x": 1097.015625,
+                            "y": 2142.640625
+                        },
+                        {
+                            "x": 1013.015625,
+                            "y": 2142.640625
+                        },
+                        {
+                            "x": 1013.015625,
+                            "y": 2086.640625
+                        }
+                    ]
+                }
+            },
+            "2": {
+                "id": 182,
+                "complex_id": 59,
+                "property_id": 33578,
+                "type": "pantry",
+                "area": 3,
+                "section": 1,
+                "floor": -1,
+                "price": 1500000,
+                "parking_plan": {
+                    "id": 180,
+                    "property_id": 33578,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1013.015625,
+                            "y": 2194.640625
+                        },
+                        {
+                            "x": 1013.015625,
+                            "y": 2269.640625
+                        },
+                        {
+                            "x": 1099.015625,
+                            "y": 2269.640625
+                        },
+                        {
+                            "x": 1099.015625,
+                            "y": 2194.640625
+                        }
+                    ]
+                }
+            },
+            "3": {
+                "id": 183,
+                "complex_id": 59,
+                "property_id": 33580,
+                "type": "pantry",
+                "area": 4.5,
+                "section": 1,
+                "floor": -1,
+                "price": 2250000,
+                "parking_plan": {
+                    "id": 181,
+                    "property_id": 33580,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 953.12506103516,
+                            "y": 1686.2362060547
+                        },
+                        {
+                            "x": 1073.1250610352,
+                            "y": 1686.2362060547
+                        },
+                        {
+                            "x": 1073.1250610352,
+                            "y": 1769.2362060547
+                        },
+                        {
+                            "x": 953.12506103516,
+                            "y": 1769.2362060547
+                        }
+                    ]
+                }
+            },
+            "4": {
+                "id": 184,
+                "complex_id": 59,
+                "property_id": 33581,
+                "type": "pantry",
+                "area": 6.1,
+                "section": 1,
+                "floor": -1,
+                "price": 3050000,
+                "parking_plan": {
+                    "id": 182,
+                    "property_id": 33581,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1499.1428833008,
+                            "y": 1691.4018554688
+                        },
+                        {
+                            "x": 1499.1428833008,
+                            "y": 1756.4018554688
+                        },
+                        {
+                            "x": 1644.1428833008,
+                            "y": 1756.4018554688
+                        },
+                        {
+                            "x": 1644.1428833008,
+                            "y": 1691.4018554688
+                        }
+                    ]
+                }
+            },
+            "5": {
+                "id": 185,
+                "complex_id": 59,
+                "property_id": 33582,
+                "type": "pantry",
+                "area": 4.3,
+                "section": 1,
+                "floor": -1,
+                "price": 2150000,
+                "parking_plan": {
+                    "id": 183,
+                    "property_id": 33582,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1499.1428833008,
+                            "y": 1631.4017333984
+                        },
+                        {
+                            "x": 1499.1428833008,
+                            "y": 1691.4018554688
+                        },
+                        {
+                            "x": 1639.1428833008,
+                            "y": 1691.4018554688
+                        },
+                        {
+                            "x": 1639.1428833008,
+                            "y": 1631.4017333984
+                        }
+                    ]
+                }
+            },
+            "6": {
+                "id": 186,
+                "complex_id": 59,
+                "property_id": 33583,
+                "type": "pantry",
+                "area": 4.3,
+                "section": 1,
+                "floor": -1,
+                "price": 2150000,
+                "parking_plan": {
+                    "id": 184,
+                    "property_id": 33583,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1638.1428833008,
+                            "y": 1552.4017333984
+                        },
+                        {
+                            "x": 1638.1428833008,
+                            "y": 1631.4017333984
+                        },
+                        {
+                            "x": 1499.1428833008,
+                            "y": 1631.4017333984
+                        },
+                        {
+                            "x": 1499.1428833008,
+                            "y": 1554.4017333984
+                        }
+                    ]
+                }
+            },
+            "7": {
+                "id": 187,
+                "complex_id": 59,
+                "property_id": 33584,
+                "type": "pantry",
+                "area": 2.6,
+                "section": 1,
+                "floor": -1,
+                "price": 1300000,
+                "parking_plan": {
+                    "id": 185,
+                    "property_id": 33584,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2236.01171875,
+                            "y": 1691.578125
+                        },
+                        {
+                            "x": 2236.01171875,
+                            "y": 1768.578125
+                        },
+                        {
+                            "x": 2308.01171875,
+                            "y": 1768.578125
+                        },
+                        {
+                            "x": 2308.01171875,
+                            "y": 1689.578125
+                        }
+                    ]
+                }
+            },
+            "8": {
+                "id": 188,
+                "complex_id": 59,
+                "property_id": 33587,
+                "type": "pantry",
+                "area": 5.1,
+                "section": 1,
+                "floor": -1,
+                "price": 2550000,
+                "parking_plan": {
+                    "id": 186,
+                    "property_id": 33587,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2882.76171875,
+                            "y": 1681.578125
+                        },
+                        {
+                            "x": 2882.76171875,
+                            "y": 1752.578125
+                        },
+                        {
+                            "x": 3022.76171875,
+                            "y": 1752.578125
+                        },
+                        {
+                            "x": 3022.76171875,
+                            "y": 1679.578125
+                        }
+                    ]
+                }
+            },
+            "9": {
+                "id": 189,
+                "complex_id": 59,
+                "property_id": 33588,
+                "type": "pantry",
+                "area": 4.3,
+                "section": 1,
+                "floor": -1,
+                "price": 2150000,
+                "parking_plan": {
+                    "id": 187,
+                    "property_id": 33588,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2882.76171875,
+                            "y": 1618.578125
+                        },
+                        {
+                            "x": 2882.76171875,
+                            "y": 1681.578125
+                        },
+                        {
+                            "x": 3016.76171875,
+                            "y": 1681.578125
+                        },
+                        {
+                            "x": 3016.76171875,
+                            "y": 1618.578125
+                        }
+                    ]
+                }
+            },
+            "10": {
+                "id": 190,
+                "complex_id": 59,
+                "property_id": 33589,
+                "type": "pantry",
+                "area": 4.3,
+                "section": 1,
+                "floor": -1,
+                "price": 2150000,
+                "parking_plan": {
+                    "id": 188,
+                    "property_id": 33589,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2885.76171875,
+                            "y": 1553.578125
+                        },
+                        {
+                            "x": 3019.76171875,
+                            "y": 1553.578125
+                        },
+                        {
+                            "x": 3019.76171875,
+                            "y": 1618.578125
+                        },
+                        {
+                            "x": 2882.76171875,
+                            "y": 1618.578125
+                        }
+                    ]
+                }
+            },
+            "11": {
+                "id": 191,
+                "complex_id": 59,
+                "property_id": 33590,
+                "type": "pantry",
+                "area": 2,
+                "section": 1,
+                "floor": -1,
+                "price": 1000000,
+                "parking_plan": {
+                    "id": 189,
+                    "property_id": 33590,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 3733.01171875,
+                            "y": 1691.578125
+                        },
+                        {
+                            "x": 3787.01171875,
+                            "y": 1691.578125
+                        },
+                        {
+                            "x": 3787.01171875,
+                            "y": 1769.578125
+                        },
+                        {
+                            "x": 3733.01171875,
+                            "y": 1769.578125
+                        }
+                    ]
+                }
+            },
+            "12": {
+                "id": 192,
+                "complex_id": 59,
+                "property_id": 33591,
+                "type": "pantry",
+                "area": 1.9,
+                "section": 1,
+                "floor": -1,
+                "price": 950000,
+                "parking_plan": {
+                    "id": 190,
+                    "property_id": 33591,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 3681.01171875,
+                            "y": 1691.578125
+                        },
+                        {
+                            "x": 3733.01171875,
+                            "y": 1691.578125
+                        },
+                        {
+                            "x": 3733.01171875,
+                            "y": 1768.578125
+                        },
+                        {
+                            "x": 3681.01171875,
+                            "y": 1768.578125
+                        }
+                    ]
+                }
+            },
+            "13": {
+                "id": 193,
+                "complex_id": 59,
+                "property_id": 33592,
+                "type": "pantry",
+                "area": 2,
+                "section": 1,
+                "floor": -1,
+                "price": 1000000,
+                "parking_plan": {
+                    "id": 191,
+                    "property_id": 33592,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 3787.01171875,
+                            "y": 1691.578125
+                        },
+                        {
+                            "x": 3847.01171875,
+                            "y": 1691.578125
+                        },
+                        {
+                            "x": 3847.01171875,
+                            "y": 1768.578125
+                        },
+                        {
+                            "x": 3787.01171875,
+                            "y": 1768.578125
+                        }
+                    ]
+                }
+            },
+            "14": {
+                "id": 194,
+                "complex_id": 59,
+                "property_id": 33593,
+                "type": "pantry",
+                "area": 1.8,
+                "section": 1,
+                "floor": -1,
+                "price": 900000,
+                "parking_plan": {
+                    "id": 192,
+                    "property_id": 33593,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4600.3334960938,
+                            "y": 1978.4167480469
+                        },
+                        {
+                            "x": 4600.3334960938,
+                            "y": 1926.4167480469
+                        },
+                        {
+                            "x": 4672.3334960938,
+                            "y": 1926.4167480469
+                        },
+                        {
+                            "x": 4672.3334960938,
+                            "y": 1978.4167480469
+                        }
+                    ]
+                }
+            },
+            "15": {
+                "id": 195,
+                "complex_id": 59,
+                "property_id": 33594,
+                "type": "pantry",
+                "area": 3.8,
+                "section": 1,
+                "floor": -1,
+                "price": 1900000,
+                "parking_plan": {
+                    "id": 193,
+                    "property_id": 33594,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4600.3334960938,
+                            "y": 2137.4167480469
+                        },
+                        {
+                            "x": 4600.3334960938,
+                            "y": 2233.4167480469
+                        },
+                        {
+                            "x": 4672.3334960938,
+                            "y": 2233.4167480469
+                        },
+                        {
+                            "x": 4672.3334960938,
+                            "y": 2134.4167480469
+                        }
+                    ]
+                }
+            },
+            "16": {
+                "id": 196,
+                "complex_id": 59,
+                "property_id": 33595,
+                "type": "pantry",
+                "area": 2.2,
+                "section": 1,
+                "floor": -1,
+                "price": 1100000,
+                "parking_plan": {
+                    "id": 194,
+                    "property_id": 33595,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4445.3334960938,
+                            "y": 2180.4167480469
+                        },
+                        {
+                            "x": 4445.3334960938,
+                            "y": 2233.4167480469
+                        },
+                        {
+                            "x": 4530.3334960938,
+                            "y": 2233.4167480469
+                        },
+                        {
+                            "x": 4530.3334960938,
+                            "y": 2180.4167480469
+                        }
+                    ]
+                }
+            },
+            "17": {
+                "id": 197,
+                "complex_id": 59,
+                "property_id": 33596,
+                "type": "pantry",
+                "area": 2.1,
+                "section": 1,
+                "floor": -1,
+                "price": 1050000,
+                "parking_plan": {
+                    "id": 195,
+                    "property_id": 33596,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4446.3334960938,
+                            "y": 2078.4167480469
+                        },
+                        {
+                            "x": 4446.3334960938,
+                            "y": 2126.4167480469
+                        },
+                        {
+                            "x": 4530.3334960938,
+                            "y": 2126.4167480469
+                        },
+                        {
+                            "x": 4530.3334960938,
+                            "y": 2078.4167480469
+                        }
+                    ]
+                }
+            },
+            "18": {
+                "id": 198,
+                "complex_id": 59,
+                "property_id": 33597,
+                "type": "pantry",
+                "area": 2,
+                "section": 1,
+                "floor": -1,
+                "price": 1000000,
+                "parking_plan": {
+                    "id": 196,
+                    "property_id": 33597,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4445.3334960938,
+                            "y": 2026.4167480469
+                        },
+                        {
+                            "x": 4530.3334960938,
+                            "y": 2026.4167480469
+                        },
+                        {
+                            "x": 4530.3334960938,
+                            "y": 2078.4167480469
+                        },
+                        {
+                            "x": 4446.3334960938,
+                            "y": 2078.4167480469
+                        }
+                    ]
+                }
+            },
+            "19": {
+                "id": 199,
+                "complex_id": 59,
+                "property_id": 33598,
+                "type": "pantry",
+                "area": 4.2,
+                "section": 1,
+                "floor": -1,
+                "price": 2100000,
+                "parking_plan": {
+                    "id": 197,
+                    "property_id": 33598,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2857.01171875,
+                            "y": 2262.578125
+                        },
+                        {
+                            "x": 2971.01171875,
+                            "y": 2262.578125
+                        },
+                        {
+                            "x": 2971.01171875,
+                            "y": 2337.578125
+                        },
+                        {
+                            "x": 2852.01171875,
+                            "y": 2337.578125
+                        }
+                    ]
+                }
+            },
+            "20": {
+                "id": 200,
+                "complex_id": 59,
+                "property_id": 33599,
+                "type": "pantry",
+                "area": 5,
+                "section": 1,
+                "floor": -1,
+                "price": 2500000,
+                "parking_plan": {
+                    "id": 198,
+                    "property_id": 33599,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2857,
+                            "y": 2837.4167480469
+                        },
+                        {
+                            "x": 2857,
+                            "y": 2928.4167480469
+                        },
+                        {
+                            "x": 2972,
+                            "y": 2928.4167480469
+                        },
+                        {
+                            "x": 2972,
+                            "y": 2837.4167480469
+                        }
+                    ]
+                }
+            },
+            "21": {
+                "id": 201,
+                "complex_id": 59,
+                "property_id": 33600,
+                "type": "pantry",
+                "area": 1.9,
+                "section": 1,
+                "floor": -1,
+                "price": 950000,
+                "parking_plan": {
+                    "id": 199,
+                    "property_id": 33600,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 3779.015625,
+                            "y": 3189.640625
+                        },
+                        {
+                            "x": 3836.015625,
+                            "y": 3189.640625
+                        },
+                        {
+                            "x": 3836.015625,
+                            "y": 3261.640625
+                        },
+                        {
+                            "x": 3779.015625,
+                            "y": 3261.640625
+                        }
+                    ]
+                }
+            },
+            "22": {
+                "id": 202,
+                "complex_id": 59,
+                "property_id": 33601,
+                "type": "pantry",
+                "area": 1.8,
+                "section": 1,
+                "floor": -1,
+                "price": 900000,
+                "parking_plan": {
+                    "id": 200,
+                    "property_id": 33601,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 3731.015625,
+                            "y": 3189.640625
+                        },
+                        {
+                            "x": 3779.015625,
+                            "y": 3189.640625
+                        },
+                        {
+                            "x": 3779.015625,
+                            "y": 3264.640625
+                        },
+                        {
+                            "x": 3728.015625,
+                            "y": 3264.640625
+                        }
+                    ]
+                }
+            },
+            "23": {
+                "id": 203,
+                "complex_id": 59,
+                "property_id": 33603,
+                "type": "pantry",
+                "area": 5.5,
+                "section": 1,
+                "floor": -1,
+                "price": 2750000,
+                "parking_plan": {
+                    "id": 201,
+                    "property_id": 33603,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 3033,
+                            "y": 3187.40625
+                        },
+                        {
+                            "x": 3033,
+                            "y": 3261.40625
+                        },
+                        {
+                            "x": 3176,
+                            "y": 3261.40625
+                        },
+                        {
+                            "x": 3176,
+                            "y": 3189.40625
+                        }
+                    ]
+                }
+            },
+            "24": {
+                "id": 204,
+                "complex_id": 59,
+                "property_id": 33604,
+                "type": "pantry",
+                "area": 4.4,
+                "section": 1,
+                "floor": -1,
+                "price": 2200000,
+                "parking_plan": {
+                    "id": 202,
+                    "property_id": 33604,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 3176,
+                            "y": 3261.40625
+                        },
+                        {
+                            "x": 3176,
+                            "y": 3341.40625
+                        },
+                        {
+                            "x": 3054,
+                            "y": 3341.40625
+                        },
+                        {
+                            "x": 3054,
+                            "y": 3262.40625
+                        }
+                    ]
+                }
+            },
+            "25": {
+                "id": 205,
+                "complex_id": 59,
+                "property_id": 33605,
+                "type": "pantry",
+                "area": 6.4,
+                "section": 1,
+                "floor": -1,
+                "price": 3200000,
+                "parking_plan": {
+                    "id": 203,
+                    "property_id": 33605,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2871,
+                            "y": 3278.40625
+                        },
+                        {
+                            "x": 2871,
+                            "y": 3190.40625
+                        },
+                        {
+                            "x": 3026,
+                            "y": 3190.40625
+                        },
+                        {
+                            "x": 3026,
+                            "y": 3261.40625
+                        },
+                        {
+                            "x": 2904,
+                            "y": 3261.40625
+                        },
+                        {
+                            "x": 2904,
+                            "y": 3280.40625
+                        }
+                    ]
+                }
+            },
+            "26": {
+                "id": 206,
+                "complex_id": 59,
+                "property_id": 33606,
+                "type": "pantry",
+                "area": 4.4,
+                "section": 1,
+                "floor": -1,
+                "price": 2200000,
+                "parking_plan": {
+                    "id": 204,
+                    "property_id": 33606,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2895,
+                            "y": 3340.40625
+                        },
+                        {
+                            "x": 2895,
+                            "y": 3261.40625
+                        },
+                        {
+                            "x": 3016,
+                            "y": 3261.40625
+                        },
+                        {
+                            "x": 3016,
+                            "y": 3340.40625
+                        }
+                    ]
+                }
+            },
+            "27": {
+                "id": 207,
+                "complex_id": 59,
+                "property_id": 33607,
+                "type": "pantry",
+                "area": 4.2,
+                "section": 1,
+                "floor": -1,
+                "price": 2100000,
+                "parking_plan": {
+                    "id": 205,
+                    "property_id": 33607,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2895,
+                            "y": 3397.40625
+                        },
+                        {
+                            "x": 2895,
+                            "y": 3340.40625
+                        },
+                        {
+                            "x": 3021,
+                            "y": 3340.40625
+                        },
+                        {
+                            "x": 3021,
+                            "y": 3400.40625
+                        }
+                    ]
+                }
+            },
+            "28": {
+                "id": 211,
+                "complex_id": 59,
+                "property_id": 33611,
+                "type": "pantry",
+                "area": 7.5,
+                "section": 1,
+                "floor": -1,
+                "price": 3750000,
+                "parking_plan": {
+                    "id": 206,
+                    "property_id": 33611,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1479.200012207,
+                            "y": 3197.4001464844
+                        },
+                        {
+                            "x": 1479.200012207,
+                            "y": 3274.4001464844
+                        },
+                        {
+                            "x": 1522.200012207,
+                            "y": 3274.4001464844
+                        },
+                        {
+                            "x": 1522.200012207,
+                            "y": 3258.4001464844
+                        },
+                        {
+                            "x": 1642.200012207,
+                            "y": 3258.4001464844
+                        },
+                        {
+                            "x": 1642.200012207,
+                            "y": 3195.4001464844
+                        }
+                    ]
+                }
+            },
+            "29": {
+                "id": 212,
+                "complex_id": 59,
+                "property_id": 33612,
+                "type": "pantry",
+                "area": 4.4,
+                "section": 1,
+                "floor": -1,
+                "price": 2200000,
+                "parking_plan": {
+                    "id": 207,
+                    "property_id": 33612,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1519.200012207,
+                            "y": 3341.4001464844
+                        },
+                        {
+                            "x": 1519.200012207,
+                            "y": 3258.4001464844
+                        },
+                        {
+                            "x": 1642.200012207,
+                            "y": 3258.4001464844
+                        },
+                        {
+                            "x": 1642.200012207,
+                            "y": 3341.4001464844
+                        }
+                    ]
+                }
+            },
+            "30": {
+                "id": 213,
+                "complex_id": 59,
+                "property_id": 33613,
+                "type": "pantry",
+                "area": 4.2,
+                "section": 1,
+                "floor": -1,
+                "price": 2100000,
+                "parking_plan": {
+                    "id": 208,
+                    "property_id": 33613,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1636.200012207,
+                            "y": 3398.4001464844
+                        },
+                        {
+                            "x": 1636.200012207,
+                            "y": 3341.4001464844
+                        },
+                        {
+                            "x": 1519.200012207,
+                            "y": 3341.4001464844
+                        },
+                        {
+                            "x": 1519.200012207,
+                            "y": 3399.4001464844
+                        }
+                    ]
+                }
+            },
+            "31": {
+                "id": 214,
+                "complex_id": 59,
+                "property_id": 33614,
+                "type": "pantry",
+                "area": 4.2,
+                "section": 1,
+                "floor": -1,
+                "price": 2100000,
+                "parking_plan": {
+                    "id": 209,
+                    "property_id": 33614,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 950.73011016846,
+                            "y": 3191.5625
+                        },
+                        {
+                            "x": 1070.7301101685,
+                            "y": 3191.5625
+                        },
+                        {
+                            "x": 1070.7301101685,
+                            "y": 3268.5625
+                        },
+                        {
+                            "x": 950.73011016846,
+                            "y": 3268.5625
+                        }
+                    ]
+                }
+            },
+            "32": {
+                "id": 215,
+                "complex_id": 59,
+                "property_id": 33618,
+                "type": "pantry",
+                "area": 5.8,
+                "section": 1,
+                "floor": -1,
+                "price": 2900000,
+                "parking_plan": {
+                    "id": 210,
+                    "property_id": 33618,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4463.01171875,
+                            "y": 1691.578125
+                        },
+                        {
+                            "x": 4463.01171875,
+                            "y": 1769.578125
+                        },
+                        {
+                            "x": 4622.01171875,
+                            "y": 1769.578125
+                        },
+                        {
+                            "x": 4622.01171875,
+                            "y": 1692.578125
+                        }
+                    ]
+                }
+            },
+            "33": {
+                "id": 216,
+                "complex_id": 59,
+                "property_id": 33619,
+                "type": "pantry",
+                "area": 3.5,
+                "section": 1,
+                "floor": -1,
+                "price": 1750000,
+                "parking_plan": {
+                    "id": 211,
+                    "property_id": 33619,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4539.01171875,
+                            "y": 1687.578125
+                        },
+                        {
+                            "x": 4622.01171875,
+                            "y": 1687.578125
+                        },
+                        {
+                            "x": 4622.01171875,
+                            "y": 1578.578125
+                        },
+                        {
+                            "x": 4539.01171875,
+                            "y": 1578.578125
+                        }
+                    ]
+                }
+            },
+            "34": {
+                "id": 217,
+                "complex_id": 59,
+                "property_id": 33620,
+                "type": "pantry",
+                "area": 4.4,
+                "section": 1,
+                "floor": -1,
+                "price": 2200000,
+                "parking_plan": {
+                    "id": 212,
+                    "property_id": 33620,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4463.01171875,
+                            "y": 1691.578125
+                        },
+                        {
+                            "x": 4463.01171875,
+                            "y": 1579.578125
+                        },
+                        {
+                            "x": 4539.01171875,
+                            "y": 1579.578125
+                        },
+                        {
+                            "x": 4539.01171875,
+                            "y": 1687.578125
+                        }
+                    ]
+                }
+            },
+            "35": {
+                "id": 218,
+                "complex_id": 59,
+                "property_id": 33621,
+                "type": "pantry",
+                "area": 5.2,
+                "section": 1,
+                "floor": -1,
+                "price": 2600000,
+                "parking_plan": {
+                    "id": 213,
+                    "property_id": 33621,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4401.01171875,
+                            "y": 1578.578125
+                        },
+                        {
+                            "x": 4401.01171875,
+                            "y": 1772.578125
+                        },
+                        {
+                            "x": 4463.01171875,
+                            "y": 1772.578125
+                        },
+                        {
+                            "x": 4463.01171875,
+                            "y": 1579.578125
+                        }
+                    ]
+                }
+            },
+            "36": {
+                "id": 219,
+                "complex_id": 59,
+                "property_id": 33622,
+                "type": "pantry",
+                "area": 5.8,
+                "section": 1,
+                "floor": -1,
+                "price": 2900000,
+                "parking_plan": {
+                    "id": 214,
+                    "property_id": 33622,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4592.01171875,
+                            "y": 1387.578125
+                        },
+                        {
+                            "x": 4684.01171875,
+                            "y": 1387.578125
+                        },
+                        {
+                            "x": 4684.01171875,
+                            "y": 1509.578125
+                        },
+                        {
+                            "x": 4592.01171875,
+                            "y": 1509.578125
+                        }
+                    ]
+                }
+            },
+            "37": {
+                "id": 220,
+                "complex_id": 59,
+                "property_id": 33623,
+                "type": "pantry",
+                "area": 5.9,
+                "section": 1,
+                "floor": -1,
+                "price": 2950000,
+                "parking_plan": {
+                    "id": 215,
+                    "property_id": 33623,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4401.01171875,
+                            "y": 1387.578125
+                        },
+                        {
+                            "x": 4497.01171875,
+                            "y": 1387.578125
+                        },
+                        {
+                            "x": 4497.01171875,
+                            "y": 1509.578125
+                        },
+                        {
+                            "x": 4402.01171875,
+                            "y": 1509.578125
+                        }
+                    ]
+                }
+            },
+            "38": {
+                "id": 221,
+                "complex_id": 59,
+                "property_id": 33624,
+                "type": "pantry",
+                "area": 3.9,
+                "section": 1,
+                "floor": -1,
+                "price": 1950000,
+                "parking_plan": {
+                    "id": 216,
+                    "property_id": 33624,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4818.01171875,
+                            "y": 1319.578125
+                        },
+                        {
+                            "x": 4902.01171875,
+                            "y": 1319.578125
+                        },
+                        {
+                            "x": 4902.01171875,
+                            "y": 1421.578125
+                        },
+                        {
+                            "x": 4813.01171875,
+                            "y": 1421.578125
+                        }
+                    ]
+                }
+            },
+            "39": {
+                "id": 222,
+                "complex_id": 59,
+                "property_id": 33625,
+                "type": "pantry",
+                "area": 2.7,
+                "section": 1,
+                "floor": -1,
+                "price": 1350000,
+                "parking_plan": {
+                    "id": 217,
+                    "property_id": 33625,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4673.01171875,
+                            "y": 1319.578125
+                        },
+                        {
+                            "x": 4739.01171875,
+                            "y": 1319.578125
+                        },
+                        {
+                            "x": 4739.01171875,
+                            "y": 1419.578125
+                        },
+                        {
+                            "x": 4683.01171875,
+                            "y": 1419.578125
+                        },
+                        {
+                            "x": 4683.01171875,
+                            "y": 1377.578125
+                        },
+                        {
+                            "x": 4672.01171875,
+                            "y": 1377.578125
+                        }
+                    ]
+                }
+            },
+            "40": {
+                "id": 223,
+                "complex_id": 59,
+                "property_id": 33627,
+                "type": "pantry",
+                "area": 2.6,
+                "section": 1,
+                "floor": -1,
+                "price": 1300000,
+                "parking_plan": {
+                    "id": 218,
+                    "property_id": 33627,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4497.01171875,
+                            "y": 1387.578125
+                        },
+                        {
+                            "x": 4497.01171875,
+                            "y": 1319.578125
+                        },
+                        {
+                            "x": 4574.01171875,
+                            "y": 1319.578125
+                        },
+                        {
+                            "x": 4574.01171875,
+                            "y": 1389.578125
+                        }
+                    ]
+                }
+            },
+            "41": {
+                "id": 224,
+                "complex_id": 59,
+                "property_id": 33628,
+                "type": "pantry",
+                "area": 6.1,
+                "section": 1,
+                "floor": -1,
+                "price": 3050000,
+                "parking_plan": {
+                    "id": 219,
+                    "property_id": 33628,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4401.01171875,
+                            "y": 1387.578125
+                        },
+                        {
+                            "x": 4401.01171875,
+                            "y": 1254.578125
+                        },
+                        {
+                            "x": 4497.01171875,
+                            "y": 1254.578125
+                        },
+                        {
+                            "x": 4497.01171875,
+                            "y": 1387.578125
+                        }
+                    ]
+                }
+            },
+            "42": {
+                "id": 225,
+                "complex_id": 59,
+                "property_id": 33629,
+                "type": "pantry",
+                "area": 5.1,
+                "section": 1,
+                "floor": -1,
+                "price": 2550000,
+                "parking_plan": {
+                    "id": 220,
+                    "property_id": 33629,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4553.01171875,
+                            "y": 1249.578125
+                        },
+                        {
+                            "x": 4553.01171875,
+                            "y": 1186.578125
+                        },
+                        {
+                            "x": 4402.01171875,
+                            "y": 1186.578125
+                        },
+                        {
+                            "x": 4402.01171875,
+                            "y": 1253.578125
+                        }
+                    ]
+                }
+            },
+            "43": {
+                "id": 226,
+                "complex_id": 59,
+                "property_id": 33630,
+                "type": "pantry",
+                "area": 1.6,
+                "section": 1,
+                "floor": -1,
+                "price": 800000,
+                "parking_plan": {
+                    "id": 221,
+                    "property_id": 33630,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4553.01171875,
+                            "y": 1249.578125
+                        },
+                        {
+                            "x": 4608.01171875,
+                            "y": 1249.578125
+                        },
+                        {
+                            "x": 4608.01171875,
+                            "y": 1188.578125
+                        },
+                        {
+                            "x": 4553.01171875,
+                            "y": 1188.578125
+                        }
+                    ]
+                }
+            },
+            "44": {
+                "id": 227,
+                "complex_id": 59,
+                "property_id": 33631,
+                "type": "pantry",
+                "area": 2.6,
+                "section": 1,
+                "floor": -1,
+                "price": 1300000,
+                "parking_plan": {
+                    "id": 222,
+                    "property_id": 33631,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4608.01171875,
+                            "y": 1188.578125
+                        },
+                        {
+                            "x": 4693.01171875,
+                            "y": 1188.578125
+                        },
+                        {
+                            "x": 4693.01171875,
+                            "y": 1251.578125
+                        },
+                        {
+                            "x": 4608.01171875,
+                            "y": 1251.578125
+                        }
+                    ]
+                }
+            },
+            "45": {
+                "id": 228,
+                "complex_id": 59,
+                "property_id": 33632,
+                "type": "pantry",
+                "area": 1.6,
+                "section": 1,
+                "floor": -1,
+                "price": 800000,
+                "parking_plan": {
+                    "id": 223,
+                    "property_id": 33632,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 6096,
+                            "y": 1638.40625
+                        },
+                        {
+                            "x": 6154,
+                            "y": 1638.40625
+                        },
+                        {
+                            "x": 6154,
+                            "y": 1703.40625
+                        },
+                        {
+                            "x": 6093,
+                            "y": 1703.40625
+                        }
+                    ]
+                }
+            },
+            "46": {
+                "id": 229,
+                "complex_id": 59,
+                "property_id": 33633,
+                "type": "pantry",
+                "area": 1.9,
+                "section": 1,
+                "floor": -1,
+                "price": 950000,
+                "parking_plan": {
+                    "id": 224,
+                    "property_id": 33633,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 6203,
+                            "y": 1641.40625
+                        },
+                        {
+                            "x": 6273,
+                            "y": 1641.40625
+                        },
+                        {
+                            "x": 6273,
+                            "y": 1710.40625
+                        },
+                        {
+                            "x": 6203,
+                            "y": 1710.40625
+                        }
+                    ]
+                }
+            },
+            "47": {
+                "id": 230,
+                "complex_id": 59,
+                "property_id": 33634,
+                "type": "pantry",
+                "area": 3.6,
+                "section": 1,
+                "floor": -1,
+                "price": 1800000,
+                "parking_plan": {
+                    "id": 225,
+                    "property_id": 33634,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 6273,
+                            "y": 1641.40625
+                        },
+                        {
+                            "x": 6329,
+                            "y": 1641.40625
+                        },
+                        {
+                            "x": 6329,
+                            "y": 1690.40625
+                        },
+                        {
+                            "x": 6316,
+                            "y": 1690.40625
+                        },
+                        {
+                            "x": 6316,
+                            "y": 1761.40625
+                        },
+                        {
+                            "x": 6273,
+                            "y": 1761.40625
+                        }
+                    ]
+                }
+            },
+            "48": {
+                "id": 231,
+                "complex_id": 59,
+                "property_id": 33637,
+                "type": "pantry",
+                "area": 3.7,
+                "section": 1,
+                "floor": -1,
+                "price": 1850000,
+                "parking_plan": {
+                    "id": 226,
+                    "property_id": 33637,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 7043.45703125,
+                            "y": 1686.5625
+                        },
+                        {
+                            "x": 7133.45703125,
+                            "y": 1686.5625
+                        },
+                        {
+                            "x": 7133.45703125,
+                            "y": 1767.5625
+                        },
+                        {
+                            "x": 7043.45703125,
+                            "y": 1767.5625
+                        }
+                    ]
+                }
+            },
+            "49": {
+                "id": 232,
+                "complex_id": 59,
+                "property_id": 33638,
+                "type": "pantry",
+                "area": 4,
+                "section": 1,
+                "floor": -1,
+                "price": 2000000,
+                "parking_plan": {
+                    "id": 227,
+                    "property_id": 33638,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 7590.9033203125,
+                            "y": 1614.2362060547
+                        },
+                        {
+                            "x": 7709.9033203125,
+                            "y": 1614.2362060547
+                        },
+                        {
+                            "x": 7709.9033203125,
+                            "y": 1553.2362060547
+                        },
+                        {
+                            "x": 7589.9033203125,
+                            "y": 1553.2362060547
+                        }
+                    ]
+                }
+            },
+            "50": {
+                "id": 233,
+                "complex_id": 59,
+                "property_id": 33639,
+                "type": "pantry",
+                "area": 6.8,
+                "section": 1,
+                "floor": -1,
+                "price": 3400000,
+                "parking_plan": {
+                    "id": 228,
+                    "property_id": 33639,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 7589.9033203125,
+                            "y": 1694.2362060547
+                        },
+                        {
+                            "x": 7589.9033203125,
+                            "y": 1761.2362060547
+                        },
+                        {
+                            "x": 7712.9033203125,
+                            "y": 1761.2362060547
+                        },
+                        {
+                            "x": 7712.9033203125,
+                            "y": 1691.2362060547
+                        }
+                    ]
+                }
+            },
+            "51": {
+                "id": 234,
+                "complex_id": 59,
+                "property_id": 33640,
+                "type": "pantry",
+                "area": 3.5,
+                "section": 1,
+                "floor": -1,
+                "price": 1750000,
+                "parking_plan": {
+                    "id": 229,
+                    "property_id": 33640,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 7918.6391601562,
+                            "y": 1768.5625
+                        },
+                        {
+                            "x": 7918.6391601562,
+                            "y": 1644.5625
+                        },
+                        {
+                            "x": 7857.6391601562,
+                            "y": 1644.5625
+                        },
+                        {
+                            "x": 7857.6391601562,
+                            "y": 1768.09375
+                        }
+                    ]
+                }
+            },
+            "52": {
+                "id": 235,
+                "complex_id": 59,
+                "property_id": 33642,
+                "type": "pantry",
+                "area": 2.4,
+                "section": 1,
+                "floor": -1,
+                "price": 1200000,
+                "parking_plan": {
+                    "id": 230,
+                    "property_id": 33642,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 8372.0141601562,
+                            "y": 1693.2362060547
+                        },
+                        {
+                            "x": 8443.0141601562,
+                            "y": 1693.2362060547
+                        },
+                        {
+                            "x": 8443.0141601562,
+                            "y": 1766.2362060547
+                        },
+                        {
+                            "x": 8372.0141601562,
+                            "y": 1766.2362060547
+                        }
+                    ]
+                }
+            },
+            "53": {
+                "id": 236,
+                "complex_id": 59,
+                "property_id": 33643,
+                "type": "pantry",
+                "area": 2.9,
+                "section": 1,
+                "floor": -1,
+                "price": 1450000,
+                "parking_plan": {
+                    "id": 231,
+                    "property_id": 33643,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 8443.0141601562,
+                            "y": 1693.2362060547
+                        },
+                        {
+                            "x": 8514.0141601562,
+                            "y": 1693.2362060547
+                        },
+                        {
+                            "x": 8514.0141601562,
+                            "y": 1766.2362060547
+                        },
+                        {
+                            "x": 8443.0141601562,
+                            "y": 1766.2362060547
+                        }
+                    ]
+                }
+            },
+            "54": {
+                "id": 237,
+                "complex_id": 59,
+                "property_id": 33644,
+                "type": "pantry",
+                "area": 6.9,
+                "section": 1,
+                "floor": -1,
+                "price": 3450000,
+                "parking_plan": {
+                    "id": 232,
+                    "property_id": 33644,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 8898,
+                            "y": 1681.40625
+                        },
+                        {
+                            "x": 8898,
+                            "y": 1768.40625
+                        },
+                        {
+                            "x": 8787.26171875,
+                            "y": 1768.40625
+                        },
+                        {
+                            "x": 8787.26171875,
+                            "y": 1681.40625
+                        }
+                    ]
+                }
+            },
+            "55": {
+                "id": 238,
+                "complex_id": 59,
+                "property_id": 33645,
+                "type": "pantry",
+                "area": 2.7,
+                "section": 1,
+                "floor": -1,
+                "price": 1350000,
+                "parking_plan": {
+                    "id": 233,
+                    "property_id": 33645,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 8898,
+                            "y": 1627.40625
+                        },
+                        {
+                            "x": 8898,
+                            "y": 1681.40625
+                        },
+                        {
+                            "x": 8792,
+                            "y": 1681.40625
+                        },
+                        {
+                            "x": 8792,
+                            "y": 1627.40625
+                        }
+                    ]
+                }
+            },
+            "56": {
+                "id": 239,
+                "complex_id": 59,
+                "property_id": 33646,
+                "type": "pantry",
+                "area": 2.6,
+                "section": 1,
+                "floor": -1,
+                "price": 1300000,
+                "parking_plan": {
+                    "id": 234,
+                    "property_id": 33646,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 8805.6811523438,
+                            "y": 1525.2361450195
+                        },
+                        {
+                            "x": 8913.6811523438,
+                            "y": 1525.2361450195
+                        },
+                        {
+                            "x": 8912.6811523438,
+                            "y": 1581.2361450195
+                        },
+                        {
+                            "x": 8807.6811523438,
+                            "y": 1580.2361450195
+                        }
+                    ]
+                }
+            },
+            "57": {
+                "id": 240,
+                "complex_id": 59,
+                "property_id": 33647,
+                "type": "pantry",
+                "area": 4,
+                "section": 1,
+                "floor": -1,
+                "price": 2000000,
+                "parking_plan": {
+                    "id": 235,
+                    "property_id": 33647,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 8969.6811523438,
+                            "y": 1553.2360839844
+                        },
+                        {
+                            "x": 8969.6811523438,
+                            "y": 1613.2360839844
+                        },
+                        {
+                            "x": 9092.6811523438,
+                            "y": 1613.2360839844
+                        },
+                        {
+                            "x": 9092.6811523438,
+                            "y": 1554.2360839844
+                        }
+                    ]
+                }
+            },
+            "58": {
+                "id": 241,
+                "complex_id": 59,
+                "property_id": 33648,
+                "type": "pantry",
+                "area": 6.9,
+                "section": 1,
+                "floor": -1,
+                "price": 3450000,
+                "parking_plan": {
+                    "id": 236,
+                    "property_id": 33648,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 8968.6811523438,
+                            "y": 1678.2360839844
+                        },
+                        {
+                            "x": 8968.6811523438,
+                            "y": 1760.2360839844
+                        },
+                        {
+                            "x": 9095.6811523438,
+                            "y": 1760.2360839844
+                        },
+                        {
+                            "x": 9095.6811523438,
+                            "y": 1680.2360839844
+                        }
+                    ]
+                }
+            },
+            "59": {
+                "id": 242,
+                "complex_id": 59,
+                "property_id": 33650,
+                "type": "pantry",
+                "area": 2.2,
+                "section": 1,
+                "floor": -1,
+                "price": 1100000,
+                "parking_plan": {
+                    "id": 237,
+                    "property_id": 33650,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 9039.236328125,
+                            "y": 2022.2360839844
+                        },
+                        {
+                            "x": 9039.236328125,
+                            "y": 2082.2360839844
+                        },
+                        {
+                            "x": 9124.236328125,
+                            "y": 2082.2360839844
+                        },
+                        {
+                            "x": 9124.236328125,
+                            "y": 2020.2360839844
+                        }
+                    ]
+                }
+            },
+            "60": {
+                "id": 243,
+                "complex_id": 59,
+                "property_id": 33651,
+                "type": "pantry",
+                "area": 2.2,
+                "section": 1,
+                "floor": -1,
+                "price": 1100000,
+                "parking_plan": {
+                    "id": 238,
+                    "property_id": 33651,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 9039.236328125,
+                            "y": 2138.2360839844
+                        },
+                        {
+                            "x": 9039.236328125,
+                            "y": 2191.2360839844
+                        },
+                        {
+                            "x": 9123.236328125,
+                            "y": 2191.2360839844
+                        },
+                        {
+                            "x": 9123.236328125,
+                            "y": 2138.2360839844
+                        }
+                    ]
+                }
+            },
+            "61": {
+                "id": 244,
+                "complex_id": 59,
+                "property_id": 33652,
+                "type": "pantry",
+                "area": 3,
+                "section": 1,
+                "floor": -1,
+                "price": 1500000,
+                "parking_plan": {
+                    "id": 239,
+                    "property_id": 33652,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 9039.236328125,
+                            "y": 2191.2360839844
+                        },
+                        {
+                            "x": 9039.236328125,
+                            "y": 2264.2360839844
+                        },
+                        {
+                            "x": 9126.236328125,
+                            "y": 2264.2360839844
+                        },
+                        {
+                            "x": 9126.236328125,
+                            "y": 2191.2360839844
+                        }
+                    ]
+                }
+            },
+            "62": {
+                "id": 245,
+                "complex_id": 59,
+                "property_id": 33653,
+                "type": "pantry",
+                "area": 3,
+                "section": 1,
+                "floor": -1,
+                "price": 1500000,
+                "parking_plan": {
+                    "id": 240,
+                    "property_id": 33653,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 8967.236328125,
+                            "y": 2190.2360839844
+                        },
+                        {
+                            "x": 8967.236328125,
+                            "y": 2266.2360839844
+                        },
+                        {
+                            "x": 8889.236328125,
+                            "y": 2266.2360839844
+                        },
+                        {
+                            "x": 8889.236328125,
+                            "y": 2192.2360839844
+                        }
+                    ]
+                }
+            },
+            "63": {
+                "id": 246,
+                "complex_id": 59,
+                "property_id": 33654,
+                "type": "pantry",
+                "area": 2.2,
+                "section": 1,
+                "floor": -1,
+                "price": 1100000,
+                "parking_plan": {
+                    "id": 241,
+                    "property_id": 33654,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 8967.236328125,
+                            "y": 2190.2360839844
+                        },
+                        {
+                            "x": 8967.236328125,
+                            "y": 2135.2360839844
+                        },
+                        {
+                            "x": 8889.236328125,
+                            "y": 2135.2360839844
+                        },
+                        {
+                            "x": 8889.236328125,
+                            "y": 2192.2360839844
+                        }
+                    ]
+                }
+            },
+            "64": {
+                "id": 247,
+                "complex_id": 59,
+                "property_id": 33655,
+                "type": "pantry",
+                "area": 2.5,
+                "section": 1,
+                "floor": -1,
+                "price": 1250000,
+                "parking_plan": {
+                    "id": 242,
+                    "property_id": 33655,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 8376,
+                            "y": 2026.40625
+                        },
+                        {
+                            "x": 8438,
+                            "y": 2026.40625
+                        },
+                        {
+                            "x": 8438,
+                            "y": 2111.40625
+                        },
+                        {
+                            "x": 8376,
+                            "y": 2111.40625
+                        }
+                    ]
+                }
+            },
+            "65": {
+                "id": 248,
+                "complex_id": 59,
+                "property_id": 33656,
+                "type": "pantry",
+                "area": 3.7,
+                "section": 1,
+                "floor": -1,
+                "price": 1850000,
+                "parking_plan": {
+                    "id": 243,
+                    "property_id": 33656,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 7802.6806640625,
+                            "y": 2026.2362060547
+                        },
+                        {
+                            "x": 7802.6806640625,
+                            "y": 2146.2362060547
+                        },
+                        {
+                            "x": 7742.6806640625,
+                            "y": 2146.2362060547
+                        },
+                        {
+                            "x": 7742.6806640625,
+                            "y": 2025.2362060547
+                        }
+                    ]
+                }
+            },
+            "66": {
+                "id": 249,
+                "complex_id": 59,
+                "property_id": 33657,
+                "type": "pantry",
+                "area": 4.1,
+                "section": 1,
+                "floor": -1,
+                "price": 2050000,
+                "parking_plan": {
+                    "id": 244,
+                    "property_id": 33657,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 7606.9033203125,
+                            "y": 2115.2362060547
+                        },
+                        {
+                            "x": 7606.9033203125,
+                            "y": 2029.2362060547
+                        },
+                        {
+                            "x": 7692.9033203125,
+                            "y": 2029.2362060547
+                        },
+                        {
+                            "x": 7692.9033203125,
+                            "y": 2115.2362060547
+                        }
+                    ]
+                }
+            },
+            "67": {
+                "id": 250,
+                "complex_id": 59,
+                "property_id": 33658,
+                "type": "pantry",
+                "area": 2.3,
+                "section": 1,
+                "floor": -1,
+                "price": 1150000,
+                "parking_plan": {
+                    "id": 245,
+                    "property_id": 33658,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 7598.6806640625,
+                            "y": 2174.2362060547
+                        },
+                        {
+                            "x": 7598.6806640625,
+                            "y": 2272.2362060547
+                        },
+                        {
+                            "x": 7543.6806640625,
+                            "y": 2272.2362060547
+                        },
+                        {
+                            "x": 7543.6806640625,
+                            "y": 2171.2362060547
+                        }
+                    ]
+                }
+            },
+            "68": {
+                "id": 251,
+                "complex_id": 59,
+                "property_id": 33659,
+                "type": "pantry",
+                "area": 2.3,
+                "section": 1,
+                "floor": -1,
+                "price": 1150000,
+                "parking_plan": {
+                    "id": 246,
+                    "property_id": 33659,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 7598.6806640625,
+                            "y": 2174.2362060547
+                        },
+                        {
+                            "x": 7649.6806640625,
+                            "y": 2174.2362060547
+                        },
+                        {
+                            "x": 7649.6806640625,
+                            "y": 2272.2362060547
+                        },
+                        {
+                            "x": 7598.6806640625,
+                            "y": 2272.2362060547
+                        }
+                    ]
+                }
+            },
+            "69": {
+                "id": 252,
+                "complex_id": 59,
+                "property_id": 33660,
+                "type": "pantry",
+                "area": 4.3,
+                "section": 1,
+                "floor": -1,
+                "price": 2150000,
+                "parking_plan": {
+                    "id": 247,
+                    "property_id": 33660,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 7649.6806640625,
+                            "y": 2174.2362060547
+                        },
+                        {
+                            "x": 7740.6806640625,
+                            "y": 2174.2362060547
+                        },
+                        {
+                            "x": 7740.6806640625,
+                            "y": 2270.2362060547
+                        },
+                        {
+                            "x": 7649.6806640625,
+                            "y": 2270.2362060547
+                        }
+                    ]
+                }
+            },
+            "70": {
+                "id": 253,
+                "complex_id": 59,
+                "property_id": 33661,
+                "type": "pantry",
+                "area": 2.3,
+                "section": 1,
+                "floor": -1,
+                "price": 1150000,
+                "parking_plan": {
+                    "id": 248,
+                    "property_id": 33661,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 7692.9033203125,
+                            "y": 2115.2362060547
+                        },
+                        {
+                            "x": 7742.9033203125,
+                            "y": 2115.2362060547
+                        },
+                        {
+                            "x": 7742.9033203125,
+                            "y": 2031.2362060547
+                        },
+                        {
+                            "x": 7692.9033203125,
+                            "y": 2031.2362060547
+                        }
+                    ]
+                }
+            },
+            "71": {
+                "id": 254,
+                "complex_id": 59,
+                "property_id": 33662,
+                "type": "pantry",
+                "area": 3.8,
+                "section": 1,
+                "floor": -1,
+                "price": 1900000,
+                "parking_plan": {
+                    "id": 249,
+                    "property_id": 33662,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4913.6667480469,
+                            "y": 2024.4167480469
+                        },
+                        {
+                            "x": 4980,
+                            "y": 2024.4167480469
+                        },
+                        {
+                            "x": 4980,
+                            "y": 2132.4166259766
+                        },
+                        {
+                            "x": 4908,
+                            "y": 2132.4166259766
+                        }
+                    ]
+                }
+            },
+            "72": {
+                "id": 255,
+                "complex_id": 59,
+                "property_id": 33663,
+                "type": "pantry",
+                "area": 4.2,
+                "section": 1,
+                "floor": -1,
+                "price": 2100000,
+                "parking_plan": {
+                    "id": 250,
+                    "property_id": 33663,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 6204.3662109375,
+                            "y": 3275.5625
+                        },
+                        {
+                            "x": 6323.3662109375,
+                            "y": 3275.5625
+                        },
+                        {
+                            "x": 6323.3662109375,
+                            "y": 3202.5625
+                        },
+                        {
+                            "x": 6207.3662109375,
+                            "y": 3202.5625
+                        }
+                    ]
+                }
+            },
+            "73": {
+                "id": 256,
+                "complex_id": 59,
+                "property_id": 33664,
+                "type": "pantry",
+                "area": 4,
+                "section": 1,
+                "floor": -1,
+                "price": 2000000,
+                "parking_plan": {
+                    "id": 251,
+                    "property_id": 33664,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 6209.3662109375,
+                            "y": 3278.5625
+                        },
+                        {
+                            "x": 6209.3662109375,
+                            "y": 3336.5625
+                        },
+                        {
+                            "x": 6330.3662109375,
+                            "y": 3336.5625
+                        },
+                        {
+                            "x": 6330.3662109375,
+                            "y": 3275.5625
+                        }
+                    ]
+                }
+            },
+            "74": {
+                "id": 257,
+                "complex_id": 59,
+                "property_id": 33665,
+                "type": "pantry",
+                "area": 3.3,
+                "section": 1,
+                "floor": -1,
+                "price": 1650000,
+                "parking_plan": {
+                    "id": 252,
+                    "property_id": 33665,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 6038.6391601562,
+                            "y": 3371.5625
+                        },
+                        {
+                            "x": 6038.6391601562,
+                            "y": 3431.5625
+                        },
+                        {
+                            "x": 6151.6391601562,
+                            "y": 3431.5625
+                        },
+                        {
+                            "x": 6151.6391601562,
+                            "y": 3365.5625
+                        }
+                    ]
+                }
+            },
+            "75": {
+                "id": 258,
+                "complex_id": 59,
+                "property_id": 33666,
+                "type": "pantry",
+                "area": 2.9,
+                "section": 1,
+                "floor": -1,
+                "price": 1450000,
+                "parking_plan": {
+                    "id": 253,
+                    "property_id": 33666,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 6089.6391601562,
+                            "y": 3267.5625
+                        },
+                        {
+                            "x": 6141.6391601562,
+                            "y": 3267.5625
+                        },
+                        {
+                            "x": 6141.6391601562,
+                            "y": 3365.5625
+                        },
+                        {
+                            "x": 6088.6391601562,
+                            "y": 3365.5625
+                        }
+                    ]
+                }
+            },
+            "76": {
+                "id": 259,
+                "complex_id": 59,
+                "property_id": 33667,
+                "type": "pantry",
+                "area": 1.8,
+                "section": 1,
+                "floor": -1,
+                "price": 900000,
+                "parking_plan": {
+                    "id": 254,
+                    "property_id": 33667,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 5705,
+                            "y": 3193.40625
+                        },
+                        {
+                            "x": 5747,
+                            "y": 3193.40625
+                        },
+                        {
+                            "x": 5747,
+                            "y": 3262.40625
+                        },
+                        {
+                            "x": 5705,
+                            "y": 3262.40625
+                        }
+                    ]
+                }
+            },
+            "77": {
+                "id": 260,
+                "complex_id": 59,
+                "property_id": 33668,
+                "type": "pantry",
+                "area": 3.5,
+                "section": 1,
+                "floor": -1,
+                "price": 1750000,
+                "parking_plan": {
+                    "id": 255,
+                    "property_id": 33668,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 5646,
+                            "y": 3193.40625
+                        },
+                        {
+                            "x": 5646,
+                            "y": 3261.40625
+                        },
+                        {
+                            "x": 5549,
+                            "y": 3261.40625
+                        },
+                        {
+                            "x": 5549,
+                            "y": 3188.40625
+                        }
+                    ]
+                }
+            },
+            "78": {
+                "id": 261,
+                "complex_id": 59,
+                "property_id": 33669,
+                "type": "pantry",
+                "area": 2.5,
+                "section": 1,
+                "floor": -1,
+                "price": 1250000,
+                "parking_plan": {
+                    "id": 256,
+                    "property_id": 33669,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 5498,
+                            "y": 3292.40625
+                        },
+                        {
+                            "x": 5498,
+                            "y": 3188.40625
+                        },
+                        {
+                            "x": 5549,
+                            "y": 3188.40625
+                        },
+                        {
+                            "x": 5549,
+                            "y": 3254.40625
+                        },
+                        {
+                            "x": 5549,
+                            "y": 3260.40625
+                        },
+                        {
+                            "x": 5549,
+                            "y": 3292.40625
+                        }
+                    ]
+                }
+            },
+            "79": {
+                "id": 262,
+                "complex_id": 59,
+                "property_id": 33671,
+                "type": "pantry",
+                "area": 3.9,
+                "section": 1,
+                "floor": -1,
+                "price": 1950000,
+                "parking_plan": {
+                    "id": 257,
+                    "property_id": 33671,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4979,
+                            "y": 2827.4167480469
+                        },
+                        {
+                            "x": 4979,
+                            "y": 2935.4167480469
+                        },
+                        {
+                            "x": 4895.5717773438,
+                            "y": 2935.4167480469
+                        },
+                        {
+                            "x": 4895.5717773438,
+                            "y": 2827.4167480469
+                        }
+                    ]
+                }
+            },
+            "80": {
+                "id": 263,
+                "complex_id": 59,
+                "property_id": 33672,
+                "type": "pantry",
+                "area": 4.2,
+                "section": 1,
+                "floor": -1,
+                "price": 2100000,
+                "parking_plan": {
+                    "id": 258,
+                    "property_id": 33672,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4979,
+                            "y": 2715.4167480469
+                        },
+                        {
+                            "x": 4979,
+                            "y": 2827.4167480469
+                        },
+                        {
+                            "x": 4900,
+                            "y": 2827.4167480469
+                        },
+                        {
+                            "x": 4900,
+                            "y": 2717.4167480469
+                        }
+                    ]
+                }
+            },
+            "81": {
+                "id": 264,
+                "complex_id": 59,
+                "property_id": 33673,
+                "type": "pantry",
+                "area": 2,
+                "section": 1,
+                "floor": -1,
+                "price": 1000000,
+                "parking_plan": {
+                    "id": 259,
+                    "property_id": 33673,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4520,
+                            "y": 2932.4167480469
+                        },
+                        {
+                            "x": 4520,
+                            "y": 2987.4167480469
+                        },
+                        {
+                            "x": 4631,
+                            "y": 2987.4167480469
+                        },
+                        {
+                            "x": 4631,
+                            "y": 2935.4167480469
+                        }
+                    ]
+                }
+            },
+            "82": {
+                "id": 265,
+                "complex_id": 59,
+                "property_id": 33674,
+                "type": "pantry",
+                "area": 2.1,
+                "section": 1,
+                "floor": -1,
+                "price": 1050000,
+                "parking_plan": {
+                    "id": 260,
+                    "property_id": 33674,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4520,
+                            "y": 2987.4167480469
+                        },
+                        {
+                            "x": 4520,
+                            "y": 3041.4167480469
+                        },
+                        {
+                            "x": 4633,
+                            "y": 3041.4167480469
+                        },
+                        {
+                            "x": 4633,
+                            "y": 2984.4167480469
+                        }
+                    ]
+                }
+            },
+            "83": {
+                "id": 266,
+                "complex_id": 59,
+                "property_id": 33675,
+                "type": "pantry",
+                "area": 5.6,
+                "section": 1,
+                "floor": -1,
+                "price": 2800000,
+                "parking_plan": {
+                    "id": 261,
+                    "property_id": 33675,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4520,
+                            "y": 3091.4167480469
+                        },
+                        {
+                            "x": 4520,
+                            "y": 3189.4167480469
+                        },
+                        {
+                            "x": 4633,
+                            "y": 3189.4167480469
+                        },
+                        {
+                            "x": 4633,
+                            "y": 3091.4167480469
+                        }
+                    ]
+                }
+            },
+            "84": {
+                "id": 267,
+                "complex_id": 59,
+                "property_id": 33676,
+                "type": "pantry",
+                "area": 6.2,
+                "section": 1,
+                "floor": -1,
+                "price": 3100000,
+                "parking_plan": {
+                    "id": 262,
+                    "property_id": 33676,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 6323.857421875,
+                            "y": 3259.4018554688
+                        },
+                        {
+                            "x": 6493.857421875,
+                            "y": 3259.4018554688
+                        },
+                        {
+                            "x": 6493.857421875,
+                            "y": 3196.4018554688
+                        },
+                        {
+                            "x": 6374.857421875,
+                            "y": 3196.4018554688
+                        },
+                        {
+                            "x": 6374.857421875,
+                            "y": 3185.4018554688
+                        },
+                        {
+                            "x": 6326.857421875,
+                            "y": 3185.4018554688
+                        }
+                    ]
+                }
+            },
+            "85": {
+                "id": 268,
+                "complex_id": 59,
+                "property_id": 33677,
+                "type": "pantry",
+                "area": 4.6,
+                "section": 1,
+                "floor": -1,
+                "price": 2300000,
+                "parking_plan": {
+                    "id": 263,
+                    "property_id": 33677,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 6366.857421875,
+                            "y": 3263.4018554688
+                        },
+                        {
+                            "x": 6366.857421875,
+                            "y": 3334.4018554688
+                        },
+                        {
+                            "x": 6489.857421875,
+                            "y": 3334.4018554688
+                        },
+                        {
+                            "x": 6489.857421875,
+                            "y": 3264.4018554688
+                        }
+                    ]
+                }
+            },
+            "86": {
+                "id": 269,
+                "complex_id": 59,
+                "property_id": 33678,
+                "type": "pantry",
+                "area": 4,
+                "section": 1,
+                "floor": -1,
+                "price": 2000000,
+                "parking_plan": {
+                    "id": 264,
+                    "property_id": 33678,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 6489.857421875,
+                            "y": 3398.4020996094
+                        },
+                        {
+                            "x": 6367.857421875,
+                            "y": 3398.4020996094
+                        },
+                        {
+                            "x": 6367.857421875,
+                            "y": 3338.4020996094
+                        },
+                        {
+                            "x": 6491.857421875,
+                            "y": 3338.4020996094
+                        }
+                    ]
+                }
+            },
+            "87": {
+                "id": 270,
+                "complex_id": 59,
+                "property_id": 33680,
+                "type": "pantry",
+                "area": 3.3,
+                "section": 1,
+                "floor": -1,
+                "price": 1650000,
+                "parking_plan": {
+                    "id": 265,
+                    "property_id": 33680,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 7043,
+                            "y": 3184.4001464844
+                        },
+                        {
+                            "x": 7043,
+                            "y": 3263.4001464844
+                        },
+                        {
+                            "x": 7132,
+                            "y": 3263.4001464844
+                        },
+                        {
+                            "x": 7132,
+                            "y": 3186.4001464844
+                        }
+                    ]
+                }
+            },
+            "88": {
+                "id": 271,
+                "complex_id": 59,
+                "property_id": 33681,
+                "type": "pantry",
+                "area": 4.9,
+                "section": 1,
+                "floor": -1,
+                "price": 2450000,
+                "parking_plan": {
+                    "id": 266,
+                    "property_id": 33681,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 7639,
+                            "y": 3263.40625
+                        },
+                        {
+                            "x": 7639,
+                            "y": 3240.40625
+                        },
+                        {
+                            "x": 7709,
+                            "y": 3240.40625
+                        },
+                        {
+                            "x": 7709,
+                            "y": 3324.2360839844
+                        },
+                        {
+                            "x": 7584.5698242188,
+                            "y": 3324.2360839844
+                        },
+                        {
+                            "x": 7584.5698242188,
+                            "y": 3262.40625
+                        }
+                    ]
+                }
+            },
+            "89": {
+                "id": 272,
+                "complex_id": 59,
+                "property_id": 33682,
+                "type": "pantry",
+                "area": 4.6,
+                "section": 1,
+                "floor": -1,
+                "price": 2300000,
+                "parking_plan": {
+                    "id": 267,
+                    "property_id": 33682,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 7584.5698242188,
+                            "y": 3324.2360839844
+                        },
+                        {
+                            "x": 7584.5698242188,
+                            "y": 3398.2360839844
+                        },
+                        {
+                            "x": 7707.5698242188,
+                            "y": 3398.2360839844
+                        },
+                        {
+                            "x": 7707.5698242188,
+                            "y": 3324.2360839844
+                        }
+                    ]
+                }
+            },
+            "90": {
+                "id": 275,
+                "complex_id": 59,
+                "property_id": 33804,
+                "type": "pantry",
+                "area": 2,
+                "section": 1,
+                "floor": -1,
+                "price": 1000000,
+                "parking_plan": {
+                    "id": 268,
+                    "property_id": 33804,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1013.015625,
+                            "y": 2142.640625
+                        },
+                        {
+                            "x": 1013.015625,
+                            "y": 2194.640625
+                        },
+                        {
+                            "x": 1094.015625,
+                            "y": 2194.640625
+                        },
+                        {
+                            "x": 1094.015625,
+                            "y": 2142.640625
+                        }
+                    ]
+                }
+            },
+            "91": {
+                "id": 277,
+                "complex_id": 59,
+                "property_id": 33806,
+                "type": "pantry",
+                "area": 1.8,
+                "section": 1,
+                "floor": -1,
+                "price": 900000,
+                "parking_plan": {
+                    "id": 269,
+                    "property_id": 33806,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4600.3334960938,
+                            "y": 2085.4167480469
+                        },
+                        {
+                            "x": 4600.3334960938,
+                            "y": 2032.4167480469
+                        },
+                        {
+                            "x": 4673.3334960938,
+                            "y": 2032.4167480469
+                        },
+                        {
+                            "x": 4673.3334960938,
+                            "y": 2085.4167480469
+                        }
+                    ]
+                }
+            },
+            "92": {
+                "id": 278,
+                "complex_id": 59,
+                "property_id": 33807,
+                "type": "pantry",
+                "area": 1.8,
+                "section": 1,
+                "floor": -1,
+                "price": 900000,
+                "parking_plan": {
+                    "id": 270,
+                    "property_id": 33807,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4600.3334960938,
+                            "y": 2137.4167480469
+                        },
+                        {
+                            "x": 4600.3334960938,
+                            "y": 2085.4167480469
+                        },
+                        {
+                            "x": 4673.3334960938,
+                            "y": 2085.4167480469
+                        },
+                        {
+                            "x": 4673.3334960938,
+                            "y": 2134.4167480469
+                        }
+                    ]
+                }
+            },
+            "93": {
+                "id": 279,
+                "complex_id": 59,
+                "property_id": 33808,
+                "type": "pantry",
+                "area": 2.1,
+                "section": 1,
+                "floor": -1,
+                "price": 1050000,
+                "parking_plan": {
+                    "id": 271,
+                    "property_id": 33808,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4530.3334960938,
+                            "y": 2126.4167480469
+                        },
+                        {
+                            "x": 4530.3334960938,
+                            "y": 2180.4167480469
+                        },
+                        {
+                            "x": 4445.3334960938,
+                            "y": 2180.4167480469
+                        },
+                        {
+                            "x": 4445.3334960938,
+                            "y": 2126.4167480469
+                        }
+                    ]
+                }
+            },
+            "94": {
+                "id": 280,
+                "complex_id": 59,
+                "property_id": 33809,
+                "type": "pantry",
+                "area": 1.8,
+                "section": 1,
+                "floor": -1,
+                "price": 900000,
+                "parking_plan": {
+                    "id": 272,
+                    "property_id": 33809,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 3680.015625,
+                            "y": 3264.640625
+                        },
+                        {
+                            "x": 3731.015625,
+                            "y": 3264.640625
+                        },
+                        {
+                            "x": 3731.015625,
+                            "y": 3189.640625
+                        },
+                        {
+                            "x": 3680.015625,
+                            "y": 3189.640625
+                        }
+                    ]
+                }
+            },
+            "95": {
+                "id": 281,
+                "complex_id": 59,
+                "property_id": 33810,
+                "type": "pantry",
+                "area": 4.2,
+                "section": 1,
+                "floor": -1,
+                "price": 2100000,
+                "parking_plan": {
+                    "id": 273,
+                    "property_id": 33810,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 3054,
+                            "y": 3341.40625
+                        },
+                        {
+                            "x": 3054,
+                            "y": 3401.40625
+                        },
+                        {
+                            "x": 3175,
+                            "y": 3401.40625
+                        },
+                        {
+                            "x": 3175,
+                            "y": 3341.40625
+                        }
+                    ]
+                }
+            },
+            "96": {
+                "id": 282,
+                "complex_id": 59,
+                "property_id": 33811,
+                "type": "pantry",
+                "area": 5.8,
+                "section": 1,
+                "floor": -1,
+                "price": 2900000,
+                "parking_plan": {
+                    "id": 274,
+                    "property_id": 33811,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4497.01171875,
+                            "y": 1387.578125
+                        },
+                        {
+                            "x": 4592.01171875,
+                            "y": 1387.578125
+                        },
+                        {
+                            "x": 4592.01171875,
+                            "y": 1513.578125
+                        },
+                        {
+                            "x": 4497.01171875,
+                            "y": 1513.578125
+                        }
+                    ]
+                }
+            },
+            "97": {
+                "id": 283,
+                "complex_id": 59,
+                "property_id": 33812,
+                "type": "pantry",
+                "area": 3.9,
+                "section": 1,
+                "floor": -1,
+                "price": 1950000,
+                "parking_plan": {
+                    "id": 275,
+                    "property_id": 33812,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4739.01171875,
+                            "y": 1319.578125
+                        },
+                        {
+                            "x": 4818.01171875,
+                            "y": 1319.578125
+                        },
+                        {
+                            "x": 4818.01171875,
+                            "y": 1418.578125
+                        },
+                        {
+                            "x": 4739.01171875,
+                            "y": 1418.578125
+                        }
+                    ]
+                }
+            },
+            "98": {
+                "id": 284,
+                "complex_id": 59,
+                "property_id": 33813,
+                "type": "pantry",
+                "area": 2.6,
+                "section": 1,
+                "floor": -1,
+                "price": 1300000,
+                "parking_plan": {
+                    "id": 276,
+                    "property_id": 33813,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4693.01171875,
+                            "y": 1188.578125
+                        },
+                        {
+                            "x": 4772.01171875,
+                            "y": 1188.578125
+                        },
+                        {
+                            "x": 4772.01171875,
+                            "y": 1251.578125
+                        },
+                        {
+                            "x": 4693.01171875,
+                            "y": 1251.578125
+                        }
+                    ]
+                }
+            },
+            "99": {
+                "id": 285,
+                "complex_id": 59,
+                "property_id": 33814,
+                "type": "pantry",
+                "area": 2.6,
+                "section": 1,
+                "floor": -1,
+                "price": 1300000,
+                "parking_plan": {
+                    "id": 277,
+                    "property_id": 33814,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4772.01171875,
+                            "y": 1188.578125
+                        },
+                        {
+                            "x": 4852.01171875,
+                            "y": 1188.578125
+                        },
+                        {
+                            "x": 4852.01171875,
+                            "y": 1252.578125
+                        },
+                        {
+                            "x": 4772.01171875,
+                            "y": 1252.578125
+                        }
+                    ]
+                }
+            },
+            "100": {
+                "id": 286,
+                "complex_id": 59,
+                "property_id": 33815,
+                "type": "pantry",
+                "area": 1.6,
+                "section": 1,
+                "floor": -1,
+                "price": 800000,
+                "parking_plan": {
+                    "id": 278,
+                    "property_id": 33815,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 6154,
+                            "y": 1638.40625
+                        },
+                        {
+                            "x": 6203,
+                            "y": 1638.40625
+                        },
+                        {
+                            "x": 6203,
+                            "y": 1710.40625
+                        },
+                        {
+                            "x": 6154,
+                            "y": 1710.40625
+                        }
+                    ]
+                }
+            },
+            "101": {
+                "id": 287,
+                "complex_id": 59,
+                "property_id": 33816,
+                "type": "pantry",
+                "area": 4,
+                "section": 1,
+                "floor": -1,
+                "price": 2000000,
+                "parking_plan": {
+                    "id": 279,
+                    "property_id": 33816,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 7590.9033203125,
+                            "y": 1614.2362060547
+                        },
+                        {
+                            "x": 7590.9033203125,
+                            "y": 1691.2362060547
+                        },
+                        {
+                            "x": 7712.9033203125,
+                            "y": 1691.2362060547
+                        },
+                        {
+                            "x": 7712.9033203125,
+                            "y": 1614.2362060547
+                        }
+                    ]
+                }
+            },
+            "102": {
+                "id": 288,
+                "complex_id": 59,
+                "property_id": 33817,
+                "type": "pantry",
+                "area": 2.7,
+                "section": 1,
+                "floor": -1,
+                "price": 1350000,
+                "parking_plan": {
+                    "id": 280,
+                    "property_id": 33817,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 8794,
+                            "y": 1578.40625
+                        },
+                        {
+                            "x": 8794,
+                            "y": 1627.40625
+                        },
+                        {
+                            "x": 8898,
+                            "y": 1627.40625
+                        },
+                        {
+                            "x": 8898,
+                            "y": 1573.40625
+                        }
+                    ]
+                }
+            },
+            "103": {
+                "id": 289,
+                "complex_id": 59,
+                "property_id": 33818,
+                "type": "pantry",
+                "area": 4,
+                "section": 1,
+                "floor": -1,
+                "price": 2000000,
+                "parking_plan": {
+                    "id": 281,
+                    "property_id": 33818,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 8968.6811523438,
+                            "y": 1616.2360839844
+                        },
+                        {
+                            "x": 8968.6811523438,
+                            "y": 1678.2360839844
+                        },
+                        {
+                            "x": 9091.6811523438,
+                            "y": 1678.2360839844
+                        },
+                        {
+                            "x": 9091.6811523438,
+                            "y": 1613.2360839844
+                        }
+                    ]
+                }
+            },
+            "104": {
+                "id": 290,
+                "complex_id": 59,
+                "property_id": 33819,
+                "type": "pantry",
+                "area": 2.2,
+                "section": 1,
+                "floor": -1,
+                "price": 1100000,
+                "parking_plan": {
+                    "id": 282,
+                    "property_id": 33819,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 9039.236328125,
+                            "y": 2082.2360839844
+                        },
+                        {
+                            "x": 9039.236328125,
+                            "y": 2138.2360839844
+                        },
+                        {
+                            "x": 9125.236328125,
+                            "y": 2138.2360839844
+                        },
+                        {
+                            "x": 9125.236328125,
+                            "y": 2082.2360839844
+                        }
+                    ]
+                }
+            },
+            "105": {
+                "id": 291,
+                "complex_id": 59,
+                "property_id": 33820,
+                "type": "pantry",
+                "area": 2.2,
+                "section": 1,
+                "floor": -1,
+                "price": 1100000,
+                "parking_plan": {
+                    "id": 283,
+                    "property_id": 33820,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 8967.236328125,
+                            "y": 2135.2360839844
+                        },
+                        {
+                            "x": 8967.236328125,
+                            "y": 2081.2360839844
+                        },
+                        {
+                            "x": 8891.236328125,
+                            "y": 2081.2360839844
+                        },
+                        {
+                            "x": 8891.236328125,
+                            "y": 2135.2360839844
+                        }
+                    ]
+                }
+            },
+            "106": {
+                "id": 292,
+                "complex_id": 59,
+                "property_id": 33821,
+                "type": "pantry",
+                "area": 2.2,
+                "section": 1,
+                "floor": -1,
+                "price": 1100000,
+                "parking_plan": {
+                    "id": 284,
+                    "property_id": 33821,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 8967.236328125,
+                            "y": 2081.2360839844
+                        },
+                        {
+                            "x": 8967.236328125,
+                            "y": 2024.2360839844
+                        },
+                        {
+                            "x": 8893.236328125,
+                            "y": 2024.2360839844
+                        },
+                        {
+                            "x": 8893.236328125,
+                            "y": 2081.2360839844
+                        }
+                    ]
+                }
+            },
+            "107": {
+                "id": 293,
+                "complex_id": 59,
+                "property_id": 33822,
+                "type": "pantry",
+                "area": 2.9,
+                "section": 1,
+                "floor": -1,
+                "price": 1450000,
+                "parking_plan": {
+                    "id": 285,
+                    "property_id": 33822,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 6089.6391601562,
+                            "y": 3267.5625
+                        },
+                        {
+                            "x": 6030.6391601562,
+                            "y": 3267.5625
+                        },
+                        {
+                            "x": 6030.6391601562,
+                            "y": 3365.5625
+                        },
+                        {
+                            "x": 6088.6391601562,
+                            "y": 3365.5625
+                        }
+                    ]
+                }
+            },
+            "108": {
+                "id": 294,
+                "complex_id": 59,
+                "property_id": 33824,
+                "type": "pantry",
+                "area": 2.1,
+                "section": 1,
+                "floor": -1,
+                "price": 1050000,
+                "parking_plan": {
+                    "id": 286,
+                    "property_id": 33824,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4520,
+                            "y": 3041.4167480469
+                        },
+                        {
+                            "x": 4520,
+                            "y": 3091.4167480469
+                        },
+                        {
+                            "x": 4631,
+                            "y": 3091.4167480469
+                        },
+                        {
+                            "x": 4631,
+                            "y": 3041.4167480469
+                        }
+                    ]
+                }
+            },
+            "109": {
+                "id": 296,
+                "complex_id": 59,
+                "property_id": 33826,
+                "type": "pantry",
+                "area": 2.4,
+                "section": 1,
+                "floor": -1,
+                "price": 1200000,
+                "parking_plan": {
+                    "id": 287,
+                    "property_id": 33826,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 8262.275390625,
+                            "y": 2259.5625
+                        },
+                        {
+                            "x": 8437.1845703125,
+                            "y": 2259.5625
+                        },
+                        {
+                            "x": 8437.1845703125,
+                            "y": 2187.5623779297
+                        },
+                        {
+                            "x": 8376,
+                            "y": 2187.5623779297
+                        },
+                        {
+                            "x": 8376,
+                            "y": 2019.5625
+                        },
+                        {
+                            "x": 8263.275390625,
+                            "y": 2019.5625
+                        }
+                    ]
+                }
+            },
+            "110": {
+                "id": 298,
+                "complex_id": 59,
+                "property_id": 33828,
+                "type": "pantry",
+                "area": 6.8,
+                "section": 1,
+                "floor": -1,
+                "price": 3400000,
+                "parking_plan": {
+                    "id": 288,
+                    "property_id": 33828,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4791.6667480469,
+                            "y": 2456.4167480469
+                        },
+                        {
+                            "x": 4981,
+                            "y": 2456.4167480469
+                        },
+                        {
+                            "x": 4981,
+                            "y": 2264.4167480469
+                        },
+                        {
+                            "x": 4909,
+                            "y": 2264.4167480469
+                        },
+                        {
+                            "x": 4909,
+                            "y": 2019.578125
+                        },
+                        {
+                            "x": 4791.6667480469,
+                            "y": 2019.578125
+                        }
+                    ]
+                }
+            },
+            "111": {
+                "id": 302,
+                "complex_id": 59,
+                "property_id": 33832,
+                "type": "pantry",
+                "area": 1.8,
+                "section": 1,
+                "floor": -1,
+                "price": 900000,
+                "parking_plan": {
+                    "id": 289,
+                    "property_id": 33832,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 5646,
+                            "y": 3193.40625
+                        },
+                        {
+                            "x": 5705,
+                            "y": 3193.40625
+                        },
+                        {
+                            "x": 5705,
+                            "y": 3263.40625
+                        },
+                        {
+                            "x": 5644,
+                            "y": 3263.40625
+                        }
+                    ]
+                }
+            },
+            "112": {
+                "id": 303,
+                "complex_id": 59,
+                "property_id": 33833,
+                "type": "pantry",
+                "area": 4,
+                "section": 1,
+                "floor": -1,
+                "price": 2000000,
+                "parking_plan": {
+                    "id": 290,
+                    "property_id": 33833,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 6209.3662109375,
+                            "y": 3336.5625
+                        },
+                        {
+                            "x": 6209.3662109375,
+                            "y": 3398.5625
+                        },
+                        {
+                            "x": 6329.3662109375,
+                            "y": 3398.5625
+                        },
+                        {
+                            "x": 6329.3662109375,
+                            "y": 3336.5625
+                        }
+                    ]
+                }
+            },
+            "113": {
+                "id": 304,
+                "complex_id": 59,
+                "property_id": 33834,
+                "type": "pantry",
+                "area": 1.8,
+                "section": 1,
+                "floor": -1,
+                "price": 900000,
+                "parking_plan": {
+                    "id": 291,
+                    "property_id": 33834,
+                    "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4600.3334960938,
+                            "y": 2032.4167480469
+                        },
+                        {
+                            "x": 4600.3334960938,
+                            "y": 1978.4167480469
+                        },
+                        {
+                            "x": 4672.3334960938,
+                            "y": 1978.4167480469
+                        },
+                        {
+                            "x": 4672.3334960938,
+                            "y": 2032.4167480469
+                        }
+                    ]
+                }
+            },
+            "image": "/storage/parkings/main/fe33f67ddaae4d37935477521542a525.jpg",
+            "width": 10000,
+            "height": 5000
+        }
+    }
+}

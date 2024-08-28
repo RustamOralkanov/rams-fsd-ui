@@ -272,6 +272,17 @@ template {
             background-color: $green500;
         }
     }
+    &-success {
+        &-500 {
+            background-color: $success500;
+        }
+    }
+
+    &-error {
+        &-500 {
+            background-color: $error500;
+        }
+    }
 }
 
 .border-radius {
@@ -293,6 +304,9 @@ template {
 }
 
 .height {
+    &-36 {
+        height: 36px;
+    }
     &-full {
         height: 100%;
     }
@@ -404,6 +418,11 @@ template {
 
     &-full {
         width: 100%;
+    }
+
+    &-24 {
+        width: 24px;
+        height: 24px;
     }
 
     &-50 {

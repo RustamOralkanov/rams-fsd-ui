@@ -1,0 +1,1915 @@
+{
+    "parkings": {
+        "-1": {
+            "0": {
+                "id": 371,
+                "complex_id": 8,
+                "property_id": 21519,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 357,
+                    "property_id": 21519,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 992,
+                            "y": 665.66662597656
+                        },
+                        {
+                            "x": 1119,
+                            "y": 665.66662597656
+                        },
+                        {
+                            "x": 1119,
+                            "y": 982.66662597656
+                        },
+                        {
+                            "x": 993,
+                            "y": 982.66662597656
+                        }
+                    ]
+                }
+            },
+            "1": {
+                "id": 372,
+                "complex_id": 8,
+                "property_id": 21521,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 358,
+                    "property_id": 21521,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1189,
+                            "y": 666.66662597656
+                        },
+                        {
+                            "x": 1319,
+                            "y": 666.66662597656
+                        },
+                        {
+                            "x": 1319,
+                            "y": 981.66662597656
+                        },
+                        {
+                            "x": 1195,
+                            "y": 981.66662597656
+                        }
+                    ]
+                }
+            },
+            "2": {
+                "id": 373,
+                "complex_id": 8,
+                "property_id": 21524,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 359,
+                    "property_id": 21524,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1437,
+                            "y": 666.66662597656
+                        },
+                        {
+                            "x": 1565,
+                            "y": 666.66662597656
+                        },
+                        {
+                            "x": 1565,
+                            "y": 984.66662597656
+                        },
+                        {
+                            "x": 1441,
+                            "y": 984.66662597656
+                        }
+                    ]
+                }
+            },
+            "3": {
+                "id": 374,
+                "complex_id": 8,
+                "property_id": 21527,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 360,
+                    "property_id": 21527,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1604.015625,
+                            "y": 667.171875
+                        },
+                        {
+                            "x": 1733.015625,
+                            "y": 667.171875
+                        },
+                        {
+                            "x": 1733.015625,
+                            "y": 984.171875
+                        },
+                        {
+                            "x": 1609.015625,
+                            "y": 984.171875
+                        }
+                    ]
+                }
+            },
+            "4": {
+                "id": 375,
+                "complex_id": 8,
+                "property_id": 21530,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 361,
+                    "property_id": 21530,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1816.015625,
+                            "y": 667.171875
+                        },
+                        {
+                            "x": 1943.015625,
+                            "y": 667.171875
+                        },
+                        {
+                            "x": 1943.015625,
+                            "y": 982.171875
+                        },
+                        {
+                            "x": 1819.015625,
+                            "y": 982.171875
+                        }
+                    ]
+                }
+            },
+            "5": {
+                "id": 376,
+                "complex_id": 8,
+                "property_id": 21533,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 362,
+                    "property_id": 21533,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1988.015625,
+                            "y": 667.171875
+                        },
+                        {
+                            "x": 2114.015625,
+                            "y": 667.171875
+                        },
+                        {
+                            "x": 2114.015625,
+                            "y": 981.171875
+                        },
+                        {
+                            "x": 1993.015625,
+                            "y": 981.171875
+                        }
+                    ]
+                }
+            },
+            "6": {
+                "id": 377,
+                "complex_id": 8,
+                "property_id": 21536,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 363,
+                    "property_id": 21536,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2586.6667480469,
+                            "y": 1451.6667480469
+                        },
+                        {
+                            "x": 2713.6667480469,
+                            "y": 1451.6667480469
+                        },
+                        {
+                            "x": 2713.6667480469,
+                            "y": 1767.6667480469
+                        },
+                        {
+                            "x": 2587.6667480469,
+                            "y": 1767.6667480469
+                        }
+                    ]
+                }
+            },
+            "7": {
+                "id": 378,
+                "complex_id": 8,
+                "property_id": 21539,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 364,
+                    "property_id": 21539,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2213.015625,
+                            "y": 1453.171875
+                        },
+                        {
+                            "x": 2338.015625,
+                            "y": 1453.171875
+                        },
+                        {
+                            "x": 2338.015625,
+                            "y": 1768.171875
+                        },
+                        {
+                            "x": 2218.015625,
+                            "y": 1768.171875
+                        }
+                    ]
+                }
+            },
+            "8": {
+                "id": 379,
+                "complex_id": 8,
+                "property_id": 21541,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 365,
+                    "property_id": 21541,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1982.015625,
+                            "y": 1452.171875
+                        },
+                        {
+                            "x": 2110.015625,
+                            "y": 1452.171875
+                        },
+                        {
+                            "x": 2110.015625,
+                            "y": 1768.171875
+                        },
+                        {
+                            "x": 1985.015625,
+                            "y": 1768.171875
+                        }
+                    ]
+                }
+            },
+            "9": {
+                "id": 380,
+                "complex_id": 8,
+                "property_id": 21544,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 366,
+                    "property_id": 21544,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1819.015625,
+                            "y": 1452.171875
+                        },
+                        {
+                            "x": 1946.015625,
+                            "y": 1452.171875
+                        },
+                        {
+                            "x": 1946.015625,
+                            "y": 1770.171875
+                        },
+                        {
+                            "x": 1822.015625,
+                            "y": 1770.171875
+                        }
+                    ]
+                }
+            },
+            "10": {
+                "id": 381,
+                "complex_id": 8,
+                "property_id": 21547,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 367,
+                    "property_id": 21547,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1613.015625,
+                            "y": 1453.171875
+                        },
+                        {
+                            "x": 1741.015625,
+                            "y": 1453.171875
+                        },
+                        {
+                            "x": 1741.015625,
+                            "y": 1770.171875
+                        },
+                        {
+                            "x": 1612.015625,
+                            "y": 1770.171875
+                        }
+                    ]
+                }
+            },
+            "11": {
+                "id": 382,
+                "complex_id": 8,
+                "property_id": 21551,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 368,
+                    "property_id": 21551,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1432.015625,
+                            "y": 1452.171875
+                        },
+                        {
+                            "x": 1555.015625,
+                            "y": 1452.171875
+                        },
+                        {
+                            "x": 1555.015625,
+                            "y": 1770.171875
+                        },
+                        {
+                            "x": 1429.015625,
+                            "y": 1770.171875
+                        }
+                    ]
+                }
+            },
+            "12": {
+                "id": 383,
+                "complex_id": 8,
+                "property_id": 21554,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 369,
+                    "property_id": 21554,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1438.015625,
+                            "y": 1899.171875
+                        },
+                        {
+                            "x": 1567.015625,
+                            "y": 1899.171875
+                        },
+                        {
+                            "x": 1567.015625,
+                            "y": 2217.171875
+                        },
+                        {
+                            "x": 1441.015625,
+                            "y": 2217.171875
+                        }
+                    ]
+                }
+            },
+            "13": {
+                "id": 384,
+                "complex_id": 8,
+                "property_id": 21556,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 370,
+                    "property_id": 21556,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1604.015625,
+                            "y": 1900.171875
+                        },
+                        {
+                            "x": 1727.015625,
+                            "y": 1900.171875
+                        },
+                        {
+                            "x": 1727.015625,
+                            "y": 2218.171875
+                        },
+                        {
+                            "x": 1603.015625,
+                            "y": 2218.171875
+                        }
+                    ]
+                }
+            },
+            "14": {
+                "id": 385,
+                "complex_id": 8,
+                "property_id": 21558,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 371,
+                    "property_id": 21558,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1823.015625,
+                            "y": 1899.171875
+                        },
+                        {
+                            "x": 1949.015625,
+                            "y": 1899.171875
+                        },
+                        {
+                            "x": 1949.015625,
+                            "y": 2217.171875
+                        },
+                        {
+                            "x": 1828.015625,
+                            "y": 2217.171875
+                        }
+                    ]
+                }
+            },
+            "15": {
+                "id": 386,
+                "complex_id": 8,
+                "property_id": 21561,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 372,
+                    "property_id": 21561,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1987.015625,
+                            "y": 1899.171875
+                        },
+                        {
+                            "x": 2114.015625,
+                            "y": 1899.171875
+                        },
+                        {
+                            "x": 2114.015625,
+                            "y": 2217.171875
+                        },
+                        {
+                            "x": 1990.015625,
+                            "y": 2217.171875
+                        }
+                    ]
+                }
+            },
+            "16": {
+                "id": 387,
+                "complex_id": 8,
+                "property_id": 21564,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 373,
+                    "property_id": 21564,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2209.015625,
+                            "y": 1899.171875
+                        },
+                        {
+                            "x": 2335.015625,
+                            "y": 1899.171875
+                        },
+                        {
+                            "x": 2335.015625,
+                            "y": 2220.171875
+                        },
+                        {
+                            "x": 2210.015625,
+                            "y": 2220.171875
+                        }
+                    ]
+                }
+            },
+            "17": {
+                "id": 388,
+                "complex_id": 8,
+                "property_id": 21567,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 374,
+                    "property_id": 21567,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2373.6667480469,
+                            "y": 1900.6666259766
+                        },
+                        {
+                            "x": 2498.6667480469,
+                            "y": 1900.6666259766
+                        },
+                        {
+                            "x": 2498.6667480469,
+                            "y": 2217.6666259766
+                        },
+                        {
+                            "x": 2377.6667480469,
+                            "y": 2217.6666259766
+                        }
+                    ]
+                }
+            },
+            "18": {
+                "id": 389,
+                "complex_id": 8,
+                "property_id": 21570,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 375,
+                    "property_id": 21570,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2591.6667480469,
+                            "y": 1900.6666259766
+                        },
+                        {
+                            "x": 2719.6667480469,
+                            "y": 1900.6666259766
+                        },
+                        {
+                            "x": 2719.6667480469,
+                            "y": 2217.6666259766
+                        },
+                        {
+                            "x": 2594.6667480469,
+                            "y": 2217.6666259766
+                        }
+                    ]
+                }
+            },
+            "19": {
+                "id": 390,
+                "complex_id": 8,
+                "property_id": 21572,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 376,
+                    "property_id": 21572,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2755.6667480469,
+                            "y": 1900.6666259766
+                        },
+                        {
+                            "x": 2881.6667480469,
+                            "y": 1900.6666259766
+                        },
+                        {
+                            "x": 2881.6667480469,
+                            "y": 2218.6666259766
+                        },
+                        {
+                            "x": 2755.6667480469,
+                            "y": 2218.6666259766
+                        }
+                    ]
+                }
+            },
+            "20": {
+                "id": 391,
+                "complex_id": 8,
+                "property_id": 21575,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 377,
+                    "property_id": 21575,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2982.6667480469,
+                            "y": 1904.6666259766
+                        },
+                        {
+                            "x": 3107.6667480469,
+                            "y": 1904.6666259766
+                        },
+                        {
+                            "x": 3107.6667480469,
+                            "y": 2221.6666259766
+                        },
+                        {
+                            "x": 2983.6667480469,
+                            "y": 2221.6666259766
+                        }
+                    ]
+                }
+            },
+            "21": {
+                "id": 392,
+                "complex_id": 8,
+                "property_id": 21578,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 378,
+                    "property_id": 21578,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 3145.6667480469,
+                            "y": 1902.6666259766
+                        },
+                        {
+                            "x": 3273.6667480469,
+                            "y": 1902.6666259766
+                        },
+                        {
+                            "x": 3273.6667480469,
+                            "y": 2221.6666259766
+                        },
+                        {
+                            "x": 3146.6667480469,
+                            "y": 2221.6666259766
+                        }
+                    ]
+                }
+            },
+            "22": {
+                "id": 393,
+                "complex_id": 8,
+                "property_id": 21581,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 379,
+                    "property_id": 21581,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 3333.6667480469,
+                            "y": 2319.6667480469
+                        },
+                        {
+                            "x": 3654.6667480469,
+                            "y": 2319.6667480469
+                        },
+                        {
+                            "x": 3654.6667480469,
+                            "y": 2441.6667480469
+                        },
+                        {
+                            "x": 3334.6667480469,
+                            "y": 2441.6667480469
+                        }
+                    ]
+                }
+            },
+            "23": {
+                "id": 394,
+                "complex_id": 8,
+                "property_id": 21584,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 380,
+                    "property_id": 21584,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 3713.515625,
+                            "y": 2513.15625
+                        },
+                        {
+                            "x": 4028.515625,
+                            "y": 2513.15625
+                        },
+                        {
+                            "x": 4028.515625,
+                            "y": 2638.15625
+                        },
+                        {
+                            "x": 3711.515625,
+                            "y": 2638.15625
+                        }
+                    ]
+                }
+            },
+            "24": {
+                "id": 395,
+                "complex_id": 8,
+                "property_id": 21588,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 381,
+                    "property_id": 21588,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 3333.6667480469,
+                            "y": 2512.6667480469
+                        },
+                        {
+                            "x": 3654.6667480469,
+                            "y": 2512.6667480469
+                        },
+                        {
+                            "x": 3654.6667480469,
+                            "y": 2636.6667480469
+                        },
+                        {
+                            "x": 3334.6667480469,
+                            "y": 2636.6667480469
+                        }
+                    ]
+                }
+            },
+            "25": {
+                "id": 396,
+                "complex_id": 8,
+                "property_id": 21591,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 382,
+                    "property_id": 21591,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 3154.6667480469,
+                            "y": 2671.6667480469
+                        },
+                        {
+                            "x": 3281.6667480469,
+                            "y": 2671.6667480469
+                        },
+                        {
+                            "x": 3281.6667480469,
+                            "y": 2990.6667480469
+                        },
+                        {
+                            "x": 3155.6667480469,
+                            "y": 2990.6667480469
+                        }
+                    ]
+                }
+            },
+            "26": {
+                "id": 397,
+                "complex_id": 8,
+                "property_id": 21594,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 383,
+                    "property_id": 21594,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2969.6667480469,
+                            "y": 2671.6667480469
+                        },
+                        {
+                            "x": 3097.6667480469,
+                            "y": 2671.6667480469
+                        },
+                        {
+                            "x": 3097.6667480469,
+                            "y": 2989.6667480469
+                        },
+                        {
+                            "x": 2973.6667480469,
+                            "y": 2989.6667480469
+                        }
+                    ]
+                }
+            },
+            "27": {
+                "id": 398,
+                "complex_id": 8,
+                "property_id": 21598,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 384,
+                    "property_id": 21598,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2761.6667480469,
+                            "y": 2673.6667480469
+                        },
+                        {
+                            "x": 2886.6667480469,
+                            "y": 2673.6667480469
+                        },
+                        {
+                            "x": 2886.6667480469,
+                            "y": 2990.6667480469
+                        },
+                        {
+                            "x": 2763.6667480469,
+                            "y": 2990.6667480469
+                        }
+                    ]
+                }
+            },
+            "28": {
+                "id": 399,
+                "complex_id": 8,
+                "property_id": 21601,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 385,
+                    "property_id": 21601,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2575.6667480469,
+                            "y": 2673.6667480469
+                        },
+                        {
+                            "x": 2701.6667480469,
+                            "y": 2673.6667480469
+                        },
+                        {
+                            "x": 2701.6667480469,
+                            "y": 2991.6667480469
+                        },
+                        {
+                            "x": 2577.6667480469,
+                            "y": 2991.6667480469
+                        }
+                    ]
+                }
+            },
+            "29": {
+                "id": 400,
+                "complex_id": 8,
+                "property_id": 21604,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 386,
+                    "property_id": 21604,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2387.6667480469,
+                            "y": 2673.6667480469
+                        },
+                        {
+                            "x": 2517.6667480469,
+                            "y": 2673.6667480469
+                        },
+                        {
+                            "x": 2517.6667480469,
+                            "y": 2989.6667480469
+                        },
+                        {
+                            "x": 2390.6667480469,
+                            "y": 2989.6667480469
+                        }
+                    ]
+                }
+            },
+            "30": {
+                "id": 401,
+                "complex_id": 8,
+                "property_id": 21606,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 387,
+                    "property_id": 21606,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2204.015625,
+                            "y": 2671.171875
+                        },
+                        {
+                            "x": 2332.015625,
+                            "y": 2671.171875
+                        },
+                        {
+                            "x": 2332.015625,
+                            "y": 2992.171875
+                        },
+                        {
+                            "x": 2207.015625,
+                            "y": 2992.171875
+                        }
+                    ]
+                }
+            },
+            "31": {
+                "id": 402,
+                "complex_id": 8,
+                "property_id": 21609,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 388,
+                    "property_id": 21609,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2002.015625,
+                            "y": 2673.171875
+                        },
+                        {
+                            "x": 2126.015625,
+                            "y": 2673.171875
+                        },
+                        {
+                            "x": 2126.015625,
+                            "y": 2989.171875
+                        },
+                        {
+                            "x": 2005.015625,
+                            "y": 2989.171875
+                        }
+                    ]
+                }
+            },
+            "32": {
+                "id": 403,
+                "complex_id": 8,
+                "property_id": 21612,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 389,
+                    "property_id": 21612,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1817.015625,
+                            "y": 2673.171875
+                        },
+                        {
+                            "x": 1942.015625,
+                            "y": 2673.171875
+                        },
+                        {
+                            "x": 1942.015625,
+                            "y": 2991.171875
+                        },
+                        {
+                            "x": 1819.015625,
+                            "y": 2991.171875
+                        }
+                    ]
+                }
+            },
+            "33": {
+                "id": 404,
+                "complex_id": 8,
+                "property_id": 21617,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 390,
+                    "property_id": 21617,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1619.015625,
+                            "y": 2671.171875
+                        },
+                        {
+                            "x": 1745.015625,
+                            "y": 2671.171875
+                        },
+                        {
+                            "x": 1745.015625,
+                            "y": 2992.171875
+                        },
+                        {
+                            "x": 1622.015625,
+                            "y": 2992.171875
+                        }
+                    ]
+                }
+            },
+            "34": {
+                "id": 405,
+                "complex_id": 8,
+                "property_id": 21622,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 391,
+                    "property_id": 21622,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1436.015625,
+                            "y": 2671.171875
+                        },
+                        {
+                            "x": 1559.015625,
+                            "y": 2671.171875
+                        },
+                        {
+                            "x": 1559.015625,
+                            "y": 2991.171875
+                        },
+                        {
+                            "x": 1435.015625,
+                            "y": 2991.171875
+                        }
+                    ]
+                }
+            },
+            "35": {
+                "id": 406,
+                "complex_id": 8,
+                "property_id": 21628,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 392,
+                    "property_id": 21628,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1615.015625,
+                            "y": 3117.171875
+                        },
+                        {
+                            "x": 1741.015625,
+                            "y": 3117.171875
+                        },
+                        {
+                            "x": 1741.015625,
+                            "y": 3438.171875
+                        },
+                        {
+                            "x": 1618.015625,
+                            "y": 3438.171875
+                        }
+                    ]
+                }
+            },
+            "36": {
+                "id": 407,
+                "complex_id": 8,
+                "property_id": 21631,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 393,
+                    "property_id": 21631,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1820.015625,
+                            "y": 3118.171875
+                        },
+                        {
+                            "x": 1946.015625,
+                            "y": 3118.171875
+                        },
+                        {
+                            "x": 1946.015625,
+                            "y": 3439.171875
+                        },
+                        {
+                            "x": 1823.015625,
+                            "y": 3439.171875
+                        }
+                    ]
+                }
+            },
+            "37": {
+                "id": 408,
+                "complex_id": 8,
+                "property_id": 21633,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 394,
+                    "property_id": 21633,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2005.015625,
+                            "y": 3123.171875
+                        },
+                        {
+                            "x": 2132.015625,
+                            "y": 3123.171875
+                        },
+                        {
+                            "x": 2132.015625,
+                            "y": 3438.171875
+                        },
+                        {
+                            "x": 2008.015625,
+                            "y": 3438.171875
+                        }
+                    ]
+                }
+            },
+            "38": {
+                "id": 409,
+                "complex_id": 8,
+                "property_id": 21635,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 395,
+                    "property_id": 21635,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2192.015625,
+                            "y": 3118.171875
+                        },
+                        {
+                            "x": 2318.015625,
+                            "y": 3118.171875
+                        },
+                        {
+                            "x": 2318.015625,
+                            "y": 3436.171875
+                        },
+                        {
+                            "x": 2197.015625,
+                            "y": 3436.171875
+                        }
+                    ]
+                }
+            },
+            "39": {
+                "id": 410,
+                "complex_id": 8,
+                "property_id": 21637,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 396,
+                    "property_id": 21637,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2375.6667480469,
+                            "y": 3121.6667480469
+                        },
+                        {
+                            "x": 2503.6667480469,
+                            "y": 3121.6667480469
+                        },
+                        {
+                            "x": 2503.6667480469,
+                            "y": 3440.6667480469
+                        },
+                        {
+                            "x": 2381.6667480469,
+                            "y": 3440.6667480469
+                        }
+                    ]
+                }
+            },
+            "40": {
+                "id": 411,
+                "complex_id": 8,
+                "property_id": 21640,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 397,
+                    "property_id": 21640,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2585.6667480469,
+                            "y": 3118.6667480469
+                        },
+                        {
+                            "x": 2714.6667480469,
+                            "y": 3118.6667480469
+                        },
+                        {
+                            "x": 2714.6667480469,
+                            "y": 3440.6667480469
+                        },
+                        {
+                            "x": 2589.6667480469,
+                            "y": 3440.6667480469
+                        }
+                    ]
+                }
+            },
+            "41": {
+                "id": 412,
+                "complex_id": 8,
+                "property_id": 21646,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 398,
+                    "property_id": 21646,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2969.6667480469,
+                            "y": 3120.6667480469
+                        },
+                        {
+                            "x": 3094.6667480469,
+                            "y": 3120.6667480469
+                        },
+                        {
+                            "x": 3094.6667480469,
+                            "y": 3438.6667480469
+                        },
+                        {
+                            "x": 2974.6667480469,
+                            "y": 3438.6667480469
+                        }
+                    ]
+                }
+            },
+            "42": {
+                "id": 413,
+                "complex_id": 8,
+                "property_id": 21649,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 399,
+                    "property_id": 21649,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 3151.6667480469,
+                            "y": 3120.6667480469
+                        },
+                        {
+                            "x": 3279.6667480469,
+                            "y": 3120.6667480469
+                        },
+                        {
+                            "x": 3279.6667480469,
+                            "y": 3440.6667480469
+                        },
+                        {
+                            "x": 3157.6667480469,
+                            "y": 3440.6667480469
+                        }
+                    ]
+                }
+            },
+            "43": {
+                "id": 414,
+                "complex_id": 8,
+                "property_id": 21655,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 400,
+                    "property_id": 21655,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 3770.6667480469,
+                            "y": 3120.6667480469
+                        },
+                        {
+                            "x": 3898.6667480469,
+                            "y": 3120.6667480469
+                        },
+                        {
+                            "x": 3898.6667480469,
+                            "y": 3438.6667480469
+                        },
+                        {
+                            "x": 3775.6667480469,
+                            "y": 3438.6667480469
+                        }
+                    ]
+                }
+            },
+            "44": {
+                "id": 415,
+                "complex_id": 8,
+                "property_id": 21657,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 401,
+                    "property_id": 21657,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 3954.515625,
+                            "y": 3121.171875
+                        },
+                        {
+                            "x": 4085.515625,
+                            "y": 3121.171875
+                        },
+                        {
+                            "x": 4085.515625,
+                            "y": 3439.171875
+                        },
+                        {
+                            "x": 3957.515625,
+                            "y": 3439.171875
+                        }
+                    ]
+                }
+            },
+            "45": {
+                "id": 416,
+                "complex_id": 8,
+                "property_id": 21660,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 402,
+                    "property_id": 21660,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4164.515625,
+                            "y": 3120.171875
+                        },
+                        {
+                            "x": 4290.515625,
+                            "y": 3120.171875
+                        },
+                        {
+                            "x": 4290.515625,
+                            "y": 3438.171875
+                        },
+                        {
+                            "x": 4166.515625,
+                            "y": 3438.171875
+                        }
+                    ]
+                }
+            },
+            "46": {
+                "id": 417,
+                "complex_id": 8,
+                "property_id": 21662,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 403,
+                    "property_id": 21662,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4350.515625,
+                            "y": 3118.171875
+                        },
+                        {
+                            "x": 4478.515625,
+                            "y": 3118.171875
+                        },
+                        {
+                            "x": 4478.515625,
+                            "y": 3438.171875
+                        },
+                        {
+                            "x": 4350.515625,
+                            "y": 3438.171875
+                        }
+                    ]
+                }
+            },
+            "47": {
+                "id": 418,
+                "complex_id": 8,
+                "property_id": 21664,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 404,
+                    "property_id": 21664,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4547.515625,
+                            "y": 3121.171875
+                        },
+                        {
+                            "x": 4673.515625,
+                            "y": 3121.171875
+                        },
+                        {
+                            "x": 4673.515625,
+                            "y": 3441.171875
+                        },
+                        {
+                            "x": 4545.515625,
+                            "y": 3441.171875
+                        }
+                    ]
+                }
+            },
+            "48": {
+                "id": 419,
+                "complex_id": 8,
+                "property_id": 21667,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 405,
+                    "property_id": 21667,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 5114.515625,
+                            "y": 3823.171875
+                        },
+                        {
+                            "x": 5240.515625,
+                            "y": 3823.171875
+                        },
+                        {
+                            "x": 5240.515625,
+                            "y": 4140.171875
+                        },
+                        {
+                            "x": 5115.515625,
+                            "y": 4140.171875
+                        }
+                    ]
+                }
+            },
+            "49": {
+                "id": 420,
+                "complex_id": 8,
+                "property_id": 21679,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 406,
+                    "property_id": 21679,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 1607.6666870117,
+                            "y": 4070.6667480469
+                        },
+                        {
+                            "x": 1734.6666870117,
+                            "y": 4070.6667480469
+                        },
+                        {
+                            "x": 1734.6666870117,
+                            "y": 4389.6667480469
+                        },
+                        {
+                            "x": 1610.6666870117,
+                            "y": 4389.6667480469
+                        }
+                    ]
+                }
+            },
+            "50": {
+                "id": 421,
+                "complex_id": 8,
+                "property_id": 21688,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 407,
+                    "property_id": 21688,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2206.015625,
+                            "y": 4072.171875
+                        },
+                        {
+                            "x": 2333.015625,
+                            "y": 4072.171875
+                        },
+                        {
+                            "x": 2333.015625,
+                            "y": 4387.171875
+                        },
+                        {
+                            "x": 2209.015625,
+                            "y": 4387.171875
+                        }
+                    ]
+                }
+            },
+            "51": {
+                "id": 422,
+                "complex_id": 8,
+                "property_id": 21692,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 408,
+                    "property_id": 21692,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2367.6667480469,
+                            "y": 4072.6667480469
+                        },
+                        {
+                            "x": 2493.6667480469,
+                            "y": 4072.6667480469
+                        },
+                        {
+                            "x": 2493.6667480469,
+                            "y": 4390.6667480469
+                        },
+                        {
+                            "x": 2369.6667480469,
+                            "y": 4390.6667480469
+                        }
+                    ]
+                }
+            },
+            "52": {
+                "id": 423,
+                "complex_id": 8,
+                "property_id": 21696,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 409,
+                    "property_id": 21696,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 2759.6667480469,
+                            "y": 4072.6667480469
+                        },
+                        {
+                            "x": 2885.6667480469,
+                            "y": 4072.6667480469
+                        },
+                        {
+                            "x": 2885.6667480469,
+                            "y": 4388.6667480469
+                        },
+                        {
+                            "x": 2762.6667480469,
+                            "y": 4388.6667480469
+                        }
+                    ]
+                }
+            },
+            "53": {
+                "id": 424,
+                "complex_id": 8,
+                "property_id": 21709,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 410,
+                    "property_id": 21709,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 3567.6667480469,
+                            "y": 4070.6667480469
+                        },
+                        {
+                            "x": 3695.6667480469,
+                            "y": 4070.6667480469
+                        },
+                        {
+                            "x": 3695.6667480469,
+                            "y": 4388.6667480469
+                        },
+                        {
+                            "x": 3574.6667480469,
+                            "y": 4388.6667480469
+                        }
+                    ]
+                }
+            },
+            "54": {
+                "id": 425,
+                "complex_id": 8,
+                "property_id": 21724,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 411,
+                    "property_id": 21724,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4551.515625,
+                            "y": 4069.171875
+                        },
+                        {
+                            "x": 4680.515625,
+                            "y": 4069.171875
+                        },
+                        {
+                            "x": 4680.515625,
+                            "y": 4387.171875
+                        },
+                        {
+                            "x": 4556.515625,
+                            "y": 4387.171875
+                        }
+                    ]
+                }
+            },
+            "55": {
+                "id": 426,
+                "complex_id": 8,
+                "property_id": 21727,
+                "type": "parking",
+                "area": 12.5,
+                "section": 1,
+                "floor": -1,
+                "price": 4500000,
+                "parking_plan": {
+                    "id": 412,
+                    "property_id": 21727,
+                    "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+                    "floor": "-1",
+                    "coordinates": [
+                        {
+                            "x": 4716.515625,
+                            "y": 4071.171875
+                        },
+                        {
+                            "x": 4841.515625,
+                            "y": 4071.171875
+                        },
+                        {
+                            "x": 4841.515625,
+                            "y": 4389.171875
+                        },
+                        {
+                            "x": 4721.515625,
+                            "y": 4389.171875
+                        }
+                    ]
+                }
+            },
+            "56": {},
+            "57": {},
+            "image": "/storage/parkings/main/c7ca975dd97b0166a16b198290215db4.jpg",
+            "width": 6000,
+            "height": 6000
+        }
+    }
+}
