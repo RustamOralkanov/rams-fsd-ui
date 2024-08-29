@@ -14,6 +14,7 @@ export const FlatsPage = () => {
                         { key: "1", label: "Квартиры", children: <FlatsList /> },
                         { key: "2", label: "Машино-места", children: <ParkingList /> },
                         { key: "3", label: "Кладовые", children: <StorageList /> },
+                        { key: "4", label: "Коммерческое помещение", children: 1, disabled: true },
                     ]}
                 />
             </Container>

@@ -13,4 +13,9 @@
         padding: 5px 10px;
         border-radius: 8px;
     }
+
+    &-button {
+        border-color: $green600;
+        color: $green600;
+    }
 }

@@ -4,9 +4,10 @@ import { Payments } from "../../../../widgets/payments";
 import { ComplexAbout } from "./about/ComplexAbout";
 import { ComplexBanner } from "./banner/ComplexBanner";
 import { ComplexFeatures } from "./features/ComplexFeatures";
+import { ComplexFlats } from "./flats/ComplexFlats";
 import { ComplexGallery } from "./gallery/ComplexGallery";
+import { ComplexInfrastructure } from "./infrastructure/ComplexInfrastructure";
 import { ComplexProgress } from "./progress/ComplexProgress";
-// import { ComplexInfrastructure } from "./infrastructure/ComplexInfrastructure";
 
 export const ComplexPage = () => {
     return (
@@ -14,7 +15,8 @@ export const ComplexPage = () => {
             <ComplexBanner />
             <ComplexAbout />
             <ComplexFeatures />
-            {/* <ComplexInfrastructure /> */}
+            <ComplexFlats />
+            <ComplexInfrastructure />
             <Payments />
             <ComplexGallery />
             <ComplexProgress />

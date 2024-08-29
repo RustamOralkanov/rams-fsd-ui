@@ -1,4 +1,4 @@
-export { LayoutIcon } from "./ui/LayoutIcon";
+export { LayoutIcon, LayoutOutlineIcon } from "./ui/LayoutIcon";
 export { UserIcon } from "./ui/UserIcon";
 export { ArrowRightIcon } from "./ui/ArrowRightIcon";
 export { ArrowLeftIcon } from "./ui/ArrowLeftIcon";
@@ -33,3 +33,4 @@ export { PhoneInIcon } from "./ui/PhoneInIcon";
 export { PhoneIcon } from "./ui/PhoneIcon";
 export { MailIcon } from "./ui/MailIcon";
 export { ForwardIcon } from "./ui/ForwardIcon";
+export { RowsIcon, RowsOutlineIcon } from "./ui/RowsIcon";

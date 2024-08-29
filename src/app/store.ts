@@ -1,11 +1,13 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { setupListeners } from "@reduxjs/toolkit/query";
+import { flatsViewSlice } from "@/features/flats/model/reducer";
 import { langSlice } from "../entities/lang/model/reducer";
 import { homeBannersApi } from "../pages/client/home/api/banners.api";
 
 export const store = configureStore({
     reducer: {
         languages: langSlice.reducer,
+        view: flatsViewSlice.reducer,
         [homeBannersApi.reducerPath]: homeBannersApi.reducer,
     },
     middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat([homeBannersApi.middleware]),

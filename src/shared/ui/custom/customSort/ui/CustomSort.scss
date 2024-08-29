@@ -16,10 +16,19 @@
             &-selector {
                 width: 210px !important;
                 padding: 8px 10px 8px 41px !important;
+                z-index: 1;
             }
             &-selection {
                 &-item {
                     line-height: 35px !important;
+                }
+            }
+            &-arrow {
+                z-index: 0;
+                svg {
+                    path {
+                        fill: #6c6d6d;
+                    }
                 }
             }
         }

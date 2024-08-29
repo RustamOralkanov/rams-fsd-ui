@@ -57,13 +57,16 @@ export const Banners = () => {
                                     Vorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
                                 </Paragraph>
                             </Flex>
-                            <Flex gap={4} align="center">
-                                <Button shape="circle" onClick={prevSlide}>
-                                    <ArrowLeftIcon />
-                                </Button>
-                                <Button shape="circle" onClick={nextSlide}>
-                                    <ArrowRightIcon />
-                                </Button>
+                            <Flex align="center" justify="space-between">
+                                <Button type="primary">Подробнее</Button>
+                                <Flex gap={4} align="center">
+                                    <Button shape="circle" className={"banners-button"} onClick={prevSlide}>
+                                        <ArrowLeftIcon />
+                                    </Button>
+                                    <Button shape="circle" className={"banners-button"} onClick={nextSlide}>
+                                        <ArrowRightIcon />
+                                    </Button>
+                                </Flex>
                             </Flex>
                         </Flex>
                     </Col>

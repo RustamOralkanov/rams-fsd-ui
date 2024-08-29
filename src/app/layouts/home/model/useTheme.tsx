@@ -3,16 +3,23 @@ import { useLocation, useParams } from "react-router-dom";
 import { Colors } from "../../../../shared/types/Colors";
 
 export const useTheme = () => {
-    const location = useLocation();
     const { id } = useParams<{ id: string }>();
+    const { pathname } = useLocation();
 
     useEffect(() => {
-        if (location.pathname.includes(`/flats/${id}`)) {
+        document.documentElement.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    }, [pathname]);
+
+    useEffect(() => {
+        if (pathname.includes(`/flats/${id}`)) {
             document.body.style.transition = "background-color 0.5s ease-in-out";
             document.body.style.backgroundColor = Colors.gray;
         } else {
             document.body.style.transition = "";
             document.body.style.backgroundColor = "";
         }
-    }, [location, id]);
+    }, [pathname, id]);
 };

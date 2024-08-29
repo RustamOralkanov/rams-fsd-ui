@@ -63,7 +63,7 @@ export const DesktopHeader = () => {
                             </React.Fragment>
 
                             {links_count[1] < headerData.pages.length ? (
-                                <DotsIcon onClick={showAllLinks} />
+                                <DotsIcon onClick={showAllLinks} className="color-gray-500" />
                             ) : (
                                 <ChevronDownIcon style={{ transform: "rotate(90deg)", color: Colors.gray500 }} onClick={resetLinks} />
                             )}

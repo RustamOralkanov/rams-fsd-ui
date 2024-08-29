@@ -1,0 +1,13 @@
+.flat-card-large {
+    padding: 20px;
+    background: $white;
+    border-radius: 4px;
+    height: 95px;
+    transition: $transition;
+    border: 1px solid $white;
+    cursor: pointer;
+
+    &:hover {
+        border-color: $green500;
+    }
+}

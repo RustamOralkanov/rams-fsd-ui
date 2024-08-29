@@ -113,7 +113,7 @@
             "dotActiveWidth": 16,
             "dotHeight": 5,
             "dotWidth": 37,
-            "dotGap": 5
+            "dotGap": 2.5
         },
         "Collapse": {
             "contentBg": "rgb(245, 248, 247)",
