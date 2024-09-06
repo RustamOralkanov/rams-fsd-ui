@@ -189,6 +189,10 @@
             }
         }
     }
+
+    &-dropdown {
+        z-index: 90;
+    }
 }
 
 span.ant-typography {

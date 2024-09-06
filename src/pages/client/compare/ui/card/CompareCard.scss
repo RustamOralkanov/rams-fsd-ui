@@ -1,0 +1,22 @@
+.compare-card {
+    border: 1px solid $gray100;
+    border-radius: 8px;
+
+    &-head {
+        padding: 16px 0;
+    }
+
+    &-image {
+        padding: 0 10px;
+    }
+
+    &-item {
+        padding: 10px 12px;
+        border-top: 1px solid $gray100;
+
+        &.location {
+            cursor: pointer;
+            background-color: $gray50;
+        }
+    }
+}

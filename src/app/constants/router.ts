@@ -17,4 +17,5 @@ export const APP_ROUTES = {
     SUPPORT: "support",
     MEDIA: "media",
     DEVELOPMENT: "development",
+    COMPARE: "compare",
 };

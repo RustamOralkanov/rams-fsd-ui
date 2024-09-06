@@ -433,6 +433,12 @@ template {
         color: $white !important;
     }
 
+    &-info {
+        &-500 {
+            color: $info500 !important;
+        }
+    }
+
     &-green {
         &-300 {
             color: $green300 !important;
@@ -570,5 +576,11 @@ template {
 .overflow {
     &-hidden {
         overflow: hidden;
+    }
+}
+
+.text {
+    &-center {
+        text-align: center;
     }
 }

@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import { AboutPage, ContactsPage, DevelopmentPage, FMSPage, MediaPage, PartnersPage, SupportPage } from "@/pages/client/about";
 import { CareerPage } from "@/pages/client/about/ui/career";
+import { ComparePage } from "@/pages/client/compare";
 import { ComplexPage } from "@/pages/client/complex";
 import { FacingPage } from "@/pages/client/facing";
 import { FavoritesPage } from "@/pages/client/favorites";
@@ -60,7 +61,10 @@ const router = createBrowserRouter([
                     },
                     {
                         path: APP_ROUTES.FAVORITES,
-                        children: [{ index: true, element: <FavoritesPage /> }],
+                        children: [
+                            { index: true, element: <FavoritesPage /> },
+                            { path: APP_ROUTES.COMPARE, element: <ComparePage /> },
+                        ],
                     },
                     {
                         path: APP_ROUTES.FACING,

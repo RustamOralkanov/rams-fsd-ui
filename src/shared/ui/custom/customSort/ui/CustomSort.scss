@@ -1,33 +1,33 @@
 .custom-sort {
-    position: relative;
-    width: fit-content;
-    &-icon {
-        position: absolute;
-        z-index: 2;
-        top: 50%;
-        transform: translateY(-50%);
-        left: 10px;
+    height: 40px;
+    border-radius: 4px;
+    max-width: 280px;
+    width: 100%;
+    cursor: pointer;
+    background-color: $white;
+    padding: 0 10px;
+    border: 1px solid #cfd2d1;
+
+    &-item {
+        height: 30px;
+        margin: 5px;
+        padding: 3px 12px;
+        border-radius: 7px;
+        line-height: 1;
     }
 
-    &-select {
-        height: 40px;
+    &-wrapper {
+        .ant {
+            &-dropdown {
+                &-menu {
+                    padding: 0;
+                    &-item {
+                        padding: 0 !important;
 
-        .ant-select {
-            &-selector {
-                width: 210px !important;
-                padding: 8px 10px 8px 41px !important;
-                z-index: 1;
-            }
-            &-selection {
-                &-item {
-                    line-height: 35px !important;
-                }
-            }
-            &-arrow {
-                z-index: 0;
-                svg {
-                    path {
-                        fill: #6c6d6d;
+                        .active {
+                            background-color: #024638;
+                            color: #ffffff;
+                        }
                     }
                 }
             }

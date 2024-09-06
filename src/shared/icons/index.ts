@@ -34,3 +34,4 @@ export { PhoneIcon } from "./ui/PhoneIcon";
 export { MailIcon } from "./ui/MailIcon";
 export { ForwardIcon } from "./ui/ForwardIcon";
 export { RowsIcon, RowsOutlineIcon } from "./ui/RowsIcon";
+export { CompareIcon } from "./ui/CompareIcon";
