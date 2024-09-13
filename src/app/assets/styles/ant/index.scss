@@ -193,6 +193,10 @@
     &-dropdown {
         z-index: 90;
     }
+
+    &-spin {
+        max-height: 100% !important;
+    }
 }
 
 span.ant-typography {

@@ -440,6 +440,9 @@ template {
     }
 
     &-green {
+        &-100 {
+            color: $green100 !important;
+        }
         &-300 {
             color: $green300 !important;
         }

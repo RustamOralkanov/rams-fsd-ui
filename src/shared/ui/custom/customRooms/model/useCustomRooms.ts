@@ -1,21 +1,30 @@
 import { useState } from "react";
+import { CustomRoomsProps } from "./types";
 
-export const useCustomRooms = (onChange: (value: number[]) => void) => {
-    const [flats, set_flats] = useState<number[]>([1]);
+export const useCustomRooms = (props: CustomRoomsProps) => {
+    const [selectedRooms, setSelectedRooms] = useState(props.rooms);
 
-    const handleFlats = (value: number) => {
-        let newFlats;
-        if (!flats.includes(value)) {
-            newFlats = [...flats, value];
+    const handleClick = (value: { label: string; value: string }) => {
+        const isSelected = selectedRooms.some((room) => room.label === value.label);
+        let newRooms;
+
+        if (isSelected) {
+            newRooms = selectedRooms.filter((room) => room.label !== value.label);
         } else {
-            newFlats = flats.filter((flat) => flat !== value);
+            newRooms = [...selectedRooms, value];
         }
-        set_flats(newFlats);
-        onChange(newFlats);
+
+        setSelectedRooms(newRooms);
+
+        const selectedValuesString = newRooms.map((room) => room.value).join(",");
+
+        if (props.onChange) {
+            props.onChange(selectedValuesString);
+        }
     };
 
     return {
-        flats,
-        handleFlats,
+        selectedRooms,
+        handleClick,
     };
 };

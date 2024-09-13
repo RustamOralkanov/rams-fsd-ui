@@ -11,82 +11,68 @@ import "./ComplexCard.scss";
 
 const { Text, Title } = Typography;
 
-export const ComplexCard: React.FC<IComplexCard> = () => {
+export const ComplexCard: React.FC<IComplexCard> = (props) => {
     const { height, set_height, carouselRef } = useComplexCard();
 
     return (
-        <Link to={"/" + APP_ROUTES.COMPLEXES + "/" + "alias"}>
+        <Link to={"/" + APP_ROUTES.COMPLEXES + "/" + props.alias}>
             <Flex vertical gap={17} className="complex-card" onMouseEnter={() => set_height(240)} onMouseLeave={() => set_height(357)}>
                 <div className={common.relative}>
-                    <Flex align="center" gap={5} className={common.absolute} style={{ zIndex: 2, top: 20, left: 20 }}>
-                        <CustomTag text={"Бизнес"} type="default" />
-                        <CustomTag text={"Индивидуальная рассрочка"} type="installment" />
-                        <CustomTag text={"title"} type="title" />
+                    <Flex align="center" gap={5} className={common.absolute} style={{ zIndex: 2, top: 20, left: 20 }} wrap>
+                        <CustomTag text={props?.complex_class || "n/d"} type="default" />
+                        {props.start_sale && <CustomTag text={"Старт продаж"} type="sale" />}
                     </Flex>
                     <Flex style={{ zIndex: 3, width: "calc(100%)", height: height }} className={common.absolute}>
-                        {[...Array(3)].map((_, index) => (
-                            <div key={index} style={{ width: `calc(${100 / 3}%)`, height: height }} onMouseEnter={() => carouselRef.current?.goTo(index, false)}></div>
+                        {[...Array(props.images && props.images.length)].map((_, index) => (
+                            <div
+                                key={index}
+                                style={{ width: `calc(${100 / (props.images ? props.images.length : 1)}%)`, height: height }}
+                                onMouseEnter={() => carouselRef.current?.goTo(index, false)}
+                            ></div>
                         ))}
                     </Flex>
                     <Carousel className={[common["radius-16"], common.hidden].join(" ")} style={{ height: height }} ref={carouselRef}>
-                        {[...Array(3)].map((_, index) => (
-                            <div key={index}>
-                                <Image
-                                    src="https://ramsqz.com/storage/complexes/banners/C1ihw0z5k7WeYvsKZgECBqZVEdVd0nspz8QGN0D6.jpg"
-                                    preview={false}
-                                    className={common.cover}
-                                    height={height}
-                                    width={"100%"}
-                                />
-                            </div>
-                        ))}
+                        {props.images &&
+                            props.images.map((image, index) => (
+                                <div key={index}>
+                                    <Image src={image.url} preview={false} className={common.cover} height={height} width={"100%"} />
+                                </div>
+                            ))}
                     </Carousel>
                 </div>
-
                 <Flex vertical gap={20} style={{ padding: "0 10px" }}>
                     <Flex vertical gap={4}>
                         <Title level={3} ellipsis style={{ fontWeight: 500, lineHeight: 1 }}>
-                            Название объекта
+                            {props.name}
                         </Title>
-                        <Flex justify="space-between" align="center">
-                            <Text style={{ lineHeight: 1.3 }}>мкр Ремизовка, ул.Арайлы 2/12</Text>
+                        <Flex justify="space-between" align="flex-start">
+                            <Text style={{ lineHeight: 1.3, maxWidth: 270 }}>{props.address}</Text>
                             <Title level={5} style={{ lineHeight: 1 }}>
-                                от 43 млн. ₸
+                                от {props && props.options?.length ? reduceMinPrice(props?.options[0].price) : "n/d"} млн. ₸
                             </Title>
                         </Flex>
                     </Flex>
                     <Flex vertical>
-                        <Text>Доступно 157 планировок</Text>
-                        <Flex justify="space-between" align="center">
-                            <Text style={{ color: Colors.info600 }}>
-                                1-комн. от 50 м
-                                <sup>
-                                    <small>2</small>
-                                </sup>
-                            </Text>
-                            <Title level={5}>от 32 650 000 ₸</Title>
-                        </Flex>
-                        <Flex justify="space-between" align="center">
-                            <Text style={{ color: Colors.info600 }}>
-                                2-комн. от 85 м
-                                <sup>
-                                    <small>2</small>
-                                </sup>
-                            </Text>
-                            <Title level={5}>от 85 650 000 ₸</Title>
-                        </Flex>
-                        <Flex justify="space-between" align="center">
-                            <Text style={{ color: Colors.info600 }}>
-                                3-комн. от 85 м
-                                <sup>
-                                    <small>2</small>
-                                </sup>
-                            </Text>
-                            <Title level={5}>от 85 650 000 ₸</Title>
-                        </Flex>
+                        <Text>Доступно {props.total_count || "n/d"} планировок</Text>
+                        {props.options?.map((option, index) => (
+                            <Flex justify="space-between" align="center" key={index}>
+                                <Text style={{ color: Colors.info600 }}>
+                                    {option.rooms}-комн. от {option.size} м
+                                    <sup>
+                                        <small>2</small>
+                                    </sup>
+                                </Text>
+                                <Title level={5}>от {option.price.toLocaleString()} ₸</Title>
+                            </Flex>
+                        ))}
                     </Flex>
                 </Flex>
             </Flex>
         </Link>
     );
+};
+
+const reduceMinPrice = (value: number) => {
+    const price = value;
+    return (price / 1000000).toFixed(0);
 };

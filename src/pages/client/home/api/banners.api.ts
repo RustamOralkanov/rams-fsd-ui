@@ -1,15 +1,15 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-import { IHomeBanners, IHomeBanner } from "./home.model";
+import { Banners, HomeBanners } from "../model/home.model";
 
 export const homeBannersApi = createApi({
     reducerPath: "homeBanners",
     baseQuery: fetchBaseQuery({ baseUrl: import.meta.env.VITE_API_CLIENT_URL }),
     endpoints: (builder) => ({
-        getHomeBanners: builder.query<IHomeBanner[], string>({
+        getHomeBanners: builder.query<Banners[], void>({
             query: () => ({
-                url: `/home-page-banners`,
+                url: `/pages/banners`,
             }),
-            transformResponse: (response: IHomeBanners) => response.banners,
+            transformResponse: (response: HomeBanners) => response.data.items,
         }),
     }),
 });

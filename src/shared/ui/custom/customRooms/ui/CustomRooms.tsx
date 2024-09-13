@@ -1,32 +1,35 @@
 import { Flex, Form, Typography } from "antd";
 import { Colors } from "../../../../types/Colors";
+import { CustomRoomsProps } from "../model/types";
 import { useCustomRooms } from "../model/useCustomRooms";
 import "./CustomRooms.scss";
 
-interface CustomRoomsProps {
-    onChange?: (value: number[]) => void;
-    is_title?: boolean;
-}
-
 const { Text } = Typography;
 
-export const CustomRooms = ({ onChange = () => {}, is_title = true }: CustomRoomsProps) => {
+export const CustomRooms: React.FC<CustomRoomsProps> = (props) => {
     const { status } = Form.Item.useStatus();
-    const { flats, handleFlats } = useCustomRooms(onChange);
+    const { selectedRooms, handleClick } = useCustomRooms(props);
+
+    console.log(props.value);
 
     return (
         <Flex vertical gap={10}>
-            {is_title && <Text style={{ fontSize: 12, fontWeight: 400, color: Colors.gray600 }}>Комнатность</Text>}
-            <Flex gap={5} className={`custom-rooms`}>
-                {[...Array(4)].map((_, index) => (
+            {props.is_title && (
+                <Text style={{ fontSize: 12, fontWeight: 400, color: Colors.gray600 }}>
+                    Комнатность <br />
+                    <pre>{JSON.stringify(selectedRooms, null, 2)}</pre>
+                </Text>
+            )}
+            <Flex gap={5} className="custom-rooms" align="center">
+                {props.rooms.map((room, index) => (
                     <Flex
                         justify="center"
                         align="center"
                         key={index}
-                        className={`custom-rooms-room ${status} ${flats.includes(index + 1) ? "active" : ""}`}
-                        onClick={() => handleFlats(index + 1)}
+                        className={`custom-rooms-room ${status} ${selectedRooms.some((selectedRoom) => selectedRoom.label === room.label) ? "active" : ""}`}
+                        onClick={() => handleClick(room)}
                     >
-                        {index + 1}
+                        {room.label}
                     </Flex>
                 ))}
             </Flex>

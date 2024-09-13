@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import { NotFoundPage } from "@/pages/404";
 import { AboutPage, ContactsPage, DevelopmentPage, FMSPage, MediaPage, PartnersPage, SupportPage } from "@/pages/client/about";
 import { CareerPage } from "@/pages/client/about/ui/career";
 import { ComparePage } from "@/pages/client/compare";
@@ -109,6 +110,10 @@ const router = createBrowserRouter([
                 ],
             },
         ],
+    },
+    {
+        path: "*", // Все несуществующие маршруты
+        element: <NotFoundPage />, // Используем MainLayout
     },
 ]);
 

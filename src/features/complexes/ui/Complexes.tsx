@@ -1,56 +1,84 @@
-import { Col, Row, Tabs, Flex } from "antd";
+import { Col, Row, Tabs, Flex, Spin } from "antd";
+import { useAppSelector } from "@/shared/hooks/useRedux";
 import { Container } from "../../../shared/ui/container";
+import { useGetComplexesQuery } from "../api/complexes.api";
+import { useComplexes } from "../model/useComplexes";
 import { ComplexBanner } from "./banner/ComplexBanner";
 import { ComplexCard } from "./card/ComplexCard";
 import { ComplexFilter } from "./filter/ComplexFilter";
 
 export const Complexes = () => {
-    return (
-        <section>
-            <Container>
-                <Tabs
-                    animated
-                    items={[
-                        {
-                            key: "sales",
-                            label: "В продаже",
-                            children: (
-                                <Flex vertical gap={40}>
-                                    <ComplexFilter />
-                                    <Row gutter={[20, 40]}>
-                                        <Col xl={16}>
-                                            <ComplexBanner />
-                                        </Col>
-                                        {[...Array(7)].map((_, index) => (
-                                            <Col xl={8} key={index}>
-                                                <ComplexCard />
-                                            </Col>
-                                        ))}
-                                    </Row>
-                                </Flex>
-                            ),
-                        },
-                        {
-                            key: "done",
-                            label: "Построенные",
-                            children: (
-                                <Flex vertical gap={40}>
-                                    <Row gutter={[20, 40]}>
-                                        <Col xl={16}>
-                                            <ComplexCard />
-                                        </Col>
-                                        {[...Array(7)].map((_, index) => (
-                                            <Col xl={8} key={index}>
-                                                <ComplexCard />
-                                            </Col>
-                                        ))}
-                                    </Row>
-                                </Flex>
-                            ),
-                        },
-                    ]}
-                />
-            </Container>
-        </section>
-    );
+    const complexFilter = useAppSelector((state) => state.complexFilter);
+    const { handleTab, complexesStatus } = useComplexes();
+    const { data, isSuccess, isFetching, isLoading } = useGetComplexesQuery({ status: complexesStatus, ...complexFilter });
+
+    if (isSuccess)
+        return (
+            <section>
+                <Container>
+                    <Tabs
+                        activeKey={complexesStatus}
+                        onChange={handleTab}
+                        animated
+                        items={[
+                            {
+                                key: "on_sale",
+                                label: "В продаже",
+                                children: (
+                                    <Flex vertical gap={40}>
+                                        <ComplexFilter />
+                                        <Spin spinning={isFetching || isLoading}>
+                                            <Row gutter={[20, 40]}>
+                                                {data.map((complex, index) => {
+                                                    if (complex.is_primary === false) {
+                                                        return (
+                                                            <Col xl={8} key={index}>
+                                                                <ComplexCard {...complex} />
+                                                            </Col>
+                                                        );
+                                                    } else {
+                                                        return (
+                                                            <Col xl={16} key={index}>
+                                                                <ComplexBanner {...complex} />
+                                                            </Col>
+                                                        );
+                                                    }
+                                                })}
+                                            </Row>
+                                        </Spin>
+                                    </Flex>
+                                ),
+                            },
+                            {
+                                key: "done",
+                                label: "Построенные",
+                                children: (
+                                    <Flex vertical gap={40}>
+                                        <Spin spinning={isFetching || isLoading}>
+                                            <Row gutter={[20, 40]}>
+                                                {data.map((complex, index) => {
+                                                    if (complex.is_primary === false) {
+                                                        return (
+                                                            <Col xl={8} key={index}>
+                                                                <ComplexCard {...complex} />
+                                                            </Col>
+                                                        );
+                                                    } else {
+                                                        return (
+                                                            <Col xl={16} key={index}>
+                                                                <ComplexBanner {...complex} />
+                                                            </Col>
+                                                        );
+                                                    }
+                                                })}
+                                            </Row>
+                                        </Spin>
+                                    </Flex>
+                                ),
+                            },
+                        ]}
+                    />
+                </Container>
+            </section>
+        );
 };
