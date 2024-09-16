@@ -1,7 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { setupListeners } from "@reduxjs/toolkit/query";
 import { complexesApi } from "@/features/complexes/api/complexes.api";
-import { complexFilter } from "@/features/complexes/model/reducer/reducer";
 import { flatsViewSlice } from "@/features/flats/model/reducer";
 import { langSlice } from "../entities/lang/model/reducer";
 import { homeBannersApi } from "../pages/client/home/api/banners.api";
@@ -10,7 +9,6 @@ export const store = configureStore({
     reducer: {
         languages: langSlice.reducer,
         view: flatsViewSlice.reducer,
-        complexFilter: complexFilter.reducer,
         [homeBannersApi.reducerPath]: homeBannersApi.reducer,
         [complexesApi.reducerPath]: complexesApi.reducer,
     },

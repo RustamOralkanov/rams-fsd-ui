@@ -208,3 +208,32 @@ textarea {
     min-height: 108px !important;
     padding: 10px !important;
 }
+
+.filter-checkbox {
+    height: 24px;
+    border-radius: 50px;
+    background-color: #f5f8f7;
+    padding: 0 8px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+
+    &.ant-checkbox {
+        &-wrapper {
+            &-checked {
+                background-color: #024638;
+                color: #ffffff;
+            }
+
+            .ant-checkbox {
+                display: none;
+            }
+
+            .ant-checkbox + span {
+                padding-inline-start: 0 !important;
+                padding-inline-end: 0 !important;
+            }
+        }
+    }
+}

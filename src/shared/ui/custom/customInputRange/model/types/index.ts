@@ -6,5 +6,5 @@ export interface CustomInputRangeProps {
     min?: number;
     max?: number;
     unit?: string | ReactNode;
-    value?: [number, number];
+    value?: number[];
 }

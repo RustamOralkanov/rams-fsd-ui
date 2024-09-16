@@ -14,6 +14,10 @@ export interface ComplexesFilter {
     is_discount: boolean;
 }
 
+export interface ComplexesFilterProps {
+    rooms?: string;
+}
+
 interface Class {
     id: number;
     icon: string;

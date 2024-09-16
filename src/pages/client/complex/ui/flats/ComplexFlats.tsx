@@ -15,11 +15,11 @@ export const ComplexFlats = () => {
             <Container>
                 <Flex vertical gap={40}>
                     <Title level={2}>Выберите квартиру</Title>
-                    <Form name="complex-filter" form={form} onFinish={onFinish}>
+                    <Form name="complex-flats" form={form} onFinish={onFinish}>
                         <Row gutter={[20, 20]} align={"bottom"}>
                             <Col xl={6}>
                                 <Form.Item name={1}>
-                                    <CustomRooms />
+                                    <CustomRooms rooms={[]} />
                                 </Form.Item>
                             </Col>
                             <Col xl={6}>

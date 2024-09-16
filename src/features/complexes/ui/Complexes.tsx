@@ -1,5 +1,4 @@
 import { Col, Row, Tabs, Flex, Spin } from "antd";
-import { useAppSelector } from "@/shared/hooks/useRedux";
 import { Container } from "../../../shared/ui/container";
 import { useGetComplexesQuery } from "../api/complexes.api";
 import { useComplexes } from "../model/useComplexes";
@@ -8,25 +7,24 @@ import { ComplexCard } from "./card/ComplexCard";
 import { ComplexFilter } from "./filter/ComplexFilter";
 
 export const Complexes = () => {
-    const complexFilter = useAppSelector((state) => state.complexFilter);
-    const { handleTab, complexesStatus } = useComplexes();
-    const { data, isSuccess, isFetching, isLoading } = useGetComplexesQuery({ status: complexesStatus, ...complexFilter });
+    const { handleTab, complexesStatus, complexProps, handleFilterChange } = useComplexes();
+    const { data, isSuccess, isFetching, isLoading } = useGetComplexesQuery({ status: complexesStatus, ...complexProps });
 
-    if (isSuccess)
-        return (
-            <section>
-                <Container>
-                    <Tabs
-                        activeKey={complexesStatus}
-                        onChange={handleTab}
-                        animated
-                        items={[
-                            {
-                                key: "on_sale",
-                                label: "В продаже",
-                                children: (
-                                    <Flex vertical gap={40}>
-                                        <ComplexFilter />
+    return (
+        <section>
+            <Container>
+                <Tabs
+                    activeKey={complexesStatus}
+                    onChange={handleTab}
+                    animated
+                    items={[
+                        {
+                            key: "on_sale",
+                            label: "В продаже",
+                            children: (
+                                <Flex vertical gap={40}>
+                                    <ComplexFilter onFilterChange={handleFilterChange} />
+                                    {isSuccess && (
                                         <Spin spinning={isFetching || isLoading}>
                                             <Row gutter={[20, 40]}>
                                                 {data.map((complex, index) => {
@@ -46,14 +44,16 @@ export const Complexes = () => {
                                                 })}
                                             </Row>
                                         </Spin>
-                                    </Flex>
-                                ),
-                            },
-                            {
-                                key: "done",
-                                label: "Построенные",
-                                children: (
-                                    <Flex vertical gap={40}>
+                                    )}
+                                </Flex>
+                            ),
+                        },
+                        {
+                            key: "done",
+                            label: "Построенные",
+                            children: (
+                                <Flex vertical gap={40}>
+                                    {isSuccess && (
                                         <Spin spinning={isFetching || isLoading}>
                                             <Row gutter={[20, 40]}>
                                                 {data.map((complex, index) => {
@@ -73,12 +73,13 @@ export const Complexes = () => {
                                                 })}
                                             </Row>
                                         </Spin>
-                                    </Flex>
-                                ),
-                            },
-                        ]}
-                    />
-                </Container>
-            </section>
-        );
+                                    )}
+                                </Flex>
+                            ),
+                        },
+                    ]}
+                />
+            </Container>
+        </section>
+    );
 };

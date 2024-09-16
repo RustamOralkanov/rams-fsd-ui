@@ -1,3 +1,8 @@
+export interface CustomRoomsPropsValue {
+    label: string;
+    value: string;
+}
+
 export interface CustomRoomsProps {
     onChange?: (value: string) => void;
     is_title?: boolean;
@@ -5,8 +10,5 @@ export interface CustomRoomsProps {
         label: string;
         value: string;
     }[];
-    value?: {
-        label: string;
-        value: string;
-    }[];
+    value?: CustomRoomsPropsValue[];
 }
