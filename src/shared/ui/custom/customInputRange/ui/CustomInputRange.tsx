@@ -14,6 +14,7 @@ export const CustomInputRange: React.FC<CustomInputRangeProps> = ({ onChange, ti
         if (range[0] !== value[0] || range[1] !== value[1]) {
             set_range(value);
         }
+
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [value]);
 
@@ -84,7 +85,7 @@ export const CustomInputRange: React.FC<CustomInputRangeProps> = ({ onChange, ti
                     onChangeComplete={handleSliderAfterChange}
                     min={min}
                     max={max}
-                    tooltip={{ open: false }}
+                    // tooltip={{ open: false }}
                 />
             </Flex>
         </Flex>

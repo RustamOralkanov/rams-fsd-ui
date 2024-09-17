@@ -5,6 +5,8 @@ export interface CustomInputRangeProps {
     title?: string;
     min?: number;
     max?: number;
+    changedMin?: number;
+    changedMax?: number;
     unit?: string | ReactNode;
     value?: number[];
 }

@@ -41,7 +41,7 @@ export const AutoTradeIn = () => {
                                 </Col>
                             </Row>
                             <Form.Item name="rooms" rules={[{ required: true }]}>
-                                <CustomRooms is_title={false} />
+                                <CustomRooms is_title={false} rooms={[]} />
                             </Form.Item>
                             <Form.Item name="address" rules={[{ required: true }]}>
                                 <Input placeholder="Введите адрес" />

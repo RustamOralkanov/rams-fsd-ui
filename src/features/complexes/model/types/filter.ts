@@ -5,24 +5,32 @@ export interface ComplexesFilters {
 }
 
 export interface ComplexesFilter {
-    rooms: Room[];
-    sizes: number[];
-    prices: number[];
-    counts: number;
-    classes: Class[];
-    start_sale: boolean;
-    is_discount: boolean;
+    filters: {
+        rooms: Room[];
+        sizes: number[];
+        prices: number[];
+        counts: number;
+        booleanFilters: {
+            name: string;
+            query: string;
+        }[];
+    };
+    changedFilters: {
+        rooms: Room[];
+        sizes: number[];
+        prices: number[];
+        counts: number;
+        booleanFilters: {
+            name: string;
+            query: string;
+        }[];
+    };
 }
 
 export interface ComplexesFilterProps {
     rooms?: string;
 }
 
-interface Class {
-    id: number;
-    icon: string;
-    name: string;
-}
 interface Room {
     label: string;
     value: string;

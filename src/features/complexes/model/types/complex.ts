@@ -44,4 +44,7 @@ export interface ComplexParams {
     size?: number[];
     start_sale?: boolean;
     is_discount?: boolean;
+    is_class_2?: boolean;
+    is_class_3?: boolean;
+    is_class_4?: boolean;
 }

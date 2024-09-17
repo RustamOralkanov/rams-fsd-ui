@@ -1,11 +1,12 @@
 import { useState } from "react";
-import { CustomRoomsProps } from "./types";
+import { CustomRoomsProps, CustomRoomsPropsValue } from "./types";
 
 export const useCustomRooms = (props: CustomRoomsProps) => {
-    const [selectedRooms, setSelectedRooms] = useState(props.rooms);
+    const [selectedRooms, setSelectedRooms] = useState<CustomRoomsPropsValue[]>([]);
 
-    const handleClick = (value: { label: string; value: string }) => {
+    const handleRoom = (value: CustomRoomsPropsValue) => {
         const isSelected = selectedRooms.some((room) => room.label === value.label);
+
         let newRooms;
 
         if (isSelected) {
@@ -16,15 +17,13 @@ export const useCustomRooms = (props: CustomRoomsProps) => {
 
         setSelectedRooms(newRooms);
 
-        const selectedValuesString = newRooms.map((room) => room.value).join(",");
-
         if (props.onChange) {
-            props.onChange(selectedValuesString);
+            props.onChange(newRooms);
         }
     };
 
     return {
         selectedRooms,
-        handleClick,
+        handleRoom,
     };
 };

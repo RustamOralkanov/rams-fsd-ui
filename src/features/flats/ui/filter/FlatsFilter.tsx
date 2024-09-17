@@ -2,6 +2,8 @@ import { Col, Flex, Form, Row, Typography } from "antd";
 import { useState } from "react";
 import { Colors } from "@/shared/types/Colors";
 import { ClearButton, CustomInputRange, CustomRooms, CustomSelect, CustomSelectTags } from "@/shared/ui";
+import { useGetFlatsFilterQuery } from "../../api/flats.api";
+
 import { IFlatsFilterValues } from "../../model/flatsFilter.model";
 
 import "./FlatsFilter.scss";
@@ -11,6 +13,7 @@ const { Text } = Typography;
 export const FlatsFilter = () => {
     const [form] = Form.useForm();
     const [additional_menu] = useState(false);
+    const { data: filter } = useGetFlatsFilterQuery();
 
     const onValuesChange = (_: unknown, allValues: IFlatsFilterValues) => {
         console.log("Form values changed:", allValues);
@@ -19,6 +22,8 @@ export const FlatsFilter = () => {
     const clearForm = () => {
         form.resetFields();
     };
+
+    console.log(filter);
 
     return (
         <Form onValuesChange={onValuesChange} form={form} name="flats-filter">
@@ -30,7 +35,7 @@ export const FlatsFilter = () => {
                 </Col>
                 <Col xl={6}>
                     <Form.Item name={"rooms"}>
-                        <CustomRooms />
+                        <CustomRooms rooms={[]} />
                     </Form.Item>
                 </Col>
                 <Col xl={6}>
