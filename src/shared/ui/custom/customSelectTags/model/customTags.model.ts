@@ -1,8 +1,9 @@
-export interface ICustomSelectTags {
-    onChange?: (value: string[]) => void;
-}
+import { SelectProps } from "antd";
 
-export interface ItemProps {
-    label: string;
-    value: string;
+export interface ICustomSelectTags extends SelectProps {
+    onChange?: (value: unknown) => void;
+    value?: {
+        name: string;
+        id: string;
+    }[];
 }

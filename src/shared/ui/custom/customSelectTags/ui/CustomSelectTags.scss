@@ -5,7 +5,11 @@
 
         .ant-select {
             &-selector {
+                z-index: 2;
                 padding: 13px 10px;
+            }
+            &-arrow {
+                z-index: 1;
             }
             &-selection {
                 &-overflow {
@@ -13,7 +17,8 @@
                 }
 
                 &-placeholder {
-                    padding-top: 4px;
+                    font-weight: 600;
+                    color: #2e3130 !important;
                 }
 
                 &-item {

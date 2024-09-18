@@ -8,6 +8,16 @@
     position: relative;
     padding: 0 10px;
     max-width: 100%;
+
+    .values {
+        width: 50%;
+    }
+
+    .unit {
+        position: absolute;
+        right: 10px;
+    }
+
     * {
         user-select: none;
     }
@@ -34,6 +44,8 @@
         }
     }
     .divider {
+        height: 20px;
+        margin: 0 16px;
         border-right: 1px solid #cfd2d1;
     }
 
@@ -46,8 +58,6 @@
     &-slider {
         position: absolute;
         bottom: -2px;
-        // left: 50%;
-        // transform: translateX(-50%);
         width: calc(100% - 24px);
         margin: 0;
     }

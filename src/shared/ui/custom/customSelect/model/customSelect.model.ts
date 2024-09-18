@@ -1,13 +1,10 @@
-export type OnChangeType = (value: string | number) => void;
+import { SelectProps } from "antd";
 
-export interface ICustomSelect {
-    onChange?: OnChangeType;
-    options?: Option[];
-    placeholder?: string;
+export interface ICustomSelect extends SelectProps {
+    onChange?: (value: unknown) => void;
     title?: string;
-}
-
-interface Option {
-    label: string;
-    value: string | number;
+    options: {
+        id: number;
+        name: string;
+    }[];
 }

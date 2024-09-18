@@ -1,4 +1,4 @@
-import { Col, Row, Slider, Typography, Flex, InputNumber, Form } from "antd";
+import { Slider, Typography, Flex, InputNumber, Form } from "antd";
 import React, { useEffect, useState } from "react";
 import { Colors } from "../../../../types/Colors";
 import { CustomInputRangeProps } from "../model/types";
@@ -14,7 +14,6 @@ export const CustomInputRange: React.FC<CustomInputRangeProps> = ({ onChange, ti
         if (range[0] !== value[0] || range[1] !== value[1]) {
             set_range(value);
         }
-
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [value]);
 
@@ -51,32 +50,17 @@ export const CustomInputRange: React.FC<CustomInputRangeProps> = ({ onChange, ti
     return (
         <Flex vertical gap={10}>
             {title && <Text style={{ fontSize: 12, fontWeight: 400, color: Colors.gray600 }}>{title}</Text>}
-            <Flex className={`custom-input-range ${status}`} vertical justify="center">
-                <Row>
-                    <Col span={12} className="divider">
-                        <Flex align="center" gap={5}>
-                            <Text style={{ whiteSpace: "nowrap" }}>от</Text>
-                            <InputNumber
-                                value={range[0]}
-                                formatter={(value) => `${value}`.replace(/\B(?=(\d{3})+(?!\d))/g, " ")}
-                                controls={false}
-                                onChange={handleMinInputChange}
-                            />
-                        </Flex>
-                    </Col>
-                    <Col span={12}>
-                        <Flex align="center" justify="flex-end" gap={5}>
-                            <Text>до</Text>
-                            <InputNumber
-                                value={range[1]}
-                                formatter={(value) => `${value}`.replace(/\B(?=(\d{3})+(?!\d))/g, " ")}
-                                controls={false}
-                                onChange={handleMaxInputChange}
-                            />
-                            <Text>{unit}</Text>
-                        </Flex>
-                    </Col>
-                </Row>
+            <Flex className={`custom-input-range ${status}`} align="center">
+                <Flex align="center" gap={7} className="values">
+                    <Text style={{ whiteSpace: "nowrap" }}>от</Text>
+                    <InputNumber value={range[0]} formatter={(value) => `${value}`.replace(/\B(?=(\d{3})+(?!\d))/g, " ")} controls={false} onChange={handleMinInputChange} />
+                </Flex>
+                <div className="divider" />
+                <Flex align="center" gap={7} className="values">
+                    <Text>до</Text>
+                    <InputNumber value={range[1]} formatter={(value) => `${value}`.replace(/\B(?=(\d{3})+(?!\d))/g, " ")} controls={false} onChange={handleMaxInputChange} />
+                </Flex>
+                <Text className="unit">{unit}</Text>
                 <Slider
                     range
                     value={range}

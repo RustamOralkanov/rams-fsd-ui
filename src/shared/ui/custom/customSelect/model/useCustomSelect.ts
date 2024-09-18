@@ -1,8 +1,5 @@
-import { OnChangeType } from "./customSelect.model";
-
-export const useCustomSelect = (onChange?: OnChangeType) => {
+export const useCustomSelect = (onChange?: (value: unknown) => void) => {
     const handleChange = (value: string | number) => {
-        console.log(`selected ${value}`);
         if (onChange) {
             onChange(value);
         }

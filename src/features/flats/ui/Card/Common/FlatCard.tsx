@@ -19,7 +19,7 @@ export const FlatCard: React.FC<PartialFlatsItem> = (props) => {
             </Flex>
             <Flex vertical gap={15}>
                 <Flex align="center" justify="space-between">
-                    <Title level={5}>Блок 15</Title>
+                    <Title level={5}>Блок {props.build_name}</Title>
                     <Title level={5}>{props.rooms}-комнатная</Title>
                 </Flex>
                 <Flex vertical>
@@ -48,7 +48,7 @@ export const FlatCard: React.FC<PartialFlatsItem> = (props) => {
                         </Text>
                         {props.price && props.size && (
                             <Text style={flatInfoStyle} strong>
-                                {(props.price / props.size).toLocaleString()} ₸
+                                {pricePerMetr(props.price, props.size)} ₸
                             </Text>
                         )}
                     </Flex>
@@ -66,4 +66,10 @@ export const FlatCard: React.FC<PartialFlatsItem> = (props) => {
             </Flex>
         </Flex>
     );
+};
+
+const pricePerMetr = (price: number, size: number) => {
+    const newPrice = (price / size).toFixed(0);
+
+    return Number(newPrice).toLocaleString();
 };

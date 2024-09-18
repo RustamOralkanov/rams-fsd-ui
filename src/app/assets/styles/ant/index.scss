@@ -128,12 +128,15 @@
     &-slider {
         &-handle {
             &::after {
-                width: 15px !important;
+                width: 18px !important;
                 height: 11px !important;
                 border-radius: 4px !important;
                 border: 2px solid #ffffff !important;
                 box-shadow: unset !important;
                 outline: unset !important;
+                background-image: url("../icons/lines.svg") !important;
+                background-position: center;
+                background-repeat: no-repeat;
             }
         }
     }
