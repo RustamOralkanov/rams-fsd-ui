@@ -1,6 +1,6 @@
 import { Flex, Tag, Image, Typography } from "antd";
+import { FavoriteButton } from "@/features/favorite";
 import { PartialFlatsItem } from "@/features/flats/model/types/flats.model";
-import { FavoriteIcon } from "../../../../../shared/icons";
 import { flatInfoStyle } from "../../../config/flat.config";
 import "./FlatCard.scss";
 
@@ -15,7 +15,7 @@ export const FlatCard: React.FC<PartialFlatsItem> = (props) => {
                     <Tag color="#024638">№ {props.number}</Tag>
                     <Tag color="#024638">{props.complex_name}</Tag>
                 </Flex>
-                <FavoriteIcon />
+                <FavoriteButton {...props} />
             </Flex>
             <Flex vertical gap={15}>
                 <Flex align="center" justify="space-between">

@@ -7,29 +7,23 @@ import "./PaymentBanner.scss";
 
 const { Title, Text } = Typography;
 
-export const PaymentBanner: React.FC<IPaymentBanner> = ({ is_button = true, is_text = true, is_additional = false }) => {
+export const PaymentBanner: React.FC<IPaymentBanner> = (props) => {
     return (
         <section>
             <Container>
                 <Row gutter={[20, 20]}>
-                    <Col xl={is_additional ? 16 : 24}>
+                    <Col xl={props.is_additional ? 16 : 24}>
                         <Flex className="payment-banner" align="center">
                             <Flex className="payment-banner-image">
-                                <Image
-                                    src={"https://ramsqz.com/storage/pages/mortgages/main_banner_9da4ef66a0a0969ae0fb737a46c46075.png"}
-                                    preview={false}
-                                    height={"100%"}
-                                    width={"100%"}
-                                    className="object-cover"
-                                />
+                                <Image src={props.banner_img} preview={false} height={"100%"} width={"100%"} className="object-cover" />
                             </Flex>
                             <Flex vertical className="payment-banner-wrapper" gap={30}>
-                                {is_text && (
+                                {props.is_text && (
                                     <Title level={1} style={{ color: Colors.white }}>
-                                        Максимально выгодные программы ипотеки
+                                        {props.banner_text}
                                     </Title>
                                 )}
-                                {is_button && (
+                                {props.is_button && (
                                     <Button type="primary" style={{ width: "fit-content" }}>
                                         Оставить заявку
                                     </Button>
@@ -37,7 +31,7 @@ export const PaymentBanner: React.FC<IPaymentBanner> = ({ is_button = true, is_t
                             </Flex>
                         </Flex>
                     </Col>
-                    {is_additional && (
+                    {props.is_additional && (
                         <Col xl={8}>
                             <Flex vertical className="bg-green-400 border-radius-l padding-40 height-full" justify="space-between">
                                 <Title level={4} className="color-white">

@@ -13,7 +13,17 @@ export const flatsApi = createApi({
                     url: "/properties",
                     params: {
                         property_type_id: props?.property_type_id ?? "",
-                        complex_ids: props.complex ?? "",
+                        complex_ids: Array.isArray(props.complex)
+                            ? props.complex
+                                  .map((item) => {
+                                      if (item.id) {
+                                          return item.id;
+                                      } else {
+                                          return item;
+                                      }
+                                  })
+                                  .join(",")
+                            : props.complex,
                         complex_class_ids: props.class ?? "",
                         min_price: props?.price?.[0] ?? "",
                         max_price: props?.price?.[1] ?? "",

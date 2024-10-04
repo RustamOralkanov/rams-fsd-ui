@@ -39,6 +39,7 @@ export interface FlatsItems {
     year_build: number;
     quarter: number;
     complex_class: string;
+    property_type_id: number;
 }
 
 export type PartialFlatsItem = Partial<FlatsItems>;

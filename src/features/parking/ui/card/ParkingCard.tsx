@@ -1,16 +1,21 @@
 import { Flex, Tag, Typography } from "antd";
+import { FavoriteButton } from "@/features/favorite";
 import { PartialFlatsItem } from "@/features/flats/model/types/flats.model";
-import { ChevronDownIcon, FavoriteIcon, ParkingIcon } from "../../../../shared/icons";
-import { Colors } from "../../../../shared/types/Colors";
+import { Colors } from "@/shared/types/Colors";
+import { ChevronDownIcon, ParkingIcon } from "../../../../shared/icons";
 import "./ParkingCard.scss";
 
 const { Text, Title } = Typography;
 
 export const ParkingCard: React.FC<PartialFlatsItem> = (props) => {
     return (
-        <Flex gap={40} align="center" className="parking-card ">
+        <Flex justify="space-between" align="center" className="parking-card ">
             <ParkingIcon />
-            <Tag color="#024638">№ {props.number}</Tag>
+            <Flex vertical gap={5} className="parking-card-tags">
+                <Tag color="#024638" className="width-fit">
+                    № {props.number}
+                </Tag>
+            </Flex>
             <Flex vertical justify="center" className="parking-card-shrink">
                 <Text style={{ color: Colors.gray500, fontSize: 12, lineHeight: 1.3 }}>Стоимость</Text>
                 <Title level={5}>{props.price?.toLocaleString()} ₸</Title>
@@ -30,7 +35,7 @@ export const ParkingCard: React.FC<PartialFlatsItem> = (props) => {
                 <Title level={5}>{props.build_name}</Title>
             </Flex>
             <Flex align="center" gap={10}>
-                <FavoriteIcon style={{ color: Colors.gray500 }} />
+                <FavoriteButton {...props} />
                 <ChevronDownIcon style={{ transform: "rotate(-90deg)", color: Colors.gray500 }} />
             </Flex>
         </Flex>

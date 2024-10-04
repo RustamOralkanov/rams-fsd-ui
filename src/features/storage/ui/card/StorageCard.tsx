@@ -1,33 +1,41 @@
 import { Flex, Tag, Typography } from "antd";
-import { ChevronDownIcon, FavoriteIcon, LockIcon, StorageIcon } from "../../../../shared/icons";
-import { Colors } from "../../../../shared/types/Colors";
+import { FavoriteButton } from "@/features/favorite";
+import { PartialFlatsItem } from "@/features/flats/model/types/flats.model";
+import { ChevronDownIcon, LockIcon, StorageIcon } from "@/shared/icons";
+import { Colors } from "@/shared/types/Colors";
 
 const { Text, Title } = Typography;
 
-export const StorageCard = () => {
+export const StorageCard: React.FC<PartialFlatsItem> = (props) => {
     return (
-        <Flex gap={40} align="center" className="parking-card ">
+        <Flex justify="space-between" align="center" className="parking-card">
             <StorageIcon />
-            <Tag color="#024638">№ 115</Tag>
-            <Flex vertical justify="center" className="parking-card-shrink">
-                <Text style={{ color: Colors.gray500, fontSize: 12, lineHeight: 1.3 }}>Стоимость</Text>
-                <Title level={5}>4 540 000 ₸</Title>
+            <Flex vertical gap={5} className="parking-card-tags">
+                <Tag color="#024638" className="width-fit">
+                    № {props.number}
+                </Tag>
             </Flex>
             <Flex vertical justify="center" className="parking-card-shrink">
-                <Text style={{ color: Colors.gray500, fontSize: 12, lineHeight: 1.3 }}>Цена за м2</Text>
-                <Title level={5}>540 000 ₸</Title>
+                <Text style={{ color: Colors.gray500, fontSize: 12, lineHeight: 1.3 }}>Стоимость</Text>
+                <Title level={5}>{props.price?.toLocaleString()} ₸</Title>
+            </Flex>
+            <Flex vertical justify="center" className="parking-card-shrink">
+                <Text style={{ color: Colors.gray500, fontSize: 12, lineHeight: 1.3 }}>
+                    Цена за м<sup>2</sup>
+                </Text>
+                {props.price && props.size && <Title level={5}>{Number((props.price / props.size).toFixed(0)).toLocaleString()} ₸</Title>}
             </Flex>
             <Flex vertical justify="center" className="parking-card-shrink">
                 <Text style={{ color: Colors.gray500, fontSize: 12, lineHeight: 1.3 }}>Площадь</Text>
-                <Title level={5}>13,2 м2</Title>
+                <Title level={5}>{props.size} м2</Title>
             </Flex>
             <Flex vertical justify="center" className="parking-card-shrink">
                 <Text style={{ color: Colors.gray500, fontSize: 12, lineHeight: 1.3 }}>Блок</Text>
-                <Title level={5}>12</Title>
+                <Title level={5}>{props.build_name}</Title>
             </Flex>
             <Flex align="center" gap={10}>
-                <LockIcon style={{ color: Colors.statusError500 }} />
-                <FavoriteIcon style={{ color: Colors.gray500 }} />
+                <LockIcon className="color-error-500" />
+                <FavoriteButton {...props} />
                 <ChevronDownIcon style={{ transform: "rotate(-90deg)", color: Colors.gray500 }} />
             </Flex>
         </Flex>

@@ -28,7 +28,7 @@ export const Complexes = () => {
                                         <Spin spinning={isFetching || isLoading}>
                                             <Row gutter={[20, 40]}>
                                                 {data.map((complex, index) => {
-                                                    if (complex.is_primary === false) {
+                                                    if (complex.is_primary === 0) {
                                                         return (
                                                             <Col xl={8} key={index}>
                                                                 <ComplexCard {...complex} />
@@ -57,7 +57,7 @@ export const Complexes = () => {
                                         <Spin spinning={isFetching || isLoading}>
                                             <Row gutter={[20, 40]}>
                                                 {data.map((complex, index) => {
-                                                    if (complex.is_primary === false) {
+                                                    if (complex.is_primary === 0) {
                                                         return (
                                                             <Col xl={8} key={index}>
                                                                 <ComplexCard {...complex} />

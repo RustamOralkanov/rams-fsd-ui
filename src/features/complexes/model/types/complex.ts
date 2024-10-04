@@ -14,7 +14,7 @@ export interface Complex {
     check_in_date: string;
     complex_class: string;
     city_id: string;
-    is_primary: boolean;
+    is_primary: 0 | 1;
     coordinates: string;
     map_link: string;
     start_sale: boolean;

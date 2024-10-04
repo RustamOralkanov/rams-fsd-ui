@@ -42,6 +42,7 @@ export const FlatsFilter: React.FC<FlatsFilterProps> = (props) => {
     const clearForm = () => {
         form.resetFields();
         setFlatsFilterValues();
+        props.onFilterChange({} as IFlatsFilterValues);
     };
 
     return (

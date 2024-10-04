@@ -1,19 +1,27 @@
 import common from "@styles/common.module.scss";
-import { Button, Col, Flex, Popover, Row, Tag, Typography } from "antd";
-import { LockIcon } from "@/shared/icons";
-import { Colors } from "@/shared/types/Colors";
+import { Col, Flex, Row } from "antd";
+import { useState } from "react";
+import { useGetFlatsQuery } from "@/features/flats/api/flats.api";
+import { IFlatsFilterValues } from "@/features/flats/model/flatsFilter.model";
+import { FlatsListProps } from "@/features/flats/model/types/flatsList.model";
+// import { LockIcon } from "@/shared/icons";
+// import { Colors } from "@/shared/types/Colors";
 import { CustomSort } from "../../../../shared/ui";
-import { storageJson as storages } from "../../config/index";
+// import { storageJson as storages } from "../../config/index";
 import { StorageCard } from "../card/StorageCard";
 import { StorageFilter } from "../filter/StorageFilter";
 
-const { Text, Title } = Typography;
+export const StorageList: React.FC<FlatsListProps> = (props) => {
+    const [storageFilter, setStorageFilter] = useState({} as IFlatsFilterValues);
+    const { data } = useGetFlatsQuery({ ...storageFilter, property_type_id: props.type });
 
-export const StorageList = () => {
+    const handleStorageFilter = (values: IFlatsFilterValues) => {
+        setStorageFilter(values);
+    };
     return (
         <Flex vertical gap={40}>
-            <StorageFilter />
-            <Flex vertical className="border-gray-100 border-radius-l padding-30" style={{ aspectRatio: "12.4 / 7.37" }}>
+            <StorageFilter type_id={props.type} onFilterChange={handleStorageFilter} />
+            {/* <Flex vertical className="border-gray-100 border-radius-l padding-30" style={{ aspectRatio: "12.4 / 7.37" }}>
                 <Flex align="center" gap={20}>
                     <Flex align="center" gap={10}>
                         <div className="width-24 border-radius-xs bg-success-500" />
@@ -79,13 +87,13 @@ export const StorageList = () => {
                         return null;
                     })}
                 </svg>
-            </Flex>
+            </Flex> */}
             <Flex vertical gap={20} className={[common["bg-gray50"], common["padding-20"], common["radius-10"]].join(" ")}>
                 <CustomSort />
                 <Row gutter={[20, 10]}>
-                    {[...Array(8)].map((_, index) => (
+                    {data?.map((storage, index) => (
                         <Col key={index} span={24}>
-                            <StorageCard />
+                            <StorageCard {...storage} />
                         </Col>
                     ))}
                 </Row>

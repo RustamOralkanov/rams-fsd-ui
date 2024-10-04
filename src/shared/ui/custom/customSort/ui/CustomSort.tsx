@@ -1,5 +1,6 @@
 import { Dropdown, Flex, MenuProps, Switch, Typography } from "antd";
 import { useState } from "react";
+import { useLocation } from "react-router-dom";
 import { ChevronDownIcon, SortIcon } from "../../../../icons";
 import { ICustomSort } from "../model/customSort.model";
 
@@ -10,18 +11,22 @@ const { Text } = Typography;
 export const CustomSort: React.FC<ICustomSort> = ({ onChange }) => {
     const [is_group, set_is_group] = useState(false);
     const [sort_value, set_sort_value] = useState<{ value: string; label: string }>({ value: "ASC", label: "По возрастанию цены" });
+    const { pathname } = useLocation();
 
     const items: MenuProps["items"] = [
-        {
-            key: "1",
-
-            label: (
-                <Flex align="center" justify="space-between" onClick={() => set_is_group(!is_group)} className="custom-sort-item">
-                    <Text>Группировать по проекту</Text>
-                    <Switch value={is_group} />
-                </Flex>
-            ),
-        },
+        ...(pathname.includes("/flats")
+            ? [
+                  {
+                      key: "1",
+                      label: (
+                          <Flex align="center" justify="space-between" onClick={() => set_is_group(!is_group)} className="custom-sort-item">
+                              <Text>Группировать по проекту</Text>
+                              <Switch checked={is_group} />
+                          </Flex>
+                      ),
+                  },
+              ]
+            : []),
         {
             key: "2",
             label: (

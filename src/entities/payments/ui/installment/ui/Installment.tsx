@@ -1,24 +1,28 @@
 import common from "@styles/common.module.scss";
 import { Col, Row, Flex, Typography, Form, FormProps, Image, Button } from "antd";
-import { Colors } from "../../../../../shared/types/Colors";
-import { CustomInputSingleRange, CustomSelectTags } from "../../../../../shared/ui";
+import { useGetPaymentsFormQuery } from "@/pages/client/payments/api/payments.api";
+import { Colors } from "@/shared/types/Colors";
+import { CustomInputSingleRange, CustomSelectTags } from "@/shared/ui";
 
 const { Text, Title } = Typography;
 
-export const Installment = () => {
+export const Installment: React.FC<{ formAlias: string }> = ({ formAlias }) => {
     const [form] = Form.useForm();
+    const { data } = useGetPaymentsFormQuery({ alias: formAlias! });
 
     const onFinish: FormProps["onFinish"] = (values) => {
         console.log("Success:", values);
     };
+
+    console.log(data);
 
     return (
         <Row gutter={[20, 20]}>
             <Col xxl={8} xl={8}>
                 <Flex vertical gap={30} className="border-radius-m bg-gray-50 padding-40">
                     <Flex vertical gap={10}>
-                        <Title level={3}>Рассчитайте рассрочку</Title>
-                        <Text style={{ color: Colors.gray500 }}>Отправьте заявку прямо сейчас и мы свяжемся с вами в ближайшее время.</Text>
+                        <Title level={3}>{data?.data.title}</Title>
+                        <Text style={{ color: Colors.gray500 }}>{data?.data.subtitle}</Text>
                     </Flex>
 
                     <Form name="installment" form={form} onFinish={onFinish}>
@@ -37,7 +41,7 @@ export const Installment = () => {
                             </Form.Item>
                             <Form.Item style={{ marginTop: 15 }}>
                                 <Button block type="primary" htmlType="submit">
-                                    Рассчитать
+                                    {data?.data.btn_label}
                                 </Button>
                             </Form.Item>
                         </Flex>
@@ -45,12 +49,7 @@ export const Installment = () => {
                 </Flex>
             </Col>
             <Col xxl={16} xl={16}>
-                <Image
-                    src="https://ramsqz.com/images/mortgage.jpg?32f2e763504f9121c21617dda13eb61e"
-                    preview={false}
-                    height={"100%"}
-                    className={[common.cover, common["radius-20"]].join(" ")}
-                />
+                <Image src={data?.data.image} preview={false} height={"100%"} className={[common.cover, common["radius-20"]].join(" ")} />
             </Col>
         </Row>
     );

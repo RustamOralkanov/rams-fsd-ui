@@ -3,17 +3,20 @@ import { Link } from "react-router-dom";
 import { APP_ROUTES } from "@/app/constants/router";
 import { Container } from "../../../shared/ui/container";
 import { DiscountsCarousel } from "../../discounts";
+import { useGetNewsDiscountsQuery } from "../api/news-discounts.api";
 import { NewsCard } from "./NewsCard";
 
 const { Title } = Typography;
 
 export const NewsList = () => {
+    const { data } = useGetNewsDiscountsQuery();
+
     return (
         <section>
             <Container>
                 <Flex vertical gap={40}>
                     <Flex align="center" justify="space-between">
-                        <Title>Новости и акции</Title>
+                        <Title>{data?.title}</Title>
                         <Link to={"/" + APP_ROUTES.NEWS}>
                             <Button>Все новости и акции</Button>
                         </Link>
@@ -24,9 +27,9 @@ export const NewsList = () => {
                         </Col>
                         <Col xxl={16} xl={16}>
                             <Row gutter={[20, 20]}>
-                                {[...Array(3)].map((_, index) => (
+                                {data?.items.slice(0, 3).map((item, index) => (
                                     <Col xxl={8} xl={8} key={index}>
-                                        <NewsCard />
+                                        <NewsCard {...item} />
                                     </Col>
                                 ))}
                             </Row>

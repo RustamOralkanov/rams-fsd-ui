@@ -3,6 +3,7 @@ import common from "@styles/common.module.scss";
 import { Col, Flex, Image, Row, Tabs, Typography } from "antd";
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import { useAppSelector } from "@/shared/hooks/useRedux";
 import { Colors } from "@/shared/types/Colors";
 import { APP_ROUTES } from "../../../../../app/constants/router";
 import { LangSwitch } from "../../../../../entities/lang";
@@ -18,6 +19,7 @@ const { Text, Title } = Typography;
 
 export const DesktopHeader = () => {
     const { links_count, showAllLinks, resetLinks, is_overlay_open, openOverlay, closeOverlay, handleMouseLeave, current_button, set_current_button } = useHeader();
+    const { favorites } = useAppSelector((state) => state.favorites);
 
     return (
         <header className="header">
@@ -75,7 +77,7 @@ export const DesktopHeader = () => {
                         </a>
                         <Flex gap={5} align="center">
                             <Link to={"/" + APP_ROUTES.FAVORITES}>
-                                <Flex justify="center" align="center" className="header-icon active">
+                                <Flex justify="center" align="center" className={["header-icon", favorites.length > 0 ? "active" : ""].join(" ")}>
                                     <FavoriteIcon style={{ color: Colors.gray600 }} />
                                 </Flex>
                             </Link>

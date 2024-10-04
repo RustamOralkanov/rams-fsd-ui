@@ -477,6 +477,12 @@ template {
             color: $gold500 !important;
         }
     }
+
+    &-error {
+        &-500 {
+            color: $error500 !important;
+        }
+    }
 }
 
 .position {

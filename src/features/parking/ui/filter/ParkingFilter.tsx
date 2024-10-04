@@ -32,6 +32,12 @@ export const ParkingFilter: React.FC<FlatsFilterProps> = (props) => {
         }
     };
 
+    const clearForm = () => {
+        form.resetFields();
+        setFlatsFilterValues();
+        props.onFilterChange({} as IFlatsFilterValues);
+    };
+
     return (
         <Spin spinning={isFetching}>
             <Form onValuesChange={onValuesChange} form={form} name="parking-filter">
@@ -56,7 +62,7 @@ export const ParkingFilter: React.FC<FlatsFilterProps> = (props) => {
                             <Text className="flats-count">
                                 Найдено <b style={{ color: Colors.green600, fontWeight: 600 }}>9 825</b> планировок
                             </Text>
-                            <ClearButton onClick={setFlatsFilterValues} />
+                            <ClearButton onClick={clearForm} />
                         </Flex>
                     </Col>
                 </Row>

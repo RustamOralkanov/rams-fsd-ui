@@ -21,7 +21,7 @@ export const FlatsPage = () => {
             case "parkings":
                 return <ParkingList type={type.id} />;
             case "storerooms":
-                return <StorageList />;
+                return <StorageList type={type.id} />;
             default:
                 return null;
         }
@@ -36,6 +36,7 @@ export const FlatsPage = () => {
             </span>
         ),
         children: renderTabContent(type),
+        disable: true,
     }));
 
     return (
